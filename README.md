@@ -1,5 +1,30 @@
 # Na’atik Next — Fedora · Español / English
 
+## Naatik Next
+
+**Naatik Next** es una aplicación de escritorio para estudiar y comprender japonés directamente desde el contenido que aparece en pantalla.
+
+Permite capturar texto mediante OCR, analizar palabras y frases, consultar diccionarios locales, revisar kanji y gramática, obtener traducciones y preparar contenido para herramientas de estudio como Anki.
+
+Sus funciones pueden ejecutarse mediante **atajos de teclado configurables**, lo que permite adaptar el flujo de trabajo a las preferencias del usuario. También puede integrarse con dispositivos como **Stream Deck mediante scripts**, facilitando el acceso rápido a acciones como captura OCR, consulta, análisis o envío de contenido a herramientas de estudio.
+
+Su flujo principal es simple: **capturar → reconocer → consultar → estudiar**.
+
+Naatik Next está enfocado en OCR de escritorio, análisis del japonés, diccionarios, traducción y aprendizaje, sin depender de un sistema de subtítulos para anime o de un reproductor multimedia específico.
+
+## Naatik Next
+
+**Naatik Next** is a desktop application designed to help users study and understand Japanese directly from content displayed on their screen.
+
+It can capture text using OCR, analyze words and sentences, search local dictionaries, provide kanji and grammar information, translate recognized text, and prepare study material for tools such as Anki.
+
+Its features can be accessed through **configurable keyboard shortcuts**, allowing users to adapt the workflow to their own preferences. It can also be integrated with devices such as a **Stream Deck through scripts**, providing quick access to actions such as OCR capture, dictionary lookup, text analysis, or sending content to study tools.
+
+Its main workflow is simple: **capture → recognize → look up → study**.
+
+Naatik Next focuses on desktop OCR, Japanese language analysis, dictionaries, translation, and learning tools, without relying on anime subtitle systems or a specific media player.
+
+
 Aplicación local Python/PySide6 para OCR, edición de texto, diccionarios Yomitan,
 traducción Argos y preparación de tarjetas Anki. Incluye tutorial inicial e
 interfaz español/inglés. Este árbol contiene fuentes para instalar desde cero;
