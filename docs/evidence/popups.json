@@ -1,0 +1,350 @@
+{
+  "date": "2026-10-20",
+  "reference_review": "static only; no legacy imports, launchers or services executed",
+  "reference_files": [
+    {
+      "file": "streamdeck_translate.sh",
+      "review_sha256": "1da986216f89788a65cff36237bb2e32488ef336c8c415b095877ab6e0695db3",
+      "original_matches": true
+    },
+    {
+      "file": "streamdeck_phrase.sh",
+      "review_sha256": "c1f660729b0d6eef03d4cc01aa580e243920c0541dff1a56b9c5d31be7b68006",
+      "original_matches": true
+    },
+    {
+      "file": "ui_service.py",
+      "review_sha256": "7261622cb52f010ec10119239caa530c6235e115afe60c586e27e10810244878",
+      "original_matches": true
+    },
+    {
+      "file": "translator_popup_qt.py",
+      "review_sha256": "b91987e8487a562da89a6cb5af3794387626f54165a100c605adb58f0f04c7ea",
+      "original_matches": true
+    },
+    {
+      "file": "phrase_popup_qt.py",
+      "review_sha256": "ebd55c69832d6cc0b708fd204170cb513af2dcf348fa980be77762cfd517fb4a",
+      "original_matches": true
+    },
+    {
+      "file": "phrase_engine.py",
+      "review_sha256": "fa8894b39ec607de00f171b16d23bca2b2d49b4b576a4536923883ecc36db2e1",
+      "original_matches": true
+    },
+    {
+      "file": "furigana_engine.py",
+      "review_sha256": "4d486895551dcba5ddf175d2c17ea6f4f8a85a4892e9d46994c30163fdd054df",
+      "original_matches": true
+    }
+  ],
+  "package_artifacts": [
+    {
+      "file": "fugashi-1.5.2-cp314-cp314-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 686424,
+      "sha256": "71c0027aa11747adcb3753d31663290c53fea8007371f0b080c53c192918ceb9",
+      "origin": "existing pip cache or Next wheelhouse; matches pinned public hash; no network transfer"
+    },
+    {
+      "file": "packaging-26.3-py3-none-any.whl",
+      "bytes": 129956,
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "origin": "existing pip cache or Next wheelhouse; matches pinned public hash; no network transfer"
+    },
+    {
+      "file": "setuptools-84.0.0-py3-none-any.whl",
+      "bytes": 818216,
+      "sha256": "51a52592b3b99e102b609654876bd65f19f999935166d1352678931132b0c670",
+      "origin": "existing pip cache or Next wheelhouse; matches pinned public hash; no network transfer"
+    },
+    {
+      "file": "unidic-lite-1.0.8.tar.gz",
+      "bytes": 47356746,
+      "sha256": "db9d4572d9fdd4d00a97949d4b0741ec480ee05a7e7e2e32f547500dae27b245",
+      "origin": "existing pip cache or Next wheelhouse; matches pinned public hash; no network transfer"
+    },
+    {
+      "file": "wheel-0.47.0-py3-none-any.whl",
+      "bytes": 32218,
+      "sha256": "212281cab4dff978f6cedd499cd893e1f620791ca6ff7107cf270781e587eced",
+      "origin": "existing pip cache or Next wheelhouse; matches pinned public hash; no network transfer"
+    }
+  ],
+  "installed_distributions": [
+    {
+      "name": "fugashi",
+      "version": "1.5.2",
+      "license_expression": "MIT AND BSD-3-Clause",
+      "license_classifiers": [],
+      "role": "linguistic runtime"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "license_expression": "Apache-2.0 OR BSD-2-Clause",
+      "license_classifiers": [],
+      "role": "bootstrap/build tooling"
+    },
+    {
+      "name": "pip",
+      "version": "26.0.1",
+      "license_expression": "MIT",
+      "license_classifiers": [],
+      "role": "bootstrap/build tooling"
+    },
+    {
+      "name": "setuptools",
+      "version": "84.0.0",
+      "license_expression": "MIT",
+      "license_classifiers": [],
+      "role": "bootstrap/build tooling"
+    },
+    {
+      "name": "unidic-lite",
+      "version": "1.0.8",
+      "license_expression": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "role": "linguistic runtime"
+    },
+    {
+      "name": "wheel",
+      "version": "0.47.0",
+      "license_expression": "MIT",
+      "license_classifiers": [],
+      "role": "bootstrap/build tooling"
+    }
+  ],
+  "installed_resource_manifest": [
+    {
+      "file": "fugashi/__init__.py",
+      "bytes": 23,
+      "sha256": "5ac6284088fb6f64b53b96973acca1878b4198518b924679aebb477688404227"
+    },
+    {
+      "file": "fugashi/cli.py",
+      "bytes": 1505,
+      "sha256": "b505ea8bff03d1cd2ced7d4c647cb35b09a3ed2f5291f68878cc27e778894504"
+    },
+    {
+      "file": "fugashi/fugashi.cpython-314-x86_64-linux-gnu.so",
+      "bytes": 1138457,
+      "sha256": "d1d09b957983a38b9d60e4d86be27be5a33992f5c99062b6866394b6eb597fe2"
+    },
+    {
+      "file": "fugashi.libs/libmecab-eada4a80.so.2.0.0",
+      "bytes": 1014137,
+      "sha256": "5718aced8687227b57811c14a9fd238526fc9d74e206a35e0438b1de4f7beb66"
+    },
+    {
+      "file": "fugashi-1.5.2.dist-info/METADATA",
+      "bytes": 7323,
+      "sha256": "ffddb59052d17e51dc096a04481e821fb1be4f835b495ef5c83d7e3e157222fe"
+    },
+    {
+      "file": "fugashi-1.5.2.dist-info/WHEEL",
+      "bytes": 151,
+      "sha256": "f3d33fcf8594e0d76cad413f7f270ea996fd2011f8bb58c13963d83b33ae52c5"
+    },
+    {
+      "file": "fugashi-1.5.2.dist-info/entry_points.txt",
+      "bytes": 121,
+      "sha256": "8d5dbcda63104d5921a8e5454dd9bf650d37a499dd0725b626dad26bf6b65a6b"
+    },
+    {
+      "file": "fugashi-1.5.2.dist-info/licenses/LICENSE",
+      "bytes": 1076,
+      "sha256": "e4b9056f1fb6434c407a0f18e0354198190504d7f3debbd74c6ea17947705da7"
+    },
+    {
+      "file": "fugashi-1.5.2.dist-info/licenses/LICENSE.mecab",
+      "bytes": 1602,
+      "sha256": "62f4b23450a9ad40e4db8063d45c1d13c78d07ca27c9ada62c4ca9c11c1f3e7b"
+    },
+    {
+      "file": "fugashi-1.5.2.dist-info/top_level.txt",
+      "bytes": 8,
+      "sha256": "d4241380f5058b88634d08369c774847ea07e847f25eda4b8625209429ae3a83"
+    },
+    {
+      "file": "unidic_lite/__init__.py",
+      "bytes": 36,
+      "sha256": "8a3e798489319de7f732b8f635fe980c2d0317739ed93828c90995d083da5e9e"
+    },
+    {
+      "file": "unidic_lite/dicdir/AUTHORS",
+      "bytes": 22,
+      "sha256": "a05bfdd3a9db36d9c64495f4a3d1824d05b95fbb4fc6dc07c660e91bc191c481"
+    },
+    {
+      "file": "unidic_lite/dicdir/BSD",
+      "bytes": 1515,
+      "sha256": "7917ecfaf95a5ba7b4f45aa9a845ac931d79c90f39b7e711442dbc21c612560f"
+    },
+    {
+      "file": "unidic_lite/dicdir/COPYING",
+      "bytes": 195,
+      "sha256": "178ffb7cbc2beadb0b87a14497e58222b484076ba7cfc8938a07ac7627fa22c4"
+    },
+    {
+      "file": "unidic_lite/dicdir/ChangeLog",
+      "bytes": 947,
+      "sha256": "48035977a308fbb65326e4d81f15186cc241013b360ad161d82c7a151a5bd8a0"
+    },
+    {
+      "file": "unidic_lite/dicdir/GPL",
+      "bytes": 17991,
+      "sha256": "a137434196f5e39d8836de895866fcfea074ad1b28243174ca1c4a585a1229b0"
+    },
+    {
+      "file": "unidic_lite/dicdir/INSTALL",
+      "bytes": 22,
+      "sha256": "7b4f980a88e9e33e96ce57b75ace60bc936138ec7edac0b03ebbd9c9e3be7250"
+    },
+    {
+      "file": "unidic_lite/dicdir/LGPL",
+      "bytes": 26428,
+      "sha256": "512d2d21b6b3384ba64781abb0208a1b87740bc31e2df48e2b206ddb7e4d5779"
+    },
+    {
+      "file": "unidic_lite/dicdir/README.md",
+      "bytes": 402,
+      "sha256": "c2797d1bb416d9cb2f4f2d47e3ff8eb3e91a6bc35974a02ecc4ffcd4441607f7"
+    },
+    {
+      "file": "unidic_lite/dicdir/char.bin",
+      "bytes": 262496,
+      "sha256": "dd31396563d8924645b80fd3c9aa7b13ca089d7748f25553a1d6bc3f9b511ae8"
+    },
+    {
+      "file": "unidic_lite/dicdir/dicrc",
+      "bytes": 1444,
+      "sha256": "fcd17f35752de1417859a15e2e1f043d666da03f36dc632e8c0ed46887883a59"
+    },
+    {
+      "file": "unidic_lite/dicdir/left-id.def",
+      "bytes": 449526,
+      "sha256": "c5ecfbe47a7d2d9f0404b6f9746e4ab96fc7f2f37e16224f0325a530ab67adf7"
+    },
+    {
+      "file": "unidic_lite/dicdir/matrix.bin",
+      "bytes": 71544726,
+      "sha256": "88fb99efe1075d9b8b40e01bb2751e4095f1612618f2490af776eb5ed39190a9"
+    },
+    {
+      "file": "unidic_lite/dicdir/mecabrc",
+      "bytes": 62,
+      "sha256": "72021ae17e5680bb4bb3b570e7e792b567e4c6758c7b17b39fbc7c8c499229b3"
+    },
+    {
+      "file": "unidic_lite/dicdir/rewrite.def",
+      "bytes": 4061,
+      "sha256": "1e50193f2f8c3e0fbef2759cd78cb756ee3b93bfdf51cb66c85fddc243298bdb"
+    },
+    {
+      "file": "unidic_lite/dicdir/right-id.def",
+      "bytes": 449526,
+      "sha256": "c5ecfbe47a7d2d9f0404b6f9746e4ab96fc7f2f37e16224f0325a530ab67adf7"
+    },
+    {
+      "file": "unidic_lite/dicdir/sys.dic",
+      "bytes": 187680870,
+      "sha256": "122c4c91f026bf4b65bbe2dfd8b9f8eeb6ab56d8eb2a7287a68bca75708ba513"
+    },
+    {
+      "file": "unidic_lite/dicdir/unidic-mecab.pdf",
+      "bytes": 21462,
+      "sha256": "6e5ecc4770881cfe2bca6c3b74ba20f1b07bba757c864548cb79f62b0550cc5b"
+    },
+    {
+      "file": "unidic_lite/dicdir/unk.dic",
+      "bytes": 5475,
+      "sha256": "e3b92803feeb6c2712c796b905317ec192a59729d2c1e92b2728d454169541c4"
+    },
+    {
+      "file": "unidic_lite/dicdir/version",
+      "bytes": 6,
+      "sha256": "9f6271951edca02e0c8a669a79930626717b77f0443ad8a327b93a52e4194829"
+    },
+    {
+      "file": "unidic_lite/unidic.py",
+      "bytes": 322,
+      "sha256": "8db0f2ef9e47d657dda0faa6371c1f526859459271a3ca6d9c22e654efb1814c"
+    },
+    {
+      "file": "unidic_lite-1.0.8.dist-info/METADATA",
+      "bytes": 1857,
+      "sha256": "6cfae45ad40e52cb382f33baf339b0bf1264a827d2855dcd00e77298d8130c42"
+    },
+    {
+      "file": "unidic_lite-1.0.8.dist-info/WHEEL",
+      "bytes": 91,
+      "sha256": "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1"
+    },
+    {
+      "file": "unidic_lite-1.0.8.dist-info/licenses/LICENSE",
+      "bytes": 1051,
+      "sha256": "34565936df8ff50715b729c065d0b2a475231da79efc4c2279e2bccee5f02a33"
+    },
+    {
+      "file": "unidic_lite-1.0.8.dist-info/licenses/LICENSE.unidic",
+      "bytes": 1515,
+      "sha256": "d2cfdec25d7acb59b7aee2c9b36fd52470773cee58a2c340c179f435ab053bf2"
+    },
+    {
+      "file": "unidic_lite-1.0.8.dist-info/top_level.txt",
+      "bytes": 12,
+      "sha256": "9ac94933eeb793319d6f5de78205a684cdc2b1663bf74e8139762e7ddac14449"
+    }
+  ],
+  "provisioning": {
+    "environment": ".venv-phrase",
+    "system_site_packages": false,
+    "home_xdg": "temporary before interpreter/imports",
+    "network": false,
+    "source": "verified cached official artifacts; built public UniDic sdist with pinned build tools",
+    "result": "PASS",
+    "models_downloaded": false,
+    "not_a_clean_vm_or_full_network_requalification": true
+  },
+  "validation": {
+    "suite_tests": 164,
+    "suite_result": "PASS",
+    "qt": "offscreen",
+    "cold_popup_boot_both_modes": "real Qt main + injected instance broker",
+    "client_and_owner_dispatch": "mocked broker + lock election / inherited Unix sockets",
+    "fresh_home_source_without_resources": "PASS: new source copy without optional environment; Qt interpreter from own Next base",
+    "real_phrase_analyzer": "PASS: three synthetic texts, token offsets/unknown words/readings, same worker PID",
+    "real_phrase_popup_and_dictionary": "PASS: imported synthetic ZIP; selection/render, edit/no exact match, clipboard unchanged",
+    "translation_neural": "PENDING: user explicitly requested leaving model-dependent test pending; no .argosmodel supplied",
+    "translation_fake_and_missing": "PASS: revision/route/cancel guards, no definition fallback; no usable Next models",
+    "import_argos": "PASS: synthetic archive, traversal rejection, managed provenance/deduplication; not neural inference",
+    "inherited_argos_directories": "PASS: foreign invalid package ignored, only own managed directory discovered",
+    "shortcuts": "PASS with injected X11 backend: independent persistence, duplicate/system conflicts, common dispatch",
+    "scripts": "PASS: three actions, command/script execution, profile quoting and overwrite rejection",
+    "desktops": "PASS: desktop-file-validate + system Gio execute synthetic launcher; spaces/quotes/Unicode/dollar/percent/backslash",
+    "shutdown": "PASS: previous four-stage SIGINT/SIGTERM matrix, forced worker-group kill, plus four real popup signal scenarios",
+    "named_socket": "BLOCKED: QLocalServer::listen Unknown error 1 in isolated temp directory",
+    "desktop_focus_clipboard_menu_global_hotkeys": "PENDING real KDE/X11 validation",
+    "gui_buttons": "PASS: actual QPushButton.click for three shortcut editors and script/command/path/folder/desktop controls; Qt checked boolean does not replace the action",
+    "cancellation_independence": "PASS: main capture cancellation does not cancel popup tasks; popup cancellation does not cancel capture; shutdown supervises both sets"
+  },
+  "diagnostic_tool_rpms": [
+    "desktop-file-utils|0.28-5.fc44|GPL-2.0-or-later|desktop-file-utils-0.28-5.fc44.src.rpm",
+    "glib2|2.88.4-1.fc44|LGPL-2.1-or-later|glib2-2.88.4-1.fc44.src.rpm",
+    "python3-gobject-base|3.56.3-1.fc44|LGPL-2.1-or-later|pygobject3-3.56.3-1.fc44.src.rpm"
+  ],
+  "protected": {
+    "preferences_unchanged": true,
+    "untracked_script_unchanged": true,
+    "script_sha256": "26887b6cd26519c1f03d95e93425bd931ca7a8319cc76f1de4990872b3e93ad4",
+    "legacy_project_and_existing_validation_copies_modified": false
+  },
+  "runtime_network": "No HTTP/service endpoints, publication, automatic history, Anki or mobile sends. Explicit GUI confirmation gates optional runtime provisioning.",
+  "limitations": [
+    "No exact cause claimed for the original native segfault without a reproducible core",
+    "UniDic lexical readings/segmentation can be ambiguous; no JLPT or general grammar claims",
+    "No linguistic data, user dictionaries, models, wheels or environments distributed in Git"
+  ]
+}

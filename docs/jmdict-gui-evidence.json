@@ -1,0 +1,10 @@
+{
+  "real_gui_import": 513033,
+  "日本_readings_and_examples_rendered": true,
+  "dictionary_separate_from_translation": true,
+  "async_remove": "passed",
+  "real_import_cancel_rollback": "passed",
+  "heartbeat_during_import": 1986,
+  "original_unchanged": true,
+  "scope": "offscreen Qt and real ZIP; no interactive capture"
+}

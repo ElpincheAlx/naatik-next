@@ -1,0 +1,3 @@
+PASS: real offline repair kept every preference, ui_language=en, tutorial step=3 and model sentinel.
+PASS: explicit Spanish repair changed only ui_language; all other preferences and progress preserved.
+PASS: real offline repair preserved exact dictionary SQLite SHA256 (disabled dictionary, priority 41), all preferences, tutorial and model sentinel.

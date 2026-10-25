@@ -1,0 +1,533 @@
+{
+  "scope": "Real CPU MangaOCR; offscreen Qt; injected selector and IPC; isolated XDG. Cold starts a new Python process, not a purged OS page cache.",
+  "baseline_commit": "a63d1ad",
+  "versions": {
+    "python": "3.14.8",
+    "manga_ocr": "0.1.16",
+    "torch": "2.13.0",
+    "qt_python": "3.14.8",
+    "PySide6": "6.11.1"
+  },
+  "image_sha256": "671b71e3cde4be67256dcff5c5d5624119160e98c80218b85b76917cca6a1ee7",
+  "cpu_threads": 2,
+  "requested_selection_ms": 150,
+  "measurements": {
+    "before": [
+      {
+        "scenario": "cold",
+        "total_ms": 4281.0984309999185,
+        "selector_ms": 3840.6509769993136,
+        "selection_ms": 157.3481230007019,
+        "ocr_roundtrip_ms": 280.9959149999486,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 707.6034689998778,
+        "selector_ms": 285.11984599936113,
+        "selection_ms": 144.69140999972296,
+        "ocr_roundtrip_ms": 276.3898909997806,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 712.5472299994726,
+        "selector_ms": 284.86012000030314,
+        "selection_ms": 143.40607299891417,
+        "ocr_roundtrip_ms": 282.9004769992025,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 728.4520749999501,
+        "selector_ms": 285.9918360009033,
+        "selection_ms": 157.35329299968726,
+        "ocr_roundtrip_ms": 283.5381019995111,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "cold",
+        "total_ms": 4332.5551569996605,
+        "selector_ms": 3893.5249149999436,
+        "selection_ms": 149.9569280003925,
+        "ocr_roundtrip_ms": 286.8139139991399,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 723.7646599987784,
+        "selector_ms": 285.0775959996099,
+        "selection_ms": 143.40419099971768,
+        "ocr_roundtrip_ms": 293.92725199977576,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 767.8995429996576,
+        "selector_ms": 314.8440179993486,
+        "selection_ms": 157.52022600099735,
+        "ocr_roundtrip_ms": 294.1094170000724,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 709.28204700067,
+        "selector_ms": 284.85589000047185,
+        "selection_ms": 143.45485299963912,
+        "ocr_roundtrip_ms": 279.4990710008278,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "cold",
+        "total_ms": 4316.501798999525,
+        "selector_ms": 3863.7702520009043,
+        "selection_ms": 157.33123199970578,
+        "ocr_roundtrip_ms": 293.15322499860486,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 759.0009039995493,
+        "selector_ms": 315.0217319998774,
+        "selection_ms": 151.16996500000823,
+        "ocr_roundtrip_ms": 291.354754999702,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 742.0967279995239,
+        "selector_ms": 284.976203000042,
+        "selection_ms": 157.59013800015964,
+        "ocr_roundtrip_ms": 298.1558960000257,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 767.0920849996037,
+        "selector_ms": 315.4734729996562,
+        "selection_ms": 149.77124299912248,
+        "ocr_roundtrip_ms": 300.4331070005719,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "open",
+        "total_ms": 737.9067849997227,
+        "selector_ms": 286.33989400077553,
+        "selection_ms": 148.99296700059494,
+        "ocr_roundtrip_ms": 299.94936599905486,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 762.6583559995197,
+        "selector_ms": 314.6714949998568,
+        "selection_ms": 143.27835899894126,
+        "ocr_roundtrip_ms": 303.04692500067176,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 729.6220799998991,
+        "selector_ms": 284.7424379997392,
+        "selection_ms": 149.9903589992755,
+        "ocr_roundtrip_ms": 293.2657569999719,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 740.2205460002733,
+        "selector_ms": 285.17510700112325,
+        "selection_ms": 157.54257699882146,
+        "ocr_roundtrip_ms": 295.9356069986825,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "open",
+        "total_ms": 753.9411910001945,
+        "selector_ms": 296.30066500067187,
+        "selection_ms": 149.90443600072467,
+        "ocr_roundtrip_ms": 304.88425600015034,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 757.6270429999568,
+        "selector_ms": 315.7173670006159,
+        "selection_ms": 143.57315599954745,
+        "ocr_roundtrip_ms": 296.6429829994013,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 734.460128000137,
+        "selector_ms": 286.0619980001502,
+        "selection_ms": 149.0236069985258,
+        "ocr_roundtrip_ms": 297.69171600128175,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 763.3821319996059,
+        "selector_ms": 315.0624540012359,
+        "selection_ms": 143.57380499859573,
+        "ocr_roundtrip_ms": 303.07627599904663,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "open",
+        "total_ms": 730.6119319982827,
+        "selector_ms": 285.31056999963766,
+        "selection_ms": 157.6011879988073,
+        "ocr_roundtrip_ms": 284.9770129996614,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 762.7345269993384,
+        "selector_ms": 314.9089590006042,
+        "selection_ms": 156.35219999967376,
+        "ocr_roundtrip_ms": 289.7069989994634,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 731.4360909986135,
+        "selector_ms": 285.0137539990101,
+        "selection_ms": 157.59709799931443,
+        "ocr_roundtrip_ms": 287.1692520002398,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 760.2633219994459,
+        "selector_ms": 314.55925199952617,
+        "selection_ms": 157.50388599917642,
+        "ocr_roundtrip_ms": 286.5752979996614,
+        "text_matches": true,
+        "trial": 2
+      }
+    ],
+    "after": [
+      {
+        "scenario": "cold",
+        "total_ms": 3537.1370449993265,
+        "selector_ms": 205.3603029999067,
+        "selection_ms": 143.46438000029593,
+        "ocr_roundtrip_ms": 291.8696889992134,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 441.27234000006865,
+        "selector_ms": 0.09139200119534507,
+        "selection_ms": 148.73717699992994,
+        "ocr_roundtrip_ms": 290.98180899927684,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 449.3040170000313,
+        "selector_ms": 0.0873219996719854,
+        "selection_ms": 157.2625139997399,
+        "ocr_roundtrip_ms": 290.4695590004849,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 448.9088680002169,
+        "selector_ms": 0.09657199916546233,
+        "selection_ms": 157.2984450012882,
+        "ocr_roundtrip_ms": 290.12230999978783,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "cold",
+        "total_ms": 3543.071545998828,
+        "selector_ms": 202.84417800030496,
+        "selection_ms": 143.69754499966803,
+        "ocr_roundtrip_ms": 291.81140799846617,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 439.5278620013414,
+        "selector_ms": 0.09723200128064491,
+        "selection_ms": 148.09482199962076,
+        "ocr_roundtrip_ms": 289.84732500066457,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 450.08803400014585,
+        "selector_ms": 0.0912020004761871,
+        "selection_ms": 157.50313899843604,
+        "ocr_roundtrip_ms": 291.06032100025914,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 457.592229000511,
+        "selector_ms": 0.12018199959129561,
+        "selection_ms": 157.2738949998893,
+        "ocr_roundtrip_ms": 298.7516909997794,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "cold",
+        "total_ms": 3545.850328000597,
+        "selector_ms": 204.4672840002022,
+        "selection_ms": 157.44111799904204,
+        "ocr_roundtrip_ms": 293.389002999902,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 446.56754700008605,
+        "selector_ms": 0.09656200018071104,
+        "selection_ms": 157.5055089997477,
+        "ocr_roundtrip_ms": 287.49379299915745,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 431.1645170000702,
+        "selector_ms": 0.08931199954531621,
+        "selection_ms": 142.63197200125433,
+        "ocr_roundtrip_ms": 287.068592999276,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "resident-cold",
+        "total_ms": 436.92396499864117,
+        "selector_ms": 0.08540199996787123,
+        "selection_ms": 147.81708699956653,
+        "ocr_roundtrip_ms": 287.4212709994026,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "open",
+        "total_ms": 445.1109750007163,
+        "selector_ms": 0.4724200007331092,
+        "selection_ms": 142.87860799959162,
+        "ocr_roundtrip_ms": 298.08243600018614,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 441.60372800070036,
+        "selector_ms": 0.18529400040279143,
+        "selection_ms": 143.46884999940812,
+        "ocr_roundtrip_ms": 295.52134000005026,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 437.13715900048555,
+        "selector_ms": 0.17842399938672315,
+        "selection_ms": 146.88994500102126,
+        "ocr_roundtrip_ms": 288.26201999982004,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 449.3116369994823,
+        "selector_ms": 0.19161400086886715,
+        "selection_ms": 157.3226459986472,
+        "ocr_roundtrip_ms": 290.202161999332,
+        "text_matches": true,
+        "trial": 0
+      },
+      {
+        "scenario": "open",
+        "total_ms": 448.84899700082315,
+        "selector_ms": 0.47871000060695224,
+        "selection_ms": 143.50269100032165,
+        "ocr_roundtrip_ms": 301.9376310003281,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 432.536837999578,
+        "selector_ms": 0.17295399993599858,
+        "selection_ms": 142.52320000014151,
+        "ocr_roundtrip_ms": 288.09091599941894,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 442.172049999499,
+        "selector_ms": 0.19590400006563868,
+        "selection_ms": 149.88452199941094,
+        "ocr_roundtrip_ms": 290.4027370004769,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 455.5730859992764,
+        "selector_ms": 0.22818499928689562,
+        "selection_ms": 157.4603589997423,
+        "ocr_roundtrip_ms": 296.1511439989408,
+        "text_matches": true,
+        "trial": 1
+      },
+      {
+        "scenario": "open",
+        "total_ms": 453.8763069995184,
+        "selector_ms": 0.4993410002498422,
+        "selection_ms": 149.27467800043814,
+        "ocr_roundtrip_ms": 301.3217169991549,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 446.3581130003149,
+        "selector_ms": 0.17884400040202308,
+        "selection_ms": 145.93164500001876,
+        "ocr_roundtrip_ms": 298.35376200026076,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 446.24839999960386,
+        "selector_ms": 0.19072400027653202,
+        "selection_ms": 149.1022049995081,
+        "ocr_roundtrip_ms": 295.3273660004925,
+        "text_matches": true,
+        "trial": 2
+      },
+      {
+        "scenario": "resident-open",
+        "total_ms": 457.84751500104903,
+        "selector_ms": 0.18090400044457056,
+        "selection_ms": 153.18563400069252,
+        "ocr_roundtrip_ms": 302.8869019999547,
+        "text_matches": true,
+        "trial": 2
+      }
+    ]
+  },
+  "spectacle_capability": [
+    {
+      "cold_ms": 486.032526,
+      "cached_ms": 0.00176
+    },
+    {
+      "cold_ms": 421.726749,
+      "cached_ms": 0.00173
+    },
+    {
+      "cold_ms": 429.665234,
+      "cached_ms": 0.00208
+    },
+    {
+      "cold_ms": 421.960255,
+      "cached_ms": 0.00206
+    },
+    {
+      "cold_ms": 416.657328,
+      "cached_ms": 0.0021
+    }
+  ],
+  "all_recognized_text_matches": true,
+  "instrumented_stages_example": [
+    {
+      "scenario": "first-in-process",
+      "total_ms": 3313.577,
+      "selector_prepare_ms": null,
+      "selection_window_ms": null,
+      "capture_complete_ms": 145.528,
+      "drag_ms": null,
+      "inference_ms": 276.29,
+      "process_to_request_ms": 92.865,
+      "engine_prepare_ms": 3038.318,
+      "state": "copied"
+    },
+    {
+      "scenario": "successive",
+      "total_ms": 439.478,
+      "selector_prepare_ms": null,
+      "selection_window_ms": null,
+      "capture_complete_ms": 157.541,
+      "drag_ms": null,
+      "inference_ms": 278.262,
+      "process_to_request_ms": 3407.816,
+      "engine_prepare_ms": null,
+      "state": "copied"
+    },
+    {
+      "scenario": "successive",
+      "total_ms": 424.213,
+      "selector_prepare_ms": null,
+      "selection_window_ms": null,
+      "capture_complete_ms": 143.698,
+      "drag_ms": null,
+      "inference_ms": 276.848,
+      "process_to_request_ms": 3848.631,
+      "engine_prepare_ms": null,
+      "state": "copied"
+    },
+    {
+      "scenario": "successive",
+      "total_ms": 435.308,
+      "selector_prepare_ms": null,
+      "selection_window_ms": null,
+      "capture_complete_ms": 152.188,
+      "drag_ms": null,
+      "inference_ms": 279.118,
+      "process_to_request_ms": 4274.171,
+      "engine_prepare_ms": null,
+      "state": "copied"
+    }
+  ],
+  "validation": {
+    "isolated_unit_tests": 125,
+    "real_manga_load_cancel_reload_and_pid_reuse": true,
+    "real_tesseract_text_and_supervisor_reuse": true,
+    "isolated_final_suite_preserved_profile_and_script": true,
+    "real_desktop_capture_measured": false,
+    "real_named_ipc_measured": false
+  }
+}

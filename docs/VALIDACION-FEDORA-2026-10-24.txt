@@ -1,0 +1,82 @@
+Na’atik Next Fedora Español / English — 2026-10-24
+
+ENTREGA
+Paquete fuente Fedora x86_64 / CPython 3.14 estándar / CPU. No es RPM.
+Incluye instrucciones INSTALACION.md, código, catálogos, pruebas y evidencia.
+No incluye Python, venv, ruedas, modelos, diccionarios ni scripts personales.
+Verifica SHA256.txt antes de extraer/instalar. Dentro del paquete hay además
+un SHA256.txt para comprobar todos los archivos individuales.
+
+CAMBIOS FUNCIONALES
+Tutorial de seis pasos basado en Windows: bienvenida, OCR, traducción,
+diccionarios, Anki opcional y primera prueba; asistentes reutilizados,
+Volver/Continuar/Omitir/Reiniciar, progreso por perfil y reanudación desde Ayuda.
+No se abre automáticamente en perfiles anteriores, segundo plano, popups ni
+--capture. Avanzar/omitir/completar no acredita recursos ni descarga modelos.
+Aviso no modal del editor OCR sin diccionarios activos, acceso a importar o
+activar, y reintento tras activación; consultas automáticas sin diálogos repetidos.
+Elección cancelable Español/English antes de preparar entorno o descargar,
+catálogos centralizados, Configuración→Idioma / Settings→Language y persistencia
+por perfil. Idioma OCR y ruta/idiomas de traducción permanecen independientes.
+Actualización/reparación conserva idioma salvo cambio explícito.
+Correcciones finales: cancelación obtiene el idioma actual; Escape en captura
+en inglés no se trata como fallo con advertencia. Pruebas sin asunciones de
+idioma español en las aserciones modificadas. Enlaces de evidencia corregidos
+en el documento raíz del paquete.
+
+RESULTADOS EJECUTADOS
+Suite unittest offscreen aislada: 254 pruebas, 251 correctas, 3 omitidas,
+sin fallos. Dos omisiones por runtime opcional de frases ausente; otra porque
+el test de bind prohibido no aplica cuando los sockets están permitidos.
+Perfiles temporales: primer inicio, perfil anterior y vacío; omitir/reiniciar/
+retomar/completar; --capture y popups sin tutorial automático; ausencia de
+diccionarios, activación y reintento real con worker; ambos idiomas y cambio
+en vivo; preservación de preferencias y recursos declarados.
+Instalación base offline real con hashes del lock en venv nueva, HOME/XDG
+temporales y PYTHONNOUSERSITE=1. Cancelación TTY y gate previo a venv probados.
+Reparación real offline conserva inglés; cambio explícito a español conserva
+el resto de preferencias, progreso, rutas y SHA256 SQLite de diccionario
+sintético desactivado con prioridad 41. No se instalaron modelos opcionales.
+Revisión visual ES/EN: renderizados offscreen representativos, más ventanas
+ES/EN reales en KDE/X11 con Qt xcb. No se confundió offscreen con captura global.
+Escritorio real: arranque ES/EN, tutorial inicial, segunda invocación reenviada
+a la misma instancia, cierre SIGTERM con limpieza de lock/endpoint. Arranque
+--capture inglés sin tutorial, cancelado con Escape.
+Adaptador nativo real: Spectacle 6.7.5 capturó una superficie sintética de
+551×211 píxeles; Escape devolvió cancelación en inglés. Atajo X11 temporal
+Ctrl+Alt+Shift+F12 activado y retirado sin guardar preferencias.
+Locks y scripts personales conservan sus hashes iniciales.
+
+LIMITES / PENDIENTES — SIN PASS
+No se ejecutó instalación completa online ni en máquina/VM limpia.
+No se validó Wayland ni bootstrap gráfico Tk interactivo.
+No se descargaron ni probaron modelos opcionales reales ni análisis de frases
+real en este entorno aislado. No se certifican por completar el tutorial.
+No se probó la cadena completa captura→OCR→portapapeles de escritorio→Anki,
+AnkiConnect habitual ni botones físicos Stream Deck/StreamController.
+Las pruebas de integración correspondientes con fixtures/offscreen y HTTP
+loopback temporal no equivalen a acreditación de esos equipos/servicios reales.
+La revisión de captura nativa no certifica todas las combinaciones de idiomas,
+motores, escritorios ni atajos que el usuario pueda configurar.
+
+CONSERVACION Y REPRODUCCION
+No se instaló sobre la copia habitual ni se usó su perfil para probar.
+No se modificó JapaneseMining, Naatik Go ni Windows; sin commit ni push.
+La referencia Windows disponible tiene tutorial; no se dio por implementada
+allí la interfaz bilingüe. Se verificó la implementación Fedora ya presente.
+Evidencia detallada: docs/evidence/fedora-bilingual/2026-10-24/README.md,
+unittest-final.log, install-en.log, repair-*.log, *-results.json y pantallas.
+Los scripts de diagnóstico adjuntos usan rutas temporales de esta ejecución;
+adáptalas al reproducir. xdotool fue solo herramienta diagnóstica del sistema,
+no una dependencia nueva de Next. No se cambiaron versiones/locks ni paquetes
+del sistema. Consulta docs/THIRD_PARTY_DEPENDENCIES.md para inventario y límites.
+
+INSTALL / UPDATE
+See INSTALACION.md. Extract into a new folder; run bash tools/install.sh.
+Choose Español/English before installation; c cancels without creating a venv.
+For a fresh noninteractive profile: bash tools/install.sh --language en (or es).
+Then ./launch. Help resumes the tutorial; Settings→Language changes UI language.
+For repair/update, preserve XDG data and explicit resource paths; rerun the
+installer and keep the existing language. Do not uninstall to update.
+This source package needs network for a normal install; a verified wheelhouse
+allows offline base installation. Optional downloads always need confirmation.

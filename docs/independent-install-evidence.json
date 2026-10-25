@@ -1,0 +1,30 @@
+{
+  "home": "<isolated-review>/home-review-final",
+  "prefix": "<isolated-review>/Next con espacios/.venv",
+  "user_site": false,
+  "xdg": {
+    "config": "<isolated-review>/home-review-final/.config/naatik-next",
+    "data": "<isolated-review>/home-review-final/.local/share/naatik-next",
+    "state": "<isolated-review>/home-review-final/.local/state/naatik-next"
+  },
+  "manga_defaults": {
+    "manga_python": "<isolated-review>/Next con espacios/.venv-mangaocr/bin/python",
+    "manga_model": "<isolated-review>/home-review-final/.local/share/naatik-next/models/manga-ocr-base"
+  },
+  "first_run_dialog": true,
+  "save_language_and_engine": true,
+  "second_run": true,
+  "no_argos_models": true,
+  "no_dictionaries": true,
+  "no_preloaded_manga_model": true,
+  "actual_tesseract_result": "Hello world",
+  "qt_event_beats": 61,
+  "download_attempt": "Descarga interrumpida de config.json: <urlopen error [Errno -3] Temporary failure in name resolution>. Reintenta para recuperar el parcial; no se usará como modelo listo.",
+  "qt": "offscreen; no actual capture/global shortcut/IPC validation",
+  "host_executables_and_libraries_remain_dependencies": true,
+  "cpu_install_result": "Falta la rueda CPU requerida: torch-2.13.0+cpu-cp314-cp314-manylinux_2_28_x86_64.whl; descarga bloqueada por modo offline.",
+  "normal_profile_sha256_unchanged": true,
+  "menu_install_remove_preserved_data": true,
+  "launch_help_from_other_cwd": true,
+  "display_check": "xdpyinfo: unable to open display :0"
+}

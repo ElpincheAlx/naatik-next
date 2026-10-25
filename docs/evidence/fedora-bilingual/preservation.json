@@ -1,0 +1,22 @@
+{
+  "requirements.lock": {
+    "sha256": "9f80df6db18fee92e4c8c92f88140149479084851c1211de0af881f452d218fe",
+    "unchanged_from_start": true
+  },
+  "requirements-manga-cpu.lock": {
+    "sha256": "dbc43d53f7ae99879c3e5deb7a8aaf9b64a6e86d9b11dee6752ff7817245b409",
+    "unchanged_from_start": true
+  },
+  "requirements-manga-build.lock": {
+    "sha256": "3b421475b7faef361fe98422955af283db4b5dd13511106020f7097a34ab9f0f",
+    "unchanged_from_start": true
+  },
+  "requirements-phrase.lock": {
+    "sha256": "33120a60587b52292ab6e6192ba70332f314274362cac5600c5afc195b8d4bc0",
+    "unchanged_from_start": true
+  },
+  "requirements-translation.lock": {
+    "sha256": "7ed3707d782c2abe46e2ca6ceeb0106ccabad19a0219c78e464b6be1fe532f88",
+    "unchanged_from_start": true
+  }
+}

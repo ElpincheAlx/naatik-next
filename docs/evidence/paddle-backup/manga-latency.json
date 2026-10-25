@@ -1,0 +1,66 @@
+{
+  "engine": "mangaocr",
+  "samples": [
+    {
+      "phase": "cold",
+      "image_sha256": "fed987e658f8c486c1df8d1a46744721e0f3ea720490daa4d05537d608eed343",
+      "wall_ms": 3441.794,
+      "worker_ms": 3393.65,
+      "load_ms": 3059.58,
+      "inference_ms": 323.67,
+      "cache_hit": false,
+      "characters": 4
+    },
+    {
+      "phase": "warm",
+      "image_sha256": "f5754cc26d6882f7c9534b612bb0b297583651a1f2c081696070657490b683bd",
+      "wall_ms": 367.327,
+      "worker_ms": 365.63,
+      "load_ms": 0.11,
+      "inference_ms": 365.23,
+      "cache_hit": false,
+      "characters": 7
+    },
+    {
+      "phase": "warm",
+      "image_sha256": "6da6d1967ece44f3b42e9333f6ea8294ea7d417f2f183626ae36b4861e654879",
+      "wall_ms": 431.613,
+      "worker_ms": 429.13,
+      "load_ms": 0.11,
+      "inference_ms": 428.78,
+      "cache_hit": false,
+      "characters": 11
+    },
+    {
+      "phase": "cached",
+      "image_sha256": "fed987e658f8c486c1df8d1a46744721e0f3ea720490daa4d05537d608eed343",
+      "wall_ms": 2.402,
+      "worker_ms": 0.31,
+      "load_ms": 0,
+      "inference_ms": 0,
+      "cache_hit": true,
+      "characters": 4
+    },
+    {
+      "phase": "cached",
+      "image_sha256": "f5754cc26d6882f7c9534b612bb0b297583651a1f2c081696070657490b683bd",
+      "wall_ms": 4.169,
+      "worker_ms": 0.25,
+      "load_ms": 0,
+      "inference_ms": 0,
+      "cache_hit": true,
+      "characters": 7
+    },
+    {
+      "phase": "cached",
+      "image_sha256": "6da6d1967ece44f3b42e9333f6ea8294ea7d417f2f183626ae36b4861e654879",
+      "wall_ms": 2.302,
+      "worker_ms": 0.21,
+      "load_ms": 0,
+      "inference_ms": 0,
+      "cache_hit": true,
+      "characters": 11
+    }
+  ],
+  "scope": "isolated real worker; no downloads; durations do not establish accuracy"
+}

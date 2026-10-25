@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-21",
+  "focused": {
+    "tests": 5,
+    "result": "OK"
+  },
+  "regression": {
+    "tests": 221,
+    "skipped": 2,
+    "result": "OK",
+    "seconds": 36.133
+  },
+  "visual": "synthetic offscreen",
+  "isolated_profile": true,
+  "personal_preferences_changed": false,
+  "added_dependencies": [],
+  "desktop_validation": "pending"
+}

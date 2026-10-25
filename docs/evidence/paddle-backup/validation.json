@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-21",
+  "focused": {
+    "tests": 22,
+    "result": "OK",
+    "seconds": 0.888
+  },
+  "regression": {
+    "tests": 240,
+    "skipped": 2,
+    "result": "OK",
+    "seconds": 36.731
+  },
+  "paddle_install": "PASS user terminal, 62 pinned distributions",
+  "pip_check": "PASS",
+  "paddle_real_inference": true,
+  "paddle_qt_offscreen_smoke": "PASS real CPU candidates and explicit adoption",
+  "pinned_models_reconstruction": "PASS SHA-256 in isolated temporary directory",
+  "paddle_real_latency": true,
+  "paddle_accuracy": "Sample 1 桃魂; sample 2 fails; sample 3 甲子園伝統の味 with extra W",
+  "desktop_validation": "pending",
+  "clean_machine_install": "pending",
+  "published_lock": "requirements-paddle-cpu.lock",
+  "published_model_catalog": "naatik_next/paddle-models.json"
+}

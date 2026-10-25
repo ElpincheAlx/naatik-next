@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-20",
+  "tests": {
+    "count": 179,
+    "seconds": 30.121,
+    "result": "OK",
+    "log_sha256": "632969e4e225b8b0ab530a1a563283fc02f5ca2ea3b60d786e53d91e08d1538c",
+    "environment": "HOME/XDG isolation established before imports; QT_QPA_PLATFORM=offscreen"
+  },
+  "real_model_installation": "BLOCKED by DNS/network in fresh source/HOME/XDG/venvs/caches",
+  "real_neural_inference": "NOT RUN; no PASS",
+  "real_neural_offline_reuse": "NOT VALIDATED",
+  "clean_vm": "NOT RUN",
+  "actual_desktop_setup": "NOT RUN; user previously confirmed existing popups, not this new setup",
+  "injected_checks": [
+    "catalogue metadata and direct/pivot compatibility",
+    "unknown sizes and HEAD-only proposal review",
+    "explicit download confirmation and discarded stale dialog responses",
+    "cancelled partial download, validated Range resume and offline cached-file reuse",
+    "corrupt ZIP, mismatched languages, failed real model loader never yields readiness",
+    "pinned no-cache runtime preparation, failed setup without ready marker",
+    "missing environment launcher enters bootstrap (injected system Python dispatcher)",
+    "existing rapid edits, stale translation, persistent routes, independent capture-copy and shutdown regressions",
+    "exclusive lock shared by runtime preparation, model installation, status and offline validation"
+  ],
+  "actual_checks": [
+    "system Python in fresh source detects missing Argos with understandable state",
+    "real catalogue request fails DNS and retains structured worker error",
+    "fresh base and translation venv creation succeeds; dependency retrieval fails DNS, never ready",
+    "own base Argos discovery with no models rendered in offscreen configuration dialog",
+    "synthetic package fails actual CTranslate2 load, not a successful neural inference"
+  ],
+  "upstream_observation": {
+    "method": "web tool only; runtime catalogue blocked",
+    "index": "https://raw.githubusercontent.com/argosopentech/argospm-index/main/index.json",
+    "direct_ja_es_observed": false,
+    "models": [
+      {
+        "pair": "ja→en",
+        "version": "1.1",
+        "requires": "1.1",
+        "url": "https://argos-net.com/v1/translate-ja_en-1_1.argosmodel"
+      },
+      {
+        "pair": "en→es",
+        "version": "1.0",
+        "requires": "1.0",
+        "url": "https://argos-net.com/v1/translate-en_es-1_0.argosmodel"
+      }
+    ],
+    "size": "not published in observed index; runtime HEAD not reached",
+    "model_sha256": "not available; no model downloaded",
+    "license": "maintainer declaration MIT/CC0; individual package not inspected",
+    "license_source": "https://github.com/argosopentech/argos-translate/issues/533"
+  },
+  "system_observation": [
+    {
+      "package": "python3-tkinter",
+      "version": "3.14.8-1.fc44",
+      "license": "Python-2.0.1"
+    },
+    {
+      "package": "tk",
+      "version": "9.0.2-2.fc44",
+      "license": "TCL AND HPND-Pbmplus AND CC-BY-SA-3.0 AND MIT-open-group AND MIT"
+    },
+    {
+      "package": "tcl",
+      "version": "9.0.2-2.fc44",
+      "license": "TCL AND GPL-3.0-or-later WITH Bison-exception-2.2 AND BSD-3-Clause"
+    }
+  ],
+  "lock": {
+    "packages": 12,
+    "exact_subset_of_base": true,
+    "sha256": "7ed3707d782c2abe46e2ca6ceeb0106ccabad19a0219c78e464b6be1fe532f88"
+  },
+  "protected_unchanged_sha256": {
+    "/historical-home/.config/naatik-next/settings.json": "838b7bfe887202c01477bc8437477c7ef52ac031717c6036778d5059ec9cba88"
+  },
+  "source_sha256": {
+    "launch": "ad1fd3f2e05e76c7f804e574bf514da319a1624a73dc454d7467dd950b4125a5",
+    "tools/install.sh": "5876ec0126f9f073f9724cdab5a3a88ef94b2119d8ac33cfd7e3358e7c1ca85c",
+    "tools/translation_setup_check.py": "fdba1942f880c8d0003234da5caab80407922913d972ecb6f72f22feda3d6a42",
+    "requirements-translation.lock": "7ed3707d782c2abe46e2ca6ceeb0106ccabad19a0219c78e464b6be1fe532f88",
+    "naatik_next/translation.py": "617f5a00e8443e32d2a84e409863ae2a814e5185ce718a8702d48f3bd08d8806",
+    "naatik_next/translation_setup.py": "32b36c4c07be87d4f69e9411f524ea778ba3062db7fbea8eeb270d97f9f17583",
+    "naatik_next/translation_runtime.py": "e3b84caf2e451656d7b2d54c30d923b2a32fbe6f1d48f4a269aa7b06952a61d7",
+    "naatik_next/translation_dialog.py": "8dacc2e1bab015161b1682897896b3984499ede1d3943b6c9bef460a76184f85",
+    "naatik_next/bootstrap.py": "ba47076ce90249bb3d0fadc08714131731bffb8dc62c26b4c127d3d9aca80cf8",
+    "naatik_next/worker.py": "6ca0470ba8938dc095b2dc92bc394dd582254aae912bf861c40e9892d63dbb90",
+    "naatik_next/popups.py": "9cd2b74ecd6870ec1f32addfa8ce43b85b303eb08edc8ff372ea741b13a60545",
+    "naatik_next/app.py": "2bcda066c37c0abb974015b04bca608ffe4f837cca89d633222f97c950bc69b0",
+    "naatik_next/popup_presentation.py": "e88058b825f795991a5564fe799a34e3ca2e0dda104dca2867a76e0817febcfd",
+    "tests/test_translation_setup.py": "0d63fa4b14673cbe55ea39f7e2a81f0877cf0639df19b829ae7765ebe8dc980b",
+    "tests/test_popups.py": "28de742a477bd25d60b076fa58467cdbfa9913ff91261d9cf7863cf30cd361b4",
+    "tests/test_public_validation.py": "89cb872f5c099ac3624b2aa256c987bce2e3c107e3d1826114c79f688a74620f",
+    "tools/public_install_validation.py": "03b3c58aa288e61257d7d62016dcc5d8c6a5eb9a0978d6ada176ac53a899d506"
+  },
+  "one_desktop_check": "python3.14 tools/translation_setup_check.py",
+  "diagnostic_report": "leaves isolated source/profile and result.json; PASS only for real ja→es or ja→en→es inference with Python connections blocked"
+}

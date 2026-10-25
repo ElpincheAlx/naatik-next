@@ -1,0 +1,428 @@
+qt.text.font.db: OpenType support missing for "Noto Sans Thaana", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Arabic", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Meetei Mayek", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Ol Chiki", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Yi", script 10
+qt.text.font.db: OpenType support missing for "Adwaita Sans", script 10
+qt.text.font.db: OpenType support missing for "Liberation Sans Narrow", script 10
+qt.text.font.db: OpenType support missing for "Nimbus Sans", script 10
+qt.text.font.db: OpenType support missing for "Open Sans", script 10
+qt.text.font.db: OpenType support missing for "Comfortaa", script 10
+qt.text.font.db: OpenType support missing for "URW Gothic", script 10
+qt.text.font.db: OpenType support missing for "Nimbus Sans Narrow", script 10
+qt.text.font.db: OpenType support missing for "Carlito", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Math", script 10
+qt.text.font.db: OpenType support missing for "Red Hat Display", script 10
+qt.text.font.db: OpenType support missing for "Red Hat Text", script 10
+qt.text.font.db: OpenType support missing for "Padauk", script 10
+qt.text.font.db: OpenType support missing for "Droid Sans", script 10
+qt.text.font.db: OpenType support missing for "Droid Arabic Kufi", script 10
+qt.text.font.db: OpenType support missing for "Droid Sans Armenian", script 10
+qt.text.font.db: OpenType support missing for "Droid Sans Devanagari", script 10
+qt.text.font.db: OpenType support missing for "Droid Sans Ethiopic", script 10
+qt.text.font.db: OpenType support missing for "Droid Sans Fallback", script 10
+qt.text.font.db: OpenType support missing for "Droid Sans Georgian", script 10
+qt.text.font.db: OpenType support missing for "Droid Sans Hebrew", script 10
+qt.text.font.db: OpenType support missing for "Droid Sans Japanese", script 10
+qt.text.font.db: OpenType support missing for "Droid Sans Tamil", script 10
+qt.text.font.db: OpenType support missing for "Droid Sans Thai", script 10
+qt.text.font.db: OpenType support missing for "OpenSymbol", script 10
+qt.text.font.db: OpenType support missing for "Adwaita Mono", script 10
+qt.text.font.db: OpenType support missing for "Vazirmatn", script 10
+qt.text.font.db: OpenType support missing for "PakType Naskh Basic", script 10
+qt.text.font.db: OpenType support missing for "Noto Emoji", script 10
+qt.text.font.db: OpenType support missing for "Hack", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Hebrew", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Bengali", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Sinhala", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Syriac", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Bengali", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Gujarati", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Gujarati", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Ethiopic", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Ethiopic", script 10
+qt.text.font.db: OpenType support missing for "Liberation Mono", script 10
+qt.text.font.db: OpenType support missing for "Liberation Sans", script 10
+qt.text.font.db: OpenType support missing for "Liberation Serif", script 10
+qt.text.font.db: OpenType support missing for "Noto Color Emoji", script 10
+qt.text.font.db: OpenType support missing for "Source Code Pro", script 10
+qt.text.font.db: OpenType support missing for "Noto Naskh Arabic", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Mono", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Symbols 2", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Armenian", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Armenian", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Sinhala", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Devanagari", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Kannada", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Oriya", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Devanagari", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Georgian", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Telugu", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Kannada", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Telugu", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans CJK JP", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans CJK KR", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans CJK SC", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans CJK TC", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans CJK HK", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Mono CJK JP", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Mono CJK KR", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Mono CJK SC", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Mono CJK TC", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Mono CJK HK", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Mono", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Mono Caps", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Mono Light", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Mono Light Cond", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Mono Prop", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Mono Prop Light", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Mono Slanted", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Roman", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Roman Caps", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Roman Dunhill", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Roman Slanted", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Roman Unslanted", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Sans", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Sans Quotation", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans NKo", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Canadian Aboriginal", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Gurmukhi", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Khmer", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Tamil", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Gurmukhi", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Hebrew", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Khmer", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Tamil", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Lao", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Symbols", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Georgian", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Lao", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif CJK JP", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif CJK KR", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif CJK SC", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif CJK TC", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif CJK HK", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Thai", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Thai", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Gothic", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans Cherokee", script 10
+qt.text.font.db: OpenType support missing for "D050000L", script 10
+qt.text.font.db: OpenType support missing for "Standard Symbols PS", script 10
+qt.text.font.db: OpenType support missing for "Madan", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Math", script 10
+qt.text.font.db: OpenType support missing for "Noto Serif Oriya", script 10
+qt.text.font.db: OpenType support missing for "Caladea", script 10
+qt.text.font.db: OpenType support missing for "RIT Rachana", script 10
+qt.text.font.db: OpenType support missing for "C059", script 10
+qt.text.font.db: OpenType support missing for "Nimbus Mono PS", script 10
+qt.text.font.db: OpenType support missing for "Nimbus Roman", script 10
+qt.text.font.db: OpenType support missing for "P052", script 10
+qt.text.font.db: OpenType support missing for "RIT Meera New", script 10
+qt.text.font.db: OpenType support missing for "Cantarell", script 10
+qt.text.font.db: OpenType support missing for "Jomolhari", script 10
+qt.text.font.db: OpenType support missing for "STIX", script 10
+qt.text.font.db: OpenType support missing for "Symbola", script 10
+qt.text.font.db: OpenType support missing for "PakType Naskh Basic Semi Wide", script 10
+qt.text.font.db: OpenType support missing for "PakType Naskh Basic Wide", script 10
+qt.text.font.db: OpenType support missing for "GohuFont 11 Nerd Font Mono", script 10
+qt.text.font.db: OpenType support missing for "GohuFont 11 Nerd Font Propo", script 10
+qt.text.font.db: OpenType support missing for "GohuFont 11 Nerd Font", script 10
+qt.text.font.db: OpenType support missing for "GohuFont 14 Nerd Font Mono", script 10
+qt.text.font.db: OpenType support missing for "GohuFont 14 Nerd Font Propo", script 10
+qt.text.font.db: OpenType support missing for "GohuFont 14 Nerd Font", script 10
+qt.text.font.db: OpenType support missing for "GohuFont uni11 Nerd Font Mono", script 10
+qt.text.font.db: OpenType support missing for "GohuFont uni11 Nerd Font Propo", script 10
+qt.text.font.db: OpenType support missing for "GohuFont uni11 Nerd Font", script 10
+qt.text.font.db: OpenType support missing for "GohuFont uni14 Nerd Font Mono", script 10
+qt.text.font.db: OpenType support missing for "GohuFont uni14 Nerd Font Propo", script 10
+qt.text.font.db: OpenType support missing for "GohuFont uni14 Nerd Font", script 10
+qt.text.font.db: OpenType support missing for "URW Bookman", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Roman Demi", script 10
+qt.text.font.db: OpenType support missing for "Latin Modern Sans Demi Cond", script 10
+qt.text.font.db: OpenType support missing for "Z003", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "", script 10
+qt.text.font.db: OpenType support missing for "Noto Sans", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Arabic", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Meetei Mayek", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Ol Chiki", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Yi", script 66
+qt.text.font.db: OpenType support missing for "Adwaita Sans", script 66
+qt.text.font.db: OpenType support missing for "Liberation Sans Narrow", script 66
+qt.text.font.db: OpenType support missing for "Nimbus Sans", script 66
+qt.text.font.db: OpenType support missing for "Open Sans", script 66
+qt.text.font.db: OpenType support missing for "Comfortaa", script 66
+qt.text.font.db: OpenType support missing for "URW Gothic", script 66
+qt.text.font.db: OpenType support missing for "Nimbus Sans Narrow", script 66
+qt.text.font.db: OpenType support missing for "Carlito", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Math", script 66
+qt.text.font.db: OpenType support missing for "Red Hat Display", script 66
+qt.text.font.db: OpenType support missing for "Red Hat Text", script 66
+qt.text.font.db: OpenType support missing for "Padauk", script 66
+qt.text.font.db: OpenType support missing for "Droid Sans", script 66
+qt.text.font.db: OpenType support missing for "Droid Arabic Kufi", script 66
+qt.text.font.db: OpenType support missing for "Droid Sans Armenian", script 66
+qt.text.font.db: OpenType support missing for "Droid Sans Devanagari", script 66
+qt.text.font.db: OpenType support missing for "Droid Sans Ethiopic", script 66
+qt.text.font.db: OpenType support missing for "Droid Sans Fallback", script 66
+qt.text.font.db: OpenType support missing for "Droid Sans Georgian", script 66
+qt.text.font.db: OpenType support missing for "Droid Sans Hebrew", script 66
+qt.text.font.db: OpenType support missing for "Droid Sans Japanese", script 66
+qt.text.font.db: OpenType support missing for "Droid Sans Tamil", script 66
+qt.text.font.db: OpenType support missing for "Droid Sans Thai", script 66
+qt.text.font.db: OpenType support missing for "OpenSymbol", script 66
+qt.text.font.db: OpenType support missing for "Adwaita Mono", script 66
+qt.text.font.db: OpenType support missing for "Vazirmatn", script 66
+qt.text.font.db: OpenType support missing for "PakType Naskh Basic", script 66
+qt.text.font.db: OpenType support missing for "Noto Emoji", script 66
+qt.text.font.db: OpenType support missing for "Hack", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Hebrew", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Thaana", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Bengali", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Sinhala", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Syriac", script 66
+qt.text.font.db: OpenType support missing for "Noto Serif Bengali", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Gujarati", script 66
+qt.text.font.db: OpenType support missing for "Noto Serif Gujarati", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Ethiopic", script 66
+qt.text.font.db: OpenType support missing for "Noto Serif Ethiopic", script 66
+qt.text.font.db: OpenType support missing for "Liberation Mono", script 66
+qt.text.font.db: OpenType support missing for "Liberation Sans", script 66
+qt.text.font.db: OpenType support missing for "Liberation Serif", script 66
+qt.text.font.db: OpenType support missing for "Noto Color Emoji", script 66
+qt.text.font.db: OpenType support missing for "Source Code Pro", script 66
+qt.text.font.db: OpenType support missing for "Noto Naskh Arabic", script 66
+qt.text.font.db: OpenType support missing for "Noto Serif", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Mono", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Symbols 2", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Armenian", script 66
+qt.text.font.db: OpenType support missing for "Noto Serif Armenian", script 66
+qt.text.font.db: OpenType support missing for "Noto Serif Sinhala", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Devanagari", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Kannada", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Oriya", script 66
+qt.text.font.db: OpenType support missing for "Noto Serif Devanagari", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Georgian", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Telugu", script 66
+qt.text.font.db: OpenType support missing for "Noto Serif Kannada", script 66
+qt.text.font.db: OpenType support missing for "Noto Serif Telugu", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans CJK JP", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans CJK KR", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans CJK SC", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans CJK TC", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans CJK HK", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Mono CJK JP", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Mono CJK KR", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Mono CJK SC", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Mono CJK TC", script 66
+qt.text.font.db: OpenType support missing for "Noto Sans Mono CJK HK", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Mono", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Mono Caps", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Mono Light", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Mono Light Cond", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Mono Prop", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Mono Prop Light", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Mono Slanted", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Roman", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Roman Caps", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Roman Dunhill", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Roman Slanted", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Roman Unslanted", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Sans", script 66
+qt.text.font.db: OpenType support missing for "Latin Modern Sans Quotation", script 66
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+----------------------------------------------------------------------
+Ran 39 tests in 4.997s
+
+OK

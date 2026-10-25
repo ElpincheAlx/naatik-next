@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-19",
+  "scope": "Atajo X11; inventario incremental sin sustituir auditoría previa",
+  "python_dependencies_added": [],
+  "stdlib_used": "ctypes (CPython existente); PySide6 QtCore/QtGui/QtWidgets existentes",
+  "system": [
+    {
+      "path": "/usr/lib64/libX11.so.6.4.0",
+      "role": "directa; ejecución opcional del atajo KDE/X11",
+      "name": "libX11",
+      "version": "1.8.13-3.fc44.x86_64",
+      "license_rpm": "MIT AND X11",
+      "source_rpm": "libX11-1.8.13-3.fc44.src.rpm",
+      "sha256": "95b9ecfbde1b73c7f7380ae643e8ade9555234607a47d7e131ae6365a9899244",
+      "distribution": "sistema Fedora; no distribuido en Git"
+    },
+    {
+      "path": "/usr/bin/xdpyinfo",
+      "role": "directa; diagnóstico del acceso al display",
+      "name": "xdpyinfo",
+      "version": "1.3.4-4.fc44.x86_64",
+      "license_rpm": "MIT",
+      "source_rpm": "xdpyinfo-1.3.4-4.fc44.src.rpm",
+      "sha256": "d25068dfe71aec14d132b8924cd6adc31da69d551d3da08474da88eaadd9911e",
+      "distribution": "sistema Fedora; no distribuido en Git"
+    },
+    {
+      "path": "/usr/libexec/Xorg",
+      "role": "directa; diagnóstico aislado intentado, no dependencia de ejecución",
+      "name": "xorg-x11-server-Xorg",
+      "version": "21.1.24-1.fc44.x86_64",
+      "license_rpm": "Adobe-Display-PostScript AND BSD-3-Clause AND DEC-3-Clause AND HPND AND HPND-sell-MIT-disclaimer-xserver AND HPND-sell-variant AND ICU AND ISC AND MIT AND MIT-open-group AND NTP AND SGI-B-2.0 AND SMLNJ AND X11 AND X11-distribute-modifications-variant",
+      "source_rpm": "xorg-x11-server-21.1.24-1.fc44.src.rpm",
+      "sha256": "962bc262c986787d20c6e8c4288f77a8f1b0c554c4573c79c58fec14b8d33613",
+      "distribution": "sistema Fedora; no distribuido en Git"
+    },
+    {
+      "path": "/usr/lib64/xorg/modules/drivers/dummy_drv.so",
+      "role": "transitiva del diagnóstico Xorg intentado; no ejecución de Next",
+      "name": "xorg-x11-drv-dummy",
+      "version": "0.4.1-8.fc44.x86_64",
+      "license_rpm": "MIT AND X11",
+      "source_rpm": "xorg-x11-drv-dummy-0.4.1-8.fc44.src.rpm",
+      "sha256": "da613ebef3b4cacd120e144a8b9d583433b34a3a229b1851362ffa9b063a481d",
+      "distribution": "sistema Fedora; no distribuido en Git"
+    }
+  ],
+  "license_verification": "Expresiones RPM verificadas. No se localizaron textos COPYING instalados de libX11; el enlace upstream no fue accesible. No se acreditan todos los avisos de redistribución de futuros paquetes.",
+  "display_validation": "DISPLAY :0 inaccesible; Xorg dummy :109 falla creando sockets; no registro global validado"
+}

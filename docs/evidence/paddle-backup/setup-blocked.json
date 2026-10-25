@@ -1,0 +1,17 @@
+{
+  "status": "BLOCKED",
+  "phase": "PyPI dry-run resolution, before dependency installation",
+  "python": "3.13",
+  "profile": "Temporary HOME/XDG and new venv without user/system site-packages",
+  "seeds": {
+    "paddleocr": "3.3.2",
+    "paddlepaddle": "3.2.2"
+  },
+  "pip_exit_code": 1,
+  "pip_diagnostic": "Could not find a version that satisfies the requirement; from versions: none",
+  "direct_https_diagnostic": "URLError: Temporary failure in name resolution for PyPI and Hugging Face",
+  "runtime_installed": false,
+  "models_downloaded": false,
+  "accuracy_validated": false,
+  "paddle_latency_measured": false
+}

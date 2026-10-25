@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-21",
+  "status": "removed at user request",
+  "scope": [
+    "manual image preparation/comparison",
+    "manual PaddleOCR backup",
+    "review workers and their cache",
+    "provisioning and benchmark tools"
+  ],
+  "preserved": [
+    "Anki",
+    "Appearance",
+    "capture/copy and existing Translator shortcut",
+    "installed runtime/models/caches",
+    "historical diagnostics and dependency inventory"
+  ],
+  "regression": {
+    "tests": 221,
+    "skipped": 2,
+    "result": "OK",
+    "seconds": 35.638
+  },
+  "active_ocr_matches_HEAD": true,
+  "remaining_manual_backend_references_in_python": 0,
+  "desktop_validation": "not performed",
+  "restart_required_for_running_instances": true
+}

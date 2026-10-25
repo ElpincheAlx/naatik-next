@@ -1,0 +1,272 @@
+{
+  "kind": "static read-only inspection; no legacy imports/execution, no local Anki HTTP, no collection/profile reads",
+  "date": "2026-10-20",
+  "next_base": "0ce616d65e132b34fe1f79b2924ac27c725aaf80",
+  "sources": [
+    {
+      "relative_path": "ui_service.py",
+      "sha256": "7261622cb52f010ec10119239caa530c6235e115afe60c586e27e10810244878",
+      "lines": 415,
+      "snapshot_present": true,
+      "snapshot_sha256": "7261622cb52f010ec10119239caa530c6235e115afe60c586e27e10810244878",
+      "matches_snapshot": true,
+      "definitions": {
+        "show_phrase": 80,
+        "show_translator": 149
+      }
+    },
+    {
+      "relative_path": "translator_popup_qt.py",
+      "sha256": "b91987e8487a562da89a6cb5af3794387626f54165a100c605adb58f0f04c7ea",
+      "lines": 1094,
+      "snapshot_present": true,
+      "snapshot_sha256": "b91987e8487a562da89a6cb5af3794387626f54165a100c605adb58f0f04c7ea",
+      "matches_snapshot": true,
+      "definitions": {
+        "get_parse_term": 45,
+        "dictionary_fallback": 581,
+        "build_selection_dictionary": 619,
+        "dictionary_lookup": 697,
+        "extract_examples": 793
+      }
+    },
+    {
+      "relative_path": "phrase_popup_qt.py",
+      "sha256": "ebd55c69832d6cc0b708fd204170cb513af2dcf348fa980be77762cfd517fb4a",
+      "lines": 1192,
+      "snapshot_present": true,
+      "snapshot_sha256": "ebd55c69832d6cc0b708fd204170cb513af2dcf348fa980be77762cfd517fb4a",
+      "matches_snapshot": true,
+      "definitions": {
+        "get_parse_term": 43,
+        "load_dictionary": 212,
+        "dictionary_lookup": 545,
+        "extract_pitch_text": 691,
+        "extract_examples": 744,
+        "analyze_text": 770,
+        "run_phrase_anki": 790,
+        "send_selection_to_anki": 832,
+        "send_full_phrase_to_anki": 860
+      }
+    },
+    {
+      "relative_path": "phrase_anki.py",
+      "sha256": "ea7b2cd19f275085233e2da277daf3338fd184259bd1b939e1d916f19e3f15bb",
+      "lines": 344,
+      "snapshot_present": true,
+      "snapshot_sha256": "ea7b2cd19f275085233e2da277daf3338fd184259bd1b939e1d916f19e3f15bb",
+      "matches_snapshot": true,
+      "definitions": {
+        "get_lookup_term": 52,
+        "extract_kanji_notes": 111,
+        "build_pitch_field": 145,
+        "create_note": 249
+      }
+    },
+    {
+      "relative_path": "yomitan_anki.py",
+      "sha256": "d960a81d2d1acda4b50e974f084e8a90877947d94f7c11be5dee527905005c5a",
+      "lines": 76,
+      "snapshot_present": false,
+      "definitions": {}
+    },
+    {
+      "relative_path": "anki_phrase.sh",
+      "sha256": "a0597c4e48965aaaa5187cbd7cc045913a3b44d189e9813be00eb7a8700899fe",
+      "lines": 16,
+      "snapshot_present": false
+    },
+    {
+      "relative_path": "phrase_streamdeck.sh",
+      "sha256": "3de1229a08dd0ed0e12f9482fe1128cf3699ba6b70000a892a8aa461e1c8f06c",
+      "lines": 50,
+      "snapshot_present": false
+    },
+    {
+      "relative_path": "phrase_popup.py",
+      "sha256": "15be4ca51fe34378e1486c075e8e4d832e86c7fda0a2d09a8cfa25fc7efb775d",
+      "lines": 1438,
+      "snapshot_present": false,
+      "definitions": {
+        "get_parse_term": 35,
+        "dictionary_lookup": 379,
+        "load_dictionary_for_token": 531,
+        "finish_dictionary_load": 563,
+        "extract_pitch_text": 738,
+        "extract_examples": 824,
+        "analyze_text": 942,
+        "run_phrase_anki": 972,
+        "send_to_anki": 1030,
+        "send_full_phrase_to_anki": 1052
+      }
+    },
+    {
+      "relative_path": "phrase_engine.py",
+      "sha256": "fa8894b39ec607de00f171b16d23bca2b2d49b4b576a4536923883ecc36db2e1",
+      "lines": 667,
+      "snapshot_present": true,
+      "snapshot_sha256": "fa8894b39ec607de00f171b16d23bca2b2d49b4b576a4536923883ecc36db2e1",
+      "matches_snapshot": true,
+      "definitions": {
+        "analyze_tokens": 397
+      }
+    },
+    {
+      "relative_path": "jp/modules/anki.py",
+      "sha256": "9b536fc72b09f837cdfeb565b9d574c3d6687cca2e15cb101a6a72bce74fcf97",
+      "lines": 212,
+      "snapshot_present": true,
+      "snapshot_sha256": "9b536fc72b09f837cdfeb565b9d574c3d6687cca2e15cb101a6a72bce74fcf97",
+      "matches_snapshot": true,
+      "definitions": {
+        "anki_request": 10,
+        "build_fields": 33,
+        "add_note": 153
+      }
+    },
+    {
+      "relative_path": "jp/modules/dictionary_formatter.py",
+      "sha256": "37755594ab232a90a8d60ea322e8789b2a9795da9395eaf42509bec7a2c24ca0",
+      "lines": 2115,
+      "snapshot_present": true,
+      "snapshot_sha256": "37755594ab232a90a8d60ea322e8789b2a9795da9395eaf42509bec7a2c24ca0",
+      "matches_snapshot": true,
+      "definitions": {
+        "search_pitch": 525,
+        "search_term": 595,
+        "parse_pitch": 1038,
+        "parse_term": 1287,
+        "format_pitch": 1474,
+        "format_dictionary": 1695,
+        "_build_term_index": 336,
+        "_build_pitch_index": 372,
+        "_search_term_indexes": 452,
+        "_pair_examples": 886
+      }
+    },
+    {
+      "relative_path": "jp/jp.py",
+      "sha256": "29139306abacac0e5c0b3a64e729e927674965af8b80df39544f67cd81951706",
+      "lines": 309,
+      "snapshot_present": false,
+      "definitions": {}
+    },
+    {
+      "relative_path": "jp/server/anki.py",
+      "sha256": "786a4abfa2647481850b41a51e9d39606369dd38a08cb3623f0d387a2cfc908b",
+      "lines": 78,
+      "snapshot_present": false,
+      "definitions": {
+        "_call": 10,
+        "candidate_words": 27,
+        "add_note": 47
+      }
+    },
+    {
+      "relative_path": "jp/server/web.py",
+      "sha256": "fe5204a72993665dcf8103492e6dd75a289791f92a100b867306b2b90a69c320",
+      "lines": 395,
+      "snapshot_present": true,
+      "snapshot_sha256": "fe5204a72993665dcf8103492e6dd75a289791f92a100b867306b2b90a69c320",
+      "matches_snapshot": true,
+      "definitions": {}
+    },
+    {
+      "relative_path": "jp/server/static/app.js",
+      "sha256": "e99b4d5656f3adda048d5725a1f65531b87b6ba2d4c9315a1c5f9dca5c012e37",
+      "lines": 1148,
+      "snapshot_present": false
+    },
+    {
+      "relative_path": "jp/server/config.py",
+      "sha256": "422b54cfae2ec75451307263c94e5401bca0f680eb75c3e0986f20ddcd327cef",
+      "lines": 18,
+      "snapshot_present": true,
+      "snapshot_sha256": "422b54cfae2ec75451307263c94e5401bca0f680eb75c3e0986f20ddcd327cef",
+      "matches_snapshot": true,
+      "definitions": {}
+    },
+    {
+      "relative_path": "jp/modules/enrich.py",
+      "sha256": "fd4b2a4cc2c93b099411c43575aa4d0c6e7737a2ff2ef79507c94d823d5c5e6e",
+      "lines": 262,
+      "snapshot_present": false,
+      "definitions": {
+        "get_connection": 13,
+        "get_kanji_notes": 23,
+        "get_pitch": 88,
+        "get_shinwaei": 132,
+        "get_synonyms": 169,
+        "get_example": 190,
+        "enrich_word": 227,
+        "enrich_parts": 260
+      }
+    }
+  ],
+  "review_documents": [
+    {
+      "relative_path": "README.md",
+      "sha256": "4f2fb3e51c0d5963bec86bff22e0d266b62cb6a2b290233c58365fc60836517b"
+    },
+    {
+      "relative_path": "FLUJO-ACTUAL.md",
+      "sha256": "cb9b765987bab46483b7808f8542b5c170afd7e5ae2bc5ea1e9cd2d29b4382bc"
+    },
+    {
+      "relative_path": "MAPEO-NAATIK.md",
+      "sha256": "e48177527b4c86eac11924479ebc9c9e8f2436c560898ebe1cd1079e50e3d6b9"
+    },
+    {
+      "relative_path": "MANIFEST.json",
+      "sha256": "a16d81e6716e1216345369daa7dfa9f4ef45b8965f0f6b3c2ffe9095834759f5"
+    },
+    {
+      "relative_path": "VERIFICACION.json",
+      "sha256": "d4443444c60d38e300cebdd50e70bddd5586f059fafc6f17f302bc29124e29c9"
+    }
+  ],
+  "next_sources": [
+    {
+      "relative_path": "naatik_next/app.py",
+      "sha256": "cd793a5f40c18fb0c80aa950abeaa37b4df002f527da160ecc7c7a0d414f8809"
+    },
+    {
+      "relative_path": "naatik_next/popups.py",
+      "sha256": "d5718d0420ee9afb75992a3ebd74fb329c6eb8a101a8e0f105e392ba629cf32c"
+    },
+    {
+      "relative_path": "naatik_next/popup_presentation.py",
+      "sha256": "46ba103a088eb15a7334078510af93b8e1ccf3d0a7a077902376b9bfd3e561ea"
+    },
+    {
+      "relative_path": "naatik_next/phrase_worker.py",
+      "sha256": "2ff6cedc73ad78425a958b17f56ac909e87c95c0b9725f2e33ba3e584007552b"
+    },
+    {
+      "relative_path": "naatik_next/storage.py",
+      "sha256": "9827bc90626a11ec0181aed42894045e0923771efa5b2d50f21b52bf986c5f8e"
+    },
+    {
+      "relative_path": "naatik_next/dictionary_content.py",
+      "sha256": "3377e7b60e486776552828dc2ccddd1382e1863357ebd46bb6fa22033db25a74"
+    },
+    {
+      "relative_path": "naatik_next/dictionary_archive.py",
+      "sha256": "0afdaa6f63dee4e9ef92d11914cccf7aec29db2329c0e6367a8145a8e20f9fa4"
+    },
+    {
+      "relative_path": "naatik_next/processes.py",
+      "sha256": "ceddf9004479bf34ffa9feaf77f80749f3c74cd141cb4cc41e13dcbd5860b927"
+    }
+  ],
+  "validation": {
+    "legacy_runtime": "NOT RUN",
+    "ankiconnect_calls": "NONE",
+    "personal_collection": "NOT READ OR EXPORTED",
+    "real_anki_test_profile": "PLANNED ONLY",
+    "mock_server": "PLANNED ONLY",
+    "startup_closed_bug": "PENDING; no lifecycle change",
+    "appearance": "PENDING; not implemented",
+    "source_hashes_rechecked": "PASS; current legacy and Next source files unchanged after inspection"
+  }
+}

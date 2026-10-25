@@ -1,0 +1,6 @@
+{
+  "kind": "real Qt Task/QProcess and SIGKILL, synthetic busy worker; no IPC or GUI simulation",
+  "output": "/tmp/HISTORICAL-REVIEW",
+  "owner_exit": -9,
+  "worker_alive_after_owner_kill": false
+}

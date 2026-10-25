@@ -1,0 +1,43 @@
+[
+  {
+    "language": "es",
+    "flags": [],
+    "window": {
+      "title": "Na’atik Next — OCR y traducción local",
+      "tutorial": true,
+      "language": "es"
+    },
+    "second_launch": "forwarded",
+    "backend": "xcb",
+    "pid": 3022355,
+    "shutdown": "SIGTERM 143; lock and endpoint removed"
+  },
+  {
+    "language": "en",
+    "flags": [],
+    "window": {
+      "title": "Na’atik Next — local OCR and translation",
+      "tutorial": true,
+      "language": "en"
+    },
+    "second_launch": "forwarded",
+    "backend": "xcb",
+    "pid": 3022569,
+    "shutdown": "SIGTERM 143; lock and endpoint removed"
+  },
+  {
+    "language": "en",
+    "flags": [
+      "--capture"
+    ],
+    "window": {
+      "title": "Na’atik Next — local OCR and translation",
+      "tutorial": false,
+      "language": "en"
+    },
+    "second_launch": "forwarded",
+    "backend": "xcb",
+    "pid": 3022800,
+    "shutdown": "SIGTERM 143; lock and endpoint removed"
+  }
+]

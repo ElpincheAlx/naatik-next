@@ -1,0 +1,616 @@
+{
+  "adapter": {
+    "versions": {
+      "argostranslate": "1.11.0",
+      "ctranslate2": "4.8.1",
+      "sentencepiece": "0.2.2"
+    },
+    "packages": {
+      "ja→en": {
+        "path": "/historical-home/.local/share/argos-translate/packages/ja_en",
+        "version": "1.1",
+        "files_sha256": {
+          "metadata.json": "a1becb19cb8abfc25d15bd8978cf543215c596876fb4b6d5c2c2a50949ece416",
+          "sentencepiece.model": "af3f880c259f55c62ed6c77c1ebc3cf46d6a95cc7cd8e9fcc78ee75417b987ef",
+          "model/model.bin": "5d2ac0b0e427aa368b635812853a70b09976d2318bf889a9327488968b501c83",
+          "model/shared_vocabulary.txt": "8e6872bdfa55e2d91334ec5cd24eb6dab86033129639b940c60cd955b0f7a8a7"
+        }
+      },
+      "en→es": {
+        "path": "/historical-home/.local/share/argos-translate/packages/en_es",
+        "version": "1.0",
+        "files_sha256": {
+          "metadata.json": "d3360ebfd9b5458b84d7c75d078e379541e4f2ce009bca84f20f360572547bbd",
+          "sentencepiece.model": "71790fd75854ce996bc9f7da40fb72af41b74296d53fee64bce141967e8e81b1",
+          "model/model.bin": "d5771f823c9dd7eedcf9367c116aede65613a194f761a81826351e2bccb194c4",
+          "model/shared_vocabulary.txt": "e03caf337f37b61d2e056b9cfbc5551a0c8ae7555541fba14c067d4574db1132"
+        }
+      }
+    },
+    "discovery": {
+      "routes": [
+        [
+          "en",
+          "es"
+        ],
+        [
+          "ja",
+          "en"
+        ],
+        [
+          "ja",
+          "en",
+          "es"
+        ]
+      ],
+      "errors": [],
+      "detail": "Modelos Argos locales probados mediante inferencia. Traducción por líneas (máximo 1 000 caracteres por línea)."
+    },
+    "cases": [
+      {
+        "input": "日本",
+        "text": "Japanese",
+        "route": [
+          "ja",
+          "en"
+        ],
+        "stages": [
+          {
+            "route": [
+              "ja",
+              "en"
+            ],
+            "input": "日本",
+            "target_prefix": "",
+            "input_tokens": [
+              [
+                "▁日本"
+              ]
+            ],
+            "inference_options": {
+              "target_prefix": null,
+              "beam_size": 4,
+              "replace_unknowns": true,
+              "max_decoding_length": 1024,
+              "length_penalty": 0.2
+            },
+            "output_tokens": [
+              [
+                [
+                  "▁Japanese"
+                ]
+              ]
+            ],
+            "output": "Japanese"
+          }
+        ]
+      },
+      {
+        "input": "日本",
+        "text": "japonés",
+        "route": [
+          "ja",
+          "en",
+          "es"
+        ],
+        "stages": [
+          {
+            "route": [
+              "ja",
+              "en"
+            ],
+            "input": "日本",
+            "target_prefix": "",
+            "input_tokens": [
+              [
+                "▁日本"
+              ]
+            ],
+            "inference_options": {
+              "target_prefix": null,
+              "beam_size": 4,
+              "replace_unknowns": true,
+              "max_decoding_length": 1024,
+              "length_penalty": 0.2
+            },
+            "output_tokens": [
+              [
+                [
+                  "▁Japanese"
+                ]
+              ]
+            ],
+            "output": "Japanese"
+          },
+          {
+            "route": [
+              "en",
+              "es"
+            ],
+            "input": "Japanese",
+            "target_prefix": "",
+            "input_tokens": [
+              [
+                "▁Japanese"
+              ]
+            ],
+            "inference_options": {
+              "target_prefix": null,
+              "beam_size": 4,
+              "replace_unknowns": true,
+              "max_decoding_length": 1024,
+              "length_penalty": 0.2
+            },
+            "output_tokens": [
+              [
+                [
+                  "▁japonés"
+                ]
+              ]
+            ],
+            "output": "japonés"
+          }
+        ]
+      },
+      {
+        "input": "日本語",
+        "text": "English",
+        "route": [
+          "ja",
+          "en"
+        ],
+        "stages": [
+          {
+            "route": [
+              "ja",
+              "en"
+            ],
+            "input": "日本語",
+            "target_prefix": "",
+            "input_tokens": [
+              [
+                "▁日本語"
+              ]
+            ],
+            "inference_options": {
+              "target_prefix": null,
+              "beam_size": 4,
+              "replace_unknowns": true,
+              "max_decoding_length": 1024,
+              "length_penalty": 0.2
+            },
+            "output_tokens": [
+              [
+                [
+                  "▁English"
+                ]
+              ]
+            ],
+            "output": "English"
+          }
+        ]
+      },
+      {
+        "input": "日本語",
+        "text": "Inglés",
+        "route": [
+          "ja",
+          "en",
+          "es"
+        ],
+        "stages": [
+          {
+            "route": [
+              "ja",
+              "en"
+            ],
+            "input": "日本語",
+            "target_prefix": "",
+            "input_tokens": [
+              [
+                "▁日本語"
+              ]
+            ],
+            "inference_options": {
+              "target_prefix": null,
+              "beam_size": 4,
+              "replace_unknowns": true,
+              "max_decoding_length": 1024,
+              "length_penalty": 0.2
+            },
+            "output_tokens": [
+              [
+                [
+                  "▁English"
+                ]
+              ]
+            ],
+            "output": "English"
+          },
+          {
+            "route": [
+              "en",
+              "es"
+            ],
+            "input": "English",
+            "target_prefix": "",
+            "input_tokens": [
+              [
+                "▁English"
+              ]
+            ],
+            "inference_options": {
+              "target_prefix": null,
+              "beam_size": 4,
+              "replace_unknowns": true,
+              "max_decoding_length": 1024,
+              "length_penalty": 0.2
+            },
+            "output_tokens": [
+              [
+                [
+                  "▁Inglés"
+                ]
+              ]
+            ],
+            "output": "Inglés"
+          }
+        ]
+      },
+      {
+        "input": "日本に行きます。",
+        "text": "Go to Japan",
+        "route": [
+          "ja",
+          "en"
+        ],
+        "stages": [
+          {
+            "route": [
+              "ja",
+              "en"
+            ],
+            "input": "日本に行きます。",
+            "target_prefix": "",
+            "input_tokens": [
+              [
+                "▁日本",
+                "に",
+                "行きます",
+                "。"
+              ]
+            ],
+            "inference_options": {
+              "target_prefix": null,
+              "beam_size": 4,
+              "replace_unknowns": true,
+              "max_decoding_length": 1024,
+              "length_penalty": 0.2
+            },
+            "output_tokens": [
+              [
+                [
+                  "▁Go",
+                  "▁to",
+                  "▁Japan"
+                ]
+              ]
+            ],
+            "output": "Go to Japan"
+          }
+        ]
+      },
+      {
+        "input": "日本に行きます。",
+        "text": "Ir a Japón",
+        "route": [
+          "ja",
+          "en",
+          "es"
+        ],
+        "stages": [
+          {
+            "route": [
+              "ja",
+              "en"
+            ],
+            "input": "日本に行きます。",
+            "target_prefix": "",
+            "input_tokens": [
+              [
+                "▁日本",
+                "に",
+                "行きます",
+                "。"
+              ]
+            ],
+            "inference_options": {
+              "target_prefix": null,
+              "beam_size": 4,
+              "replace_unknowns": true,
+              "max_decoding_length": 1024,
+              "length_penalty": 0.2
+            },
+            "output_tokens": [
+              [
+                [
+                  "▁Go",
+                  "▁to",
+                  "▁Japan"
+                ]
+              ]
+            ],
+            "output": "Go to Japan"
+          },
+          {
+            "route": [
+              "en",
+              "es"
+            ],
+            "input": "Go to Japan",
+            "target_prefix": "",
+            "input_tokens": [
+              [
+                "▁Go",
+                "▁to",
+                "▁Japan"
+              ]
+            ],
+            "inference_options": {
+              "target_prefix": null,
+              "beam_size": 4,
+              "replace_unknowns": true,
+              "max_decoding_length": 1024,
+              "length_penalty": 0.2
+            },
+            "output_tokens": [
+              [
+                [
+                  "▁Ir",
+                  "▁a",
+                  "▁Japón"
+                ]
+              ]
+            ],
+            "output": "Ir a Japón"
+          }
+        ]
+      }
+    ]
+  },
+  "official": {
+    "versions": {
+      "argostranslate": "1.11.0",
+      "ctranslate2": "4.8.1",
+      "sentencepiece": "0.2.2"
+    },
+    "packages": {
+      "ja→en": {
+        "path": "/historical-home/.local/share/argos-translate/packages/ja_en",
+        "version": "1.1",
+        "files_sha256": {
+          "metadata.json": "a1becb19cb8abfc25d15bd8978cf543215c596876fb4b6d5c2c2a50949ece416",
+          "sentencepiece.model": "af3f880c259f55c62ed6c77c1ebc3cf46d6a95cc7cd8e9fcc78ee75417b987ef",
+          "model/model.bin": "5d2ac0b0e427aa368b635812853a70b09976d2318bf889a9327488968b501c83",
+          "model/shared_vocabulary.txt": "8e6872bdfa55e2d91334ec5cd24eb6dab86033129639b940c60cd955b0f7a8a7"
+        }
+      },
+      "en→es": {
+        "path": "/historical-home/.local/share/argos-translate/packages/en_es",
+        "version": "1.0",
+        "files_sha256": {
+          "metadata.json": "d3360ebfd9b5458b84d7c75d078e379541e4f2ce009bca84f20f360572547bbd",
+          "sentencepiece.model": "71790fd75854ce996bc9f7da40fb72af41b74296d53fee64bce141967e8e81b1",
+          "model/model.bin": "d5771f823c9dd7eedcf9367c116aede65613a194f761a81826351e2bccb194c4",
+          "model/shared_vocabulary.txt": "e03caf337f37b61d2e056b9cfbc5551a0c8ae7555541fba14c067d4574db1132"
+        }
+      }
+    },
+    "stanza_download_method": "NONE",
+    "cases": [
+      {
+        "input": "日本",
+        "route": [
+          "ja",
+          "en"
+        ],
+        "stages": [
+          {
+            "route": [
+              "ja",
+              "en"
+            ],
+            "input": "日本",
+            "input_tokens": [
+              "▁日本"
+            ],
+            "output": "Japanese"
+          }
+        ],
+        "text": "Japanese"
+      },
+      {
+        "input": "日本",
+        "route": [
+          "ja",
+          "en",
+          "es"
+        ],
+        "stages": [
+          {
+            "route": [
+              "ja",
+              "en"
+            ],
+            "input": "日本",
+            "input_tokens": [
+              "▁日本"
+            ],
+            "output": "Japanese"
+          },
+          {
+            "route": [
+              "en",
+              "es"
+            ],
+            "input": "Japanese",
+            "input_tokens": [
+              "▁Japanese"
+            ],
+            "output": "japonés"
+          }
+        ],
+        "text": "japonés"
+      },
+      {
+        "input": "日本語",
+        "route": [
+          "ja",
+          "en"
+        ],
+        "stages": [
+          {
+            "route": [
+              "ja",
+              "en"
+            ],
+            "input": "日本語",
+            "input_tokens": [
+              "▁日本語"
+            ],
+            "output": "English"
+          }
+        ],
+        "text": "English"
+      },
+      {
+        "input": "日本語",
+        "route": [
+          "ja",
+          "en",
+          "es"
+        ],
+        "stages": [
+          {
+            "route": [
+              "ja",
+              "en"
+            ],
+            "input": "日本語",
+            "input_tokens": [
+              "▁日本語"
+            ],
+            "output": "English"
+          },
+          {
+            "route": [
+              "en",
+              "es"
+            ],
+            "input": "English",
+            "input_tokens": [
+              "▁English"
+            ],
+            "output": "Inglés"
+          }
+        ],
+        "text": "Inglés"
+      },
+      {
+        "input": "日本に行きます。",
+        "route": [
+          "ja",
+          "en"
+        ],
+        "stages": [
+          {
+            "route": [
+              "ja",
+              "en"
+            ],
+            "input": "日本に行きます。",
+            "input_tokens": [
+              "▁日本",
+              "に",
+              "行きます",
+              "。"
+            ],
+            "output": "Go to Japan"
+          }
+        ],
+        "text": "Go to Japan"
+      },
+      {
+        "input": "日本に行きます。",
+        "route": [
+          "ja",
+          "en",
+          "es"
+        ],
+        "stages": [
+          {
+            "route": [
+              "ja",
+              "en"
+            ],
+            "input": "日本に行きます。",
+            "input_tokens": [
+              "▁日本",
+              "に",
+              "行きます",
+              "。"
+            ],
+            "output": "Go to Japan"
+          },
+          {
+            "route": [
+              "en",
+              "es"
+            ],
+            "input": "Go to Japan",
+            "input_tokens": [
+              "▁Go",
+              "▁to",
+              "▁Japan"
+            ],
+            "output": "Ir a Japón"
+          }
+        ],
+        "text": "Ir a Japón"
+      }
+    ],
+    "beam_size": 4,
+    "device": "cpu",
+    "official_single_line": [
+      {
+        "input": "日本",
+        "hypotheses": [
+          {
+            "text": "Japanese",
+            "score": -3.8894195556640625
+          }
+        ]
+      },
+      {
+        "input": "日本語",
+        "hypotheses": [
+          {
+            "text": "English",
+            "score": -2.6618378162384033
+          }
+        ]
+      },
+      {
+        "input": "日本に行きます。",
+        "hypotheses": [
+          {
+            "text": "Go to Japan",
+            "score": -1.8469209671020508
+          }
+        ]
+      }
+    ]
+  },
+  "same_package_files": true,
+  "same_outputs": true
+}

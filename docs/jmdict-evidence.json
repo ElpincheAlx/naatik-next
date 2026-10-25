@@ -1,0 +1,249 @@
+{
+  "import": {
+    "title": "JMdict [2025-11-01]",
+    "count": 513033
+  },
+  "rows_compared_losslessly": 513033,
+  "日本": [
+    {
+      "reading": "にほん",
+      "meanings": [
+        {
+          "content": [
+            {
+              "content": {
+                "content": "Japan",
+                "tag": "li"
+              },
+              "data": {
+                "content": "glossary"
+              },
+              "lang": "en",
+              "style": {
+                "listStyleType": "circle"
+              },
+              "tag": "ul"
+            },
+            {
+              "content": [
+                {
+                  "content": "日本は中国の東方にある。",
+                  "tag": "li"
+                },
+                {
+                  "content": "Japan is to the east of China.",
+                  "lang": "en",
+                  "style": {
+                    "listStyleType": "'🇬🇧 '"
+                  },
+                  "tag": "li"
+                }
+              ],
+              "data": {
+                "content": "examples"
+              },
+              "lang": "ja",
+              "style": {
+                "listStyleType": "'🇯🇵 '"
+              },
+              "tag": "ul"
+            }
+          ],
+          "type": "structured-content"
+        }
+      ]
+    },
+    {
+      "reading": "にほん",
+      "meanings": [
+        {
+          "content": {
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": "",
+                    "tag": "th"
+                  },
+                  {
+                    "content": "日本",
+                    "style": {
+                      "textAlign": "center"
+                    },
+                    "tag": "th"
+                  }
+                ],
+                "tag": "tr"
+              },
+              {
+                "content": [
+                  {
+                    "content": "にほん",
+                    "style": {
+                      "textAlign": "left"
+                    },
+                    "tag": "th"
+                  },
+                  {
+                    "content": "★",
+                    "style": {
+                      "textAlign": "center"
+                    },
+                    "tag": "td"
+                  }
+                ],
+                "tag": "tr"
+              },
+              {
+                "content": [
+                  {
+                    "content": "にっぽん",
+                    "style": {
+                      "textAlign": "left"
+                    },
+                    "tag": "th"
+                  },
+                  {
+                    "content": "★",
+                    "style": {
+                      "textAlign": "center"
+                    },
+                    "tag": "td"
+                  }
+                ],
+                "tag": "tr"
+              }
+            ],
+            "data": {
+              "content": "formsTable"
+            },
+            "tag": "table"
+          },
+          "type": "structured-content"
+        }
+      ]
+    },
+    {
+      "reading": "にっぽん",
+      "meanings": [
+        {
+          "content": [
+            {
+              "content": {
+                "content": "Japan",
+                "tag": "li"
+              },
+              "data": {
+                "content": "glossary"
+              },
+              "lang": "en",
+              "style": {
+                "listStyleType": "circle"
+              },
+              "tag": "ul"
+            },
+            {
+              "content": [
+                {
+                  "content": "日本は中国の東方にある。",
+                  "tag": "li"
+                },
+                {
+                  "content": "Japan is to the east of China.",
+                  "lang": "en",
+                  "style": {
+                    "listStyleType": "'🇬🇧 '"
+                  },
+                  "tag": "li"
+                }
+              ],
+              "data": {
+                "content": "examples"
+              },
+              "lang": "ja",
+              "style": {
+                "listStyleType": "'🇯🇵 '"
+              },
+              "tag": "ul"
+            }
+          ],
+          "type": "structured-content"
+        }
+      ]
+    },
+    {
+      "reading": "にっぽん",
+      "meanings": [
+        {
+          "content": {
+            "content": [
+              {
+                "content": [
+                  {
+                    "content": "",
+                    "tag": "th"
+                  },
+                  {
+                    "content": "日本",
+                    "style": {
+                      "textAlign": "center"
+                    },
+                    "tag": "th"
+                  }
+                ],
+                "tag": "tr"
+              },
+              {
+                "content": [
+                  {
+                    "content": "にほん",
+                    "style": {
+                      "textAlign": "left"
+                    },
+                    "tag": "th"
+                  },
+                  {
+                    "content": "★",
+                    "style": {
+                      "textAlign": "center"
+                    },
+                    "tag": "td"
+                  }
+                ],
+                "tag": "tr"
+              },
+              {
+                "content": [
+                  {
+                    "content": "にっぽん",
+                    "style": {
+                      "textAlign": "left"
+                    },
+                    "tag": "th"
+                  },
+                  {
+                    "content": "★",
+                    "style": {
+                      "textAlign": "center"
+                    },
+                    "tag": "td"
+                  }
+                ],
+                "tag": "tr"
+              }
+            ],
+            "data": {
+              "content": "formsTable"
+            },
+            "tag": "table"
+          },
+          "type": "structured-content"
+        }
+      ]
+    }
+  ],
+  "duplicate_activation_priority_reopen_remove": "passed",
+  "original_sha256": "677fb8b0cc5e4bef3b0bfab4540b374406688e78d4943b0f8460794ede108081",
+  "original_unchanged": true,
+  "seconds": 27.35
+}

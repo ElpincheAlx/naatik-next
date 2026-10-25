@@ -1,0 +1,75 @@
+{
+  "checked_on": "2026-10-20",
+  "method": "read official public documentation/source with web tool; no local Anki requests",
+  "sources": [
+    {
+      "url": "https://apps.ankiweb.net/",
+      "status": "read",
+      "purpose": "official desktop downloads; no installation/version selection performed"
+    },
+    {
+      "url": "https://docs.ankiweb.net/manual/platform/linux/installing",
+      "status": "read",
+      "purpose": "official installation guide"
+    },
+    {
+      "url": "https://docs.ankiweb.net/manual/addons",
+      "status": "read",
+      "purpose": "external add-ons setup and compatibility caveats"
+    },
+    {
+      "url": "https://docs.ankiweb.net/manual/profiles",
+      "status": "read",
+      "purpose": "profile separation; add-ons shared between profiles"
+    },
+    {
+      "url": "https://docs.ankiweb.net/manual/files",
+      "status": "read",
+      "purpose": "separate base directory for future test with -b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ankitects/anki/main/LICENSE",
+      "status": "read",
+      "license": "AGPL-3.0-or-later; exceptions/components listed separately; not a binary inventory"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FooSoft/anki-connect/master/LICENSE",
+      "status": "read official archived source",
+      "license": "GPL-3.0-or-later for archived source; current package not verified"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FooSoft/anki-connect/master/README.md",
+      "status": "read",
+      "purpose": "maintainer migration notice to SourceHut"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FooSoft/anki-connect/1f7fc80/README.md",
+      "status": "read official historical revision",
+      "purpose": "add-on identifier 2055492159, restart instructions and API reference; not current-version compatibility evidence"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FooSoft/anki-connect/master/plugin/__init__.py",
+      "status": "read official archived source",
+      "purpose": "API behavior, duplicate/empty validation, addNote, metadata and scoped note lookup; no code vendored"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FooSoft/anki-connect/master/plugin/config.json",
+      "status": "read official archived source",
+      "purpose": "historical loopback endpoint default; not a local user config"
+    },
+    {
+      "url": "https://ankiweb.net/shared/info/2055492159",
+      "status": "page requires JavaScript; description not readable with tool",
+      "purpose": "canonical add-on listing; installation not attempted"
+    },
+    {
+      "url": "https://git.sr.ht/~foosoft/anki-connect",
+      "status": "blocked by browsing tool robots/access restrictions",
+      "purpose": "current maintainer source; current package version/license/compatibility remain an implementation gate"
+    }
+  ],
+  "downloaded_or_installed_artifacts": [],
+  "package_hashes": "not applicable: no package downloaded; verify exact official package before future installation",
+  "local_ankiconnect_requests": 0,
+  "personal_collection_accessed": false
+}

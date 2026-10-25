@@ -1,0 +1,58 @@
+{
+  "kind": "fresh source, HOME/XDG, venvs and caches on existing Fedora host; not clean VM",
+  "workspace": "/tmp/HISTORICAL-REVIEW",
+  "checks": [
+    {
+      "action": "translation_status",
+      "returncode": 0,
+      "seconds": 0.077,
+      "result": {
+        "result": {
+          "installed": [],
+          "routes": [],
+          "errors": [
+            "No module named 'argostranslate'"
+          ],
+          "detail": "Falta preparar el entorno de traducción.",
+          "catalogue": {
+            "source": "https://raw.githubusercontent.com/argosopentech/argospm-index/main/index.json",
+            "sha256": null,
+            "items": []
+          },
+          "runtime_error": "No module named 'argostranslate'"
+        }
+      },
+      "stdout_sha256": "e6d71e4b5d47553380e5f3320b2dca64c6926e6d316fa23947668ded3d14e896"
+    },
+    {
+      "action": "translation_catalogue",
+      "returncode": 0,
+      "seconds": 0.085,
+      "result": {
+        "error": "No se pudo consultar el catálogo oficial. Revisa la conexión y reintenta; se conserva el catálogo anterior. <urlopen error [Errno -3] Temporary failure in name resolution>"
+      },
+      "stdout_sha256": "0d7cb225af1ea03c45ca2a7c2c4697eecc07bd76d34886849f522e79cd9f2f47"
+    },
+    {
+      "action": "prepare_base_runtime",
+      "returncode": 0,
+      "seconds": 1.894,
+      "result": {
+        "error": "No se pudo conectar con PyPI (red/DNS). Revisa tu conexión y reintenta. No se marcará como lista.\nWARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7fe406636e40>: Failed to establish a new connection: [Errno -2] Name or service not known')': /simple/argostranslate/\nERROR: Could not find a version that satisfies the requirement argostranslate==1.11.0 (from versions: none)\nERROR: No matching distribution found for argostranslate==1.11.0\n"
+      },
+      "stdout_sha256": "2604d26ba4fe010f7aaa239136a31e90809deffccda96ca1631aa35a180c9f25"
+    },
+    {
+      "action": "translation_runtime",
+      "returncode": 0,
+      "seconds": 1.888,
+      "result": {
+        "error": "No se pudo conectar con PyPI (red/DNS). Revisa tu conexión y reintenta. No se marcará como lista.\nWARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7f0df543e900>: Failed to establish a new connection: [Errno -2] Name or service not known')': /simple/argostranslate/\nERROR: Could not find a version that satisfies the requirement argostranslate==1.11.0 (from versions: none)\nERROR: No matching distribution found for argostranslate==1.11.0\n"
+      },
+      "stdout_sha256": "ee09d41f3d14f6b74c7066a47f8cee424038787b98f6740b1e82e1dcb4231762"
+    }
+  ],
+  "real_model_installation": "BLOCKED: DNS/network prevented dependency/catalogue retrieval; no model downloaded",
+  "real_neural_inference": "NOT RUN; no PASS",
+  "protected_unchanged": true
+}

@@ -1,0 +1,22 @@
+{
+  "profile": "/tmp/HISTORICAL-REVIEW",
+  "qt_platform": "offscreen",
+  "probe": {
+    "display": ":0",
+    "registration": false,
+    "conflict": false,
+    "released": false,
+    "activation": false,
+    "kind": "real libX11; two independent connections, no key injection",
+    "error": "No se puede abrir el display X11. El atajo no está registrado."
+  },
+  "shortcut_requested": "Ctrl+Alt+Shift+F12",
+  "qt_global_registered": false,
+  "qt_registration_status": "No registrado: esta integración requiere KDE/X11 y Qt xcb. Wayland y offscreen no están implementados.",
+  "activation_verified": false,
+  "kde_configuration_changed": false,
+  "streamcontroller_changed": false,
+  "script_generated": true,
+  "script": "/tmp/HISTORICAL-REVIEW/translator.sh",
+  "qt_released_on_close": true
+}

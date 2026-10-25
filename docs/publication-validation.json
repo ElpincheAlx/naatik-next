@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-24",
+  "source": "Current working-tree sources copied directly",
+  "runtime_sources_unchanged": true,
+  "platform": "Fedora 44 x86_64; CPython 3.14; CPU",
+  "isolation": {
+    "home_projects_inaccessible": true,
+    "previous_tmp_inaccessible": true,
+    "network_disabled": true,
+    "new_venv": true,
+    "user_site_enabled": false,
+    "system_executables_and_libraries_required": true,
+    "tool": "bubblewrap 0.12.0-1.fc44; existing diagnostic tool, not a runtime dependency"
+  },
+  "tests": {
+    "total": 254,
+    "successful": 251,
+    "skipped": 3,
+    "failures": 0,
+    "skips": [
+      "Optional phrase runtime absent (two tests)",
+      "Bind-denied gate inapplicable when named sockets are allowed"
+    ]
+  },
+  "checks": {
+    "isolation-probe": "PASS",
+    "install": "PASS",
+    "unittest": "PASS",
+    "independent-smoke": "PASS",
+    "lifecycle": "PASS",
+    "repair-uninstall": "PASS",
+    "import-origins": "PASS"
+  },
+  "actual_ocr": "Hello world",
+  "interface_languages": [
+    "es",
+    "en"
+  ],
+  "startup_backend": "Qt offscreen; actual launch and IPC",
+  "repair_and_uninstall": {
+    "preferences_preserved": true,
+    "synthetic_dictionary_sha256_preserved": true,
+    "explicit_language_change_only": true,
+    "uninstall_removed_only_own_desktop_entry": true
+  },
+  "static_audit": {
+    "symlinks": 0,
+    "private_logs": 0,
+    "credential_pattern_matches": 0,
+    "executable_modes_preserved": true,
+    "gitignore_exclusion_cases": 15,
+    "gitignore_required_source_cases": 11
+  },
+  "limits": [
+    "Online installation not rerun",
+    "Clean VM not tested",
+    "No new desktop capture/hotkey qualification",
+    "No real Anki collection or physical Stream Deck tests",
+    "Optional model inference and full interactive Tk flow not tested"
+  ],
+  "project_license": "MIT for project-owned code; independent third-party licenses retained",
+  "project_license_at_validation": "No own license found; no license selected",
+  "license_decision": {
+    "date": "2026-10-24",
+    "authorization": "Explicit copyright-holder instruction after the recorded validation",
+    "spdx": "MIT",
+    "copyright": "Copyright (c) 2026 ElpincheAlx",
+    "file": "LICENSE",
+    "third_party_terms_unchanged": true,
+    "tests_rerun_for_license_only_change": false
+  }
+}

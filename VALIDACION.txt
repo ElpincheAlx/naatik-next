@@ -1,0 +1,29 @@
+Na’atik Fedora — copia para publicación, 2026-10-24
+
+Fuentes actuales; tutorial y Español/English incluidos. Runtime, pruebas, locks,
+launch, ejemplos y AGENTS coinciden con el origen. Sin .git, entornos, ruedas,
+modelos, diccionarios, perfiles, datos personales, credenciales, logs ni volcados.
+README bilingüe y avisos de terceros conservados; rutas documentales anonimizadas.
+
+Instalación y arranque del paquete extraído en Bubblewrap: /home y temporales
+anteriores inaccesibles, red deshabilitada, /dev y /tmp privados; HOME/XDG/venv
+nuevos y sin paquetes del usuario. Ruedas offline separadas y verificadas por hash,
+no un entorno previo. No se prueba instalación online con este resultado.
+
+254 pruebas: 251 correctas, 3 omitidas, sin fallos. Tesseract real: Hello world.
+Arranque ES/EN, tutorial persistente, segunda invocación por IPC, cierre SIGTERM
+con limpieza. Reparación conserva preferencias/diccionario sintético; idioma
+explícito cambia solo UI. Desinstalación conserva datos y retira solo su menú.
+Qt offscreen: no acredita captura/atajos ni portapapeles de escritorio.
+
+Pendientes: instalación online/VM limpia, Wayland, Tk interactivo, modelos
+opcionales reales, Anki real y botones físicos. No se acreditan por el tutorial.
+En la validación inicial no había licencia propia. Decisión posterior del titular:
+código propio bajo MIT, Copyright (c) 2026 ElpincheAlx; terceros con términos
+independientes. Véanse LICENSE y la nota actual de PUBLICATION_REPORT.md.
+La preparación inicial no hizo commit, push ni remoto. Posteriormente el titular
+autorizó el commit inicial y la publicación pública en ElpincheAlx/naatik-next;
+la nota actual de PUBLICATION_REPORT.md conserva el contexto histórico.
+Originales y perfil habitual intactos.
+
+See PUBLICATION_REPORT.md and README.md for English instructions and test limits.

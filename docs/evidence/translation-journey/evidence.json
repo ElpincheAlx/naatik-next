@@ -1,0 +1,28 @@
+{
+  "profile": "/tmp/HISTORICAL-REVIEW",
+  "platform": "offscreen",
+  "runtime": "existing Next venv, isolated HOME/XDG; not a fresh venv or clean VM",
+  "runtime_versions": {
+    "argostranslate": "1.11.0",
+    "ctranslate2": "4.8.1",
+    "sentencepiece": "0.2.2",
+    "PySide6": "6.11.1"
+  },
+  "lock_sha256": "7ed3707d782c2abe46e2ca6ceeb0106ccabad19a0219c78e464b6be1fe532f88",
+  "network_downloads": false,
+  "local_models": [
+    {
+      "file": "translate-ja_en-1_1.argosmodel",
+      "sha256": "623e3477959a815eb0a5ef53e09079ae8f1f9d3bbcd230473baf28c03fb83335",
+      "provenance": "explicit local input; original download and individual license not verified by this run"
+    },
+    {
+      "file": "translate-en_es-1_0.argosmodel",
+      "sha256": "d698d0ef87ad70d5d184b7fa6965905bf4368f09a2bb9ffb165a79bac96af0c4",
+      "provenance": "explicit local input; original download and individual license not verified by this run"
+    }
+  ],
+  "state": "Listo",
+  "evidence": "Ruta: ja → en → es\nInferencia CPU comprobada sin red:\n私は毎日日本語を勉強しています。今日は図書館で本を読みます。\nEstoy estudiando japonés todos los días.",
+  "popup_output": "Estoy estudiando japonés todos los días."
+}

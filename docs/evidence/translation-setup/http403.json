@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-20",
+  "user_observation": "Screenshot: HTTP Error 403: Forbidden; catalogue saved with 100 models; no installed models; reviewed ja→en proposal.",
+  "cause": "UNDETERMINED; screenshot does not identify server/proxy cause or response headers",
+  "local_probes": [
+    {
+      "method": "HEAD",
+      "url": "https://argos-net.com/v1/translate-ja_en-1_1.argosmodel",
+      "user_agent": "Python-urllib/3.14",
+      "result": "URLError: [Errno -3] Temporary failure in name resolution"
+    },
+    {
+      "method": "HEAD",
+      "url": "https://argos-net.com/v1/translate-ja_en-1_1.argosmodel",
+      "user_agent": "Naatik-Next/1.0 (translation model setup)",
+      "result": "URLError: [Errno -3] Temporary failure in name resolution"
+    }
+  ],
+  "changes": [
+    "Report original request method/URL and HTTP code; do not infer rejection cause",
+    "Keep HEAD size unknown with diagnostic reason",
+    "Explicitly confirmed official HTTPS links may be opened in browser; manual file import retains validation"
+  ],
+  "no_new_model_origin": true,
+  "user_agent_changed": false,
+  "real_download": "NOT VALIDATED",
+  "real_neural_inference": "NOT RUN",
+  "browser_launch": "INJECTED TEST ONLY; no browser opened during tests",
+  "protected_script_sha256": "26887b6cd26519c1f03d95e93425bd931ca7a8319cc76f1de4990872b3e93ad4",
+  "tests": {
+    "count": 180,
+    "seconds": 30.57,
+    "result": "OK",
+    "log_sha256": "7d7cf4322c9d76a371c1493ec83f6cfaa68e6f13cef3b132bbc60b10ecbbe7c3",
+    "isolation": "HOME/XDG set before imports; Qt offscreen; HTTP and browser responses injected"
+  },
+  "source_sha256": {
+    "naatik_next/translation_setup.py": "2e6d88ab4980ed297c027bfa8b83ea53a4ac887da6093e575204465a378d11fc",
+    "naatik_next/translation_dialog.py": "80f87bfab17fa72aeb2664d464a05c6cc16ba1db99be898efda0bb03929fe1d1",
+    "tests/test_translation_setup.py": "adbdf709ba63243b490a71423f3ad364bf3a30f14eb3bcd6a062a06bdd588c40",
+    "tests/test_popups.py": "2bad446d1761dc40af15c8c3f57fef2a0cd1e6a7afe735dc3e517a578d9faf44"
+  }
+}

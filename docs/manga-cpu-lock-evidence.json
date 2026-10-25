@@ -1,0 +1,669 @@
+[
+  {
+    "name": "annotated-doc",
+    "version": "0.0.5",
+    "license_metadata": "MIT",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/annotated-doc/0.0.5/",
+    "sha256": "117bac03a25ede5df5440e855b32d556049ca169ead221505badf432fed4b101",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 5302,
+    "wheel": "annotated_doc-0.0.5-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "anyio",
+    "version": "4.14.2",
+    "license_metadata": "MIT",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/anyio/4.14.2/",
+    "sha256": "9f505dda5ac9f0c8309b5e8bd445a8c2bf7246f3ce950121e45ea15bc41d1494",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 125813,
+    "wheel": "anyio-4.14.2-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "certifi",
+    "version": "2026.7.22",
+    "license_metadata": "MPL-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+    ],
+    "source": "https://pypi.org/project/certifi/2026.7.22/",
+    "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 136983,
+    "wheel": "certifi-2026.7.22-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "click",
+    "version": "8.4.2",
+    "license_metadata": "BSD-3-Clause",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/click/8.4.2/",
+    "sha256": "e6f9f66136c816745b9d65817da91d61d957fb16e02e4dcd0552553c5a197b76",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 119243,
+    "wheel": "click-8.4.2-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "filelock",
+    "version": "3.32.3",
+    "license_metadata": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "source": "https://pypi.org/project/filelock/3.32.3/",
+    "sha256": "7f0ca4bcc0e181c60dbbd8aa9ab5b120ebb99e4e064e83636340056f833a1f09",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 98901,
+    "wheel": "filelock-3.32.3-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "fire",
+    "version": "0.7.1",
+    "license_metadata": "Apache-2.0",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/fire/0.7.1/",
+    "sha256": "e43fd8a5033a9001e7e2973bab96070694b9f12f2e0ecf96d4683971b5ab1882",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 115945,
+    "wheel": "fire-0.7.1-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "fsspec",
+    "version": "2026.7.0",
+    "license_metadata": "BSD-3-Clause",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/fsspec/2026.7.0/",
+    "sha256": "b57ddbafedfaef7018c1ecab32aa200a9d7ca26b77965f64e48b70061249d279",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 206583,
+    "wheel": "fsspec-2026.7.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "fugashi",
+    "version": "1.5.2",
+    "license_metadata": "MIT AND BSD-3-Clause",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/fugashi/1.5.2/",
+    "sha256": "71c0027aa11747adcb3753d31663290c53fea8007371f0b080c53c192918ceb9",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 686424,
+    "wheel": "fugashi-1.5.2-cp314-cp314-manylinux_2_17_x86_64.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "license_metadata": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "source": "https://pypi.org/project/h11/0.16.0/",
+    "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 37515,
+    "wheel": "h11-0.16.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "hf-xet",
+    "version": "1.6.0",
+    "license_metadata": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "source": "https://pypi.org/project/hf-xet/1.6.0/",
+    "sha256": "d62671bb130879cef0ee4c9ebe47a14af6c66ec53e6d84dc15936e5ffdfac82f",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 4464663,
+    "wheel": "hf_xet-1.6.0-cp38-abi3-manylinux_2_17_x86_64.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "httpcore",
+    "version": "1.0.9",
+    "license_metadata": "BSD-3-Clause",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "source": "https://pypi.org/project/httpcore/1.0.9/",
+    "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 78784,
+    "wheel": "httpcore-1.0.9-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "httpx",
+    "version": "0.28.1",
+    "license_metadata": "BSD-3-Clause",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "source": "https://pypi.org/project/httpx/0.28.1/",
+    "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 73517,
+    "wheel": "httpx-0.28.1-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "huggingface-hub",
+    "version": "1.26.0",
+    "license_metadata": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "source": "https://pypi.org/project/huggingface-hub/1.26.0/",
+    "sha256": "e8cca670caa5d8dfa7e45bf45e86b466698198cd8150c021bcdb4a86b9252364",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 780357,
+    "wheel": "huggingface_hub-1.26.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "idna",
+    "version": "3.18",
+    "license_metadata": "BSD-3-Clause",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/idna/3.18/",
+    "sha256": "7f952cbe720b688055e3f87de14f5c3e5fdaa8bc3928985c4077ca689de849a2",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 65455,
+    "wheel": "idna-3.18-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "jaconv",
+    "version": "0.5.0",
+    "license_metadata": "MIT License",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/jaconv/0.5.0/",
+    "sha256": "2914114fe761ca49fc7089e25e6ad4a400c26f262ffce84e13b176916b71610a",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 16831,
+    "wheel": "jaconv-0.5.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "jinja2",
+    "version": "3.1.6",
+    "license_metadata": "not specified; review notices",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "source": "https://pypi.org/project/jinja2/3.1.6/",
+    "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 134899,
+    "wheel": "jinja2-3.1.6-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "loguru",
+    "version": "0.7.3",
+    "license_metadata": "not specified; review notices",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "source": "https://pypi.org/project/loguru/0.7.3/",
+    "sha256": "31a33c10c8e1e10422bfd431aeb5d351c7cf7fa671e3c4df004162264b28220c",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 61595,
+    "wheel": "loguru-0.7.3-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "manga-ocr",
+    "version": "0.1.16",
+    "license_metadata": "Apache License\n                                   Version 2.0, January 2004\n                                http://www.apache.org/licenses/\n        \n           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n        \n           1. Definitions.\n        \n              \"License\" shall mean the terms and conditions for use, reproduction,\n              and distribution as defined by Sections 1 through 9 of this document.\n        \n              \"Licensor\" shall mean the copyright owner or entity authorized by\n              the copyright owner that is granting the License.\n        \n              \"Legal Entity\" shall mean the union of the acting entity and all\n              other entities that control, are controlled by, or are under common\n              control with that entity. For the purposes of this definition,\n              \"control\" means (i) the power, direct or indirect, to cause the\n              direction or management of such entity, whether by contract or\n              otherwise, or (ii) ownership of fifty percent (50%) or more of the\n              outstanding shares, or (iii) beneficial ownership of such entity.\n        \n              \"You\" (or \"Your\") shall mean an individual or Legal Entity\n              exercising permissions granted by this License.\n        \n              \"Source\" form shall mean the preferred form for making modifications,\n              including but not limited to software source code, documentation\n              source, and configuration files.\n        \n              \"Object\" form shall mean any form resulting from mechanical\n              transformation or translation of a Source form, including but\n              not limited to compiled object code, generated documentation,\n              and conversions to other media types.\n        \n              \"Work\" shall mean the work of authorship, whether in Source or\n              Object form, made available under the License, as indicated by a\n              copyright notice that is included in or attached to the work\n              (an example is provided in the Appendix below).\n        \n              \"Derivative Works\" shall mean any work, whether in Source or Object\n              form, that is based on (or derived from) the Work and for which the\n              editorial revisions, annotations, elaborations, or other modifications\n              represent, as a whole, an original work of authorship. For the purposes\n              of this License, Derivative Works shall not include works that remain\n              separable from, or merely link (or bind by name) to the interfaces of,\n              the Work and Derivative Works thereof.\n        \n              \"Contribution\" shall mean any work of authorship, including\n              the original version of the Work and any modifications or additions\n              to that Work or Derivative Works thereof, that is intentionally\n              submitted to Licensor for inclusion in the Work by the copyright owner\n              or by an individual or Legal Entity authorized to submit on behalf of\n              the copyright owner. For the purposes of this definition, \"submitted\"\n              means any form of electronic, verbal, or written communication sent\n              to the Licensor or its representatives, including but not limited to\n              communication on electronic mailing lists, source code control systems,\n              and issue tracking systems that are managed by, or on behalf of, the\n              Licensor for the purpose of discussing and improving the Work, but\n              excluding communication that is conspicuously marked or otherwise\n              designated in writing by the copyright owner as \"Not a Contribution.\"\n        \n              \"Contributor\" shall mean Licensor and any individual or Legal Entity\n              on behalf of whom a Contribution has been received by Licensor and\n              subsequently incorporated within the Work.\n        \n           2. Grant of Copyright License. Subject to the terms and conditions of\n              this License, each Contributor hereby grants to You a perpetual,\n              worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n              copyright license to reproduce, prepare Derivative Works of,\n              publicly display, publicly perform, sublicense, and distribute the\n              Work and such Derivative Works in Source or Object form.\n        \n           3. Grant of Patent License. Subject to the terms and conditions of\n              this License, each Contributor hereby grants to You a perpetual,\n              worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n              (except as stated in this section) patent license to make, have made,\n              use, offer to sell, sell, import, and otherwise transfer the Work,\n              where such license applies only to those patent claims licensable\n              by such Contributor that are necessarily infringed by their\n              Contribution(s) alone or by combination of their Contribution(s)\n              with the Work to which such Contribution(s) was submitted. If You\n              institute patent litigation against any entity (including a\n              cross-claim or counterclaim in a lawsuit) alleging that the Work\n              or a Contribution incorporated within the Work constitutes direct\n              or contributory patent infringement, then any patent licenses\n              granted to You under this License for that Work shall terminate\n              as of the date such litigation is filed.\n        \n           4. Redistribution. You may reproduce and distribute copies of the\n              Work or Derivative Works thereof in any medium, with or without\n              modifications, and in Source or Object form, provided that You\n              meet the following conditions:\n        \n              (a) You must give any other recipients of the Work or\n                  Derivative Works a copy of this License; and\n        \n              (b) You must cause any modified files to carry prominent notices\n                  stating that You changed the files; and\n        \n              (c) You must retain, in the Source form of any Derivative Works\n                  that You distribute, all copyright, patent, trademark, and\n                  attribution notices from the Source form of the Work,\n                  excluding those notices that do not pertain to any part of\n                  the Derivative Works; and\n        \n              (d) If the Work includes a \"NOTICE\" text file as part of its\n                  distribution, then any Derivative Works that You distribute must\n                  include a readable copy of the attribution notices contained\n                  within such NOTICE file, excluding those notices that do not\n                  pertain to any part of the Derivative Works, in at least one\n                  of the following places: within a NOTICE text file distributed\n                  as part of the Derivative Works; within the Source form or\n                  documentation, if provided along with the Derivative Works; or,\n                  within a display generated by the Derivative Works, if and\n                  wherever such third-party notices normally appear. The contents\n                  of the NOTICE file are for informational purposes only and\n                  do not modify the License. You may add Your own attribution\n                  notices within Derivative Works that You distribute, alongside\n                  or as an addendum to the NOTICE text from the Work, provided\n                  that such additional attribution notices cannot be construed\n                  as modifying the License.\n        \n              You may add Your own copyright statement to Your modifications and\n              may provide additional or different license terms and conditions\n              for use, reproduction, or distribution of Your modifications, or\n              for any such Derivative Works as a whole, provided Your use,\n              reproduction, and distribution of the Work otherwise complies with\n              the conditions stated in this License.\n        \n           5. Submission of Contributions. Unless You explicitly state otherwise,\n              any Contribution intentionally submitted for inclusion in the Work\n              by You to the Licensor shall be under the terms and conditions of\n              this License, without any additional terms or conditions.\n              Notwithstanding the above, nothing herein shall supersede or modify\n              the terms of any separate license agreement you may have executed\n              with Licensor regarding such Contributions.\n        \n           6. Trademarks. This License does not grant permission to use the trade\n              names, trademarks, service marks, or product names of the Licensor,\n              except as required for reasonable and customary use in describing the\n              origin of the Work and reproducing the content of the NOTICE file.\n        \n           7. Disclaimer of Warranty. Unless required by applicable law or\n              agreed to in writing, Licensor provides the Work (and each\n              Contributor provides its Contributions) on an \"AS IS\" BASIS,\n              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n              implied, including, without limitation, any warranties or conditions\n              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n              PARTICULAR PURPOSE. You are solely responsible for determining the\n              appropriateness of using or redistributing the Work and assume any\n              risks associated with Your exercise of permissions under this License.\n        \n           8. Limitation of Liability. In no event and under no legal theory,\n              whether in tort (including negligence), contract, or otherwise,\n              unless required by applicable law (such as deliberate and grossly\n              negligent acts) or agreed to in writing, shall any Contributor be\n              liable to You for damages, including any direct, indirect, special,\n              incidental, or consequential damages of any character arising as a\n              result of this License or out of the use or inability to use the\n              Work (including but not limited to damages for loss of goodwill,\n              work stoppage, computer failure or malfunction, or any and all\n              other commercial damages or losses), even if such Contributor\n              has been advised of the possibility of such damages.\n        \n           9. Accepting Warranty or Additional Liability. While redistributing\n              the Work or Derivative Works thereof, You may choose to offer,\n              and charge a fee for, acceptance of support, warranty, indemnity,\n              or other liability obligations and/or rights consistent with this\n              License. However, in accepting such obligations, You may act only\n              on Your own behalf and on Your sole responsibility, not on behalf\n              of any other Contributor, and only if You agree to indemnify,\n              defend, and hold each Contributor harmless for any liability\n              incurred by, or claims asserted against, such Contributor by reason\n              of your accepting any such warranty or additional liability.\n        \n           END OF TERMS AND CONDITIONS\n        \n           APPENDIX: How to apply the Apache License to your work.\n        \n              To apply the Apache License to your work, attach the following\n              boilerplate notice, with the fields enclosed by brackets \"[]\"\n              replaced with your own identifying information. (Don't include\n              the brackets!)  The text should be enclosed in the appropriate\n              comment syntax for the file format. We also recommend that a\n              file or class name and description of purpose be included on the\n              same \"printed page\" as the copyright notice for easier\n              identification within third-party archives.\n        \n           Copyright [yyyy] [name of copyright owner]\n        \n           Licensed under the Apache License, Version 2.0 (the \"License\");\n           you may not use this file except in compliance with the License.\n           You may obtain a copy of the License at\n        \n               http://www.apache.org/licenses/LICENSE-2.0\n        \n           Unless required by applicable law or agreed to in writing, software\n           distributed under the License is distributed on an \"AS IS\" BASIS,\n           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n           See the License for the specific language governing permissions and\n           limitations under the License.\n        ",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/manga-ocr/0.1.16/",
+    "sha256": "178c4e3524122f1bcfd4c98aa88b30da018882c0862386d02e5ba6b169d49880",
+    "direct": true,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 69655,
+    "wheel": "manga_ocr-0.1.16-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "markdown-it-py",
+    "version": "4.2.0",
+    "license_metadata": "not specified; review notices",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "source": "https://pypi.org/project/markdown-it-py/4.2.0/",
+    "sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 91687,
+    "wheel": "markdown_it_py-4.2.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "markupsafe",
+    "version": "3.0.3",
+    "license_metadata": "BSD-3-Clause",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/markupsafe/3.0.3/",
+    "sha256": "457a69a9577064c05a97c41f4e65148652db078a3a509039e64d3467b9e7ef97",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 23005,
+    "wheel": "markupsafe-3.0.3-cp314-cp314-manylinux_2_17_x86_64.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "mdurl",
+    "version": "0.1.2",
+    "license_metadata": "not specified; review notices",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "source": "https://pypi.org/project/mdurl/0.1.2/",
+    "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 9979,
+    "wheel": "mdurl-0.1.2-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "mpmath",
+    "version": "1.3.0",
+    "license_metadata": "BSD",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "source": "https://pypi.org/project/mpmath/1.3.0/",
+    "sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 536198,
+    "wheel": "mpmath-1.3.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "networkx",
+    "version": "3.6.1",
+    "license_metadata": "BSD-3-Clause",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/networkx/3.6.1/",
+    "sha256": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 2068504,
+    "wheel": "networkx-3.6.1-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "numpy",
+    "version": "2.5.2",
+    "license_metadata": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/numpy/2.5.2/",
+    "sha256": "318b9a4c845dbea06708a29c84ee429cc3065048db34cdb799047643492050ee",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 16713701,
+    "wheel": "numpy-2.5.2-cp314-cp314-manylinux_2_27_x86_64.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "license_metadata": "Apache-2.0 OR BSD-2-Clause",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/packaging/26.3/",
+    "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 129956,
+    "wheel": "packaging-26.3-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "pillow",
+    "version": "12.3.0",
+    "license_metadata": "MIT-CMU",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/pillow/12.3.0/",
+    "sha256": "251bf95b67017e27b13d82f5b326234ca62d70f9cf4c2b9032de2358a3b12c7b",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 6936962,
+    "wheel": "pillow-12.3.0-cp314-cp314-manylinux_2_27_x86_64.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "pygments",
+    "version": "2.21.0",
+    "license_metadata": "BSD-2-Clause",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/pygments/2.21.0/",
+    "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 1250147,
+    "wheel": "pygments-2.21.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "pyperclip",
+    "version": "1.11.0",
+    "license_metadata": "BSD",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "source": "https://pypi.org/project/pyperclip/1.11.0/",
+    "sha256": "299403e9ff44581cb9ba2ffeed69c7aa96a008622ad0c46cb575ca75b5b84273",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 11063,
+    "wheel": "pyperclip-1.11.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "pyyaml",
+    "version": "6.0.3",
+    "license_metadata": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "source": "https://pypi.org/project/pyyaml/6.0.3/",
+    "sha256": "c458b6d084f9b935061bc36216e8a69a7e293a2f1e68bf956dcd9e6cbcd143f5",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 794175,
+    "wheel": "pyyaml-6.0.3-cp314-cp314-manylinux_2_17_x86_64.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "regex",
+    "version": "2026.7.19",
+    "license_metadata": "Apache-2.0 AND CNRI-Python",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/regex/2026.7.19/",
+    "sha256": "7322ec6cc9fba9d49ab888bb82d67ac5625627aa168f0165139b17018df3fb8a",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 801275,
+    "wheel": "regex-2026.7.19-cp314-cp314-manylinux_2_17_x86_64.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "rich",
+    "version": "15.0.0",
+    "license_metadata": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "source": "https://pypi.org/project/rich/15.0.0/",
+    "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 310654,
+    "wheel": "rich-15.0.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "safetensors",
+    "version": "0.8.0",
+    "license_metadata": "not specified; review notices",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "source": "https://pypi.org/project/safetensors/0.8.0/",
+    "sha256": "fd6f3f93c9a0a7cc2788ee63fb763353d4bd2e89b0751bc78fcf7dda00bea774",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 516040,
+    "wheel": "safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "setuptools",
+    "version": "84.0.0",
+    "license_metadata": "MIT",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/setuptools/84.0.0/",
+    "sha256": "51a52592b3b99e102b609654876bd65f19f999935166d1352678931132b0c670",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 818216,
+    "wheel": "setuptools-84.0.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "shellingham",
+    "version": "1.5.4",
+    "license_metadata": "ISC License",
+    "license_classifiers": [
+      "License :: OSI Approved :: ISC License (ISCL)"
+    ],
+    "source": "https://pypi.org/project/shellingham/1.5.4/",
+    "sha256": "7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 9755,
+    "wheel": "shellingham-1.5.4-py2.py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "sympy",
+    "version": "1.14.0",
+    "license_metadata": "BSD",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "source": "https://pypi.org/project/sympy/1.14.0/",
+    "sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 6299353,
+    "wheel": "sympy-1.14.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "termcolor",
+    "version": "3.3.0",
+    "license_metadata": "MIT",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/termcolor/3.3.0/",
+    "sha256": "cf642efadaf0a8ebbbf4bc7a31cec2f9b5f21a9f726f4ccbb08192c9c26f43a5",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 7734,
+    "wheel": "termcolor-3.3.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "tokenizers",
+    "version": "0.22.2",
+    "license_metadata": "not specified; review notices",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "source": "https://pypi.org/project/tokenizers/0.22.2/",
+    "sha256": "369cc9fc8cc10cb24143873a0d95438bb8ee257bb80c71989e3ee290e8d72c67",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 3274982,
+    "wheel": "tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "torch",
+    "version": "2.13.0+cpu",
+    "license_metadata": "Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND MIT",
+    "license_classifiers": [],
+    "source": "https://download.pytorch.org/whl/cpu/torch/",
+    "sha256": "d20fa53ee744502fa4c69818a720b05ca0d37abd055d4f6e66cae155114bc691",
+    "direct": false,
+    "used": "Optional CPU runtime actually installed; real 日本 inference, cancel/reload passed",
+    "bytes": 191822516,
+    "wheel": "torch-2.13.0+cpu-cp314-cp314-manylinux_2_28_x86_64.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "tqdm",
+    "version": "4.70.0",
+    "license_metadata": "MPL-2.0 AND MIT",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/tqdm/4.70.0/",
+    "sha256": "7f585706bfddbdebf89daac705b2dfcc16890130727d3197ca62c732b4310953",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 80184,
+    "wheel": "tqdm-4.70.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "transformers",
+    "version": "5.14.1",
+    "license_metadata": "Apache 2.0 License",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/transformers/5.14.1/",
+    "sha256": "9db974c4079ede2d1a3ea7ca5a240df33f2cc26fc2b36ba64c5f2a4f43b6e725",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 11625234,
+    "wheel": "transformers-5.14.1-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "typer",
+    "version": "0.27.1",
+    "license_metadata": "MIT",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/typer/0.27.1/",
+    "sha256": "53150287edd11baeb4e4722c8e394fcdf8181c0ae89485cba8d25c778d5edd56",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 122874,
+    "wheel": "typer-0.27.1-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "typing-extensions",
+    "version": "4.16.0",
+    "license_metadata": "PSF-2.0",
+    "license_classifiers": [],
+    "source": "https://pypi.org/project/typing-extensions/4.16.0/",
+    "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 45571,
+    "wheel": "typing_extensions-4.16.0-py3-none-any.whl",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "unidic-lite",
+    "version": "1.0.8",
+    "license_metadata": "Wrapper MIT (or WTFPL by choice); UniDic 2.1.2 data BSD-3-Clause",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "source": "https://pypi.org/project/unidic-lite/1.0.8/",
+    "sha256": "db9d4572d9fdd4d00a97949d4b0741ec480ee05a7e7e2e32f547500dae27b245",
+    "direct": false,
+    "used": "Installed dependency of optional CPU runtime; whole-runtime inference passed (not a test of every package API)",
+    "bytes": 47356746,
+    "official_sdist_sha256": "db9d4572d9fdd4d00a97949d4b0741ec480ee05a7e7e2e32f547500dae27b245",
+    "official_sdist_bytes": 47356746,
+    "official_sdist_url": "https://files.pythonhosted.org/packages/55/2b/8cf7514cb57d028abcef625afa847d60ff1ffbf0049c36b78faa7c35046f/unidic-lite-1.0.8.tar.gz",
+    "wheel_provenance": "locally built; not assumed published on PyPI",
+    "license_evidence": [
+      "unidic_lite/dicdir/COPYING",
+      "dist-info/licenses/LICENSE",
+      "dist-info/licenses/LICENSE.unidic",
+      "https://pypi.org/pypi/unidic-lite/1.0.8/json"
+    ],
+    "historical_local_wheel_sha256": "bf8cbfb2b11b5127b4f58eabe64e2701a904b610627786f3029802ff5e754a2c",
+    "historical_local_wheel": "unidic_lite-1.0.8-py3-none-any.whl",
+    "artifact": "unidic-lite-1.0.8.tar.gz",
+    "lock_accepts": "official public sdist only; locally built wheel no longer accepted by lock",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  },
+  {
+    "name": "wheel",
+    "version": "0.47.0",
+    "direct": true,
+    "usage": "build only: UniDic Lite official sdist",
+    "source": "https://pypi.org/project/wheel/0.47.0/",
+    "sha256": "212281cab4dff978f6cedd499cd893e1f620791ca6ff7107cf270781e587eced",
+    "license_metadata": "MIT (wheel dist-info/licenses/LICENSE.txt)",
+    "distribution": "installed in Next optional environment, no wheel in Git",
+    "external_validation": "PASS/0: public-install-U6n9VjIW; docs/external-public-install-pass.json",
+    "public_installation_verified": true
+  }
+]

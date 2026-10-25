@@ -1,0 +1,152 @@
+{
+  "kind": "real launch/artifact execution, isolated HOME/XDG before Next imports",
+  "qt_platform": "offscreen",
+  "existing_next_venv": true,
+  "clean_runtime_install": false,
+  "unix_bind": {
+    "available": false,
+    "error": "[Errno 1] Operation not permitted",
+    "errno": 1
+  },
+  "source_copy": "/tmp/ns-review-cea_pvbu/Next con espacios '日本' $()",
+  "entries": [
+    {
+      "action": "show",
+      "direct": {
+        "exit": 1,
+        "observer_stopped_owner": false,
+        "observed_app_startup_failure": true,
+        "stderr": "Na’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "startup_log": "2026-10-20 21:33:04,914 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "lock_remains": false,
+        "locator_remains": false
+      },
+      "script": {
+        "exit": 1,
+        "observer_stopped_owner": false,
+        "observed_app_startup_failure": true,
+        "stderr": "Na’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "startup_log": "2026-10-20 21:33:04,914 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n2026-10-20 21:33:05,208 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "lock_remains": false,
+        "locator_remains": false
+      },
+      "desktop": {
+        "exit": 0,
+        "observer_stopped_owner": false,
+        "observed_app_startup_failure": true,
+        "stderr": "<string>:1: PyGIDeprecationWarning: Gio.DesktopAppInfo is deprecated; use GioUnix.DesktopAppInfo instead\nNa’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "startup_log": "2026-10-20 21:33:04,914 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n2026-10-20 21:33:05,208 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n2026-10-20 21:33:05,570 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "lock_remains": false,
+        "locator_remains": false
+      },
+      "intended_profile_log_exists": true,
+      "wrong_profile_created": false
+    },
+    {
+      "action": "capture-copy",
+      "direct": {
+        "exit": 1,
+        "observer_stopped_owner": false,
+        "observed_app_startup_failure": true,
+        "stderr": "Na’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "startup_log": "2026-10-20 21:33:05,902 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "lock_remains": false,
+        "locator_remains": false
+      },
+      "script": {
+        "exit": 1,
+        "observer_stopped_owner": false,
+        "observed_app_startup_failure": true,
+        "stderr": "Na’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "startup_log": "2026-10-20 21:33:05,902 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n2026-10-20 21:33:06,194 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "lock_remains": false,
+        "locator_remains": false
+      },
+      "desktop": {
+        "exit": 0,
+        "observer_stopped_owner": false,
+        "observed_app_startup_failure": true,
+        "stderr": "<string>:1: PyGIDeprecationWarning: Gio.DesktopAppInfo is deprecated; use GioUnix.DesktopAppInfo instead\nNa’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "startup_log": "2026-10-20 21:33:05,902 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n2026-10-20 21:33:06,194 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n2026-10-20 21:33:06,563 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "lock_remains": false,
+        "locator_remains": false
+      },
+      "intended_profile_log_exists": true,
+      "wrong_profile_created": false
+    },
+    {
+      "action": "translator",
+      "direct": {
+        "exit": 1,
+        "observer_stopped_owner": false,
+        "observed_app_startup_failure": true,
+        "stderr": "Na’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "startup_log": "2026-10-20 21:33:06,896 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "lock_remains": false,
+        "locator_remains": false
+      },
+      "script": {
+        "exit": 1,
+        "observer_stopped_owner": false,
+        "observed_app_startup_failure": true,
+        "stderr": "Na’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "startup_log": "2026-10-20 21:33:06,896 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n2026-10-20 21:33:07,192 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "lock_remains": false,
+        "locator_remains": false
+      },
+      "desktop": {
+        "exit": 0,
+        "observer_stopped_owner": false,
+        "observed_app_startup_failure": true,
+        "stderr": "<string>:1: PyGIDeprecationWarning: Gio.DesktopAppInfo is deprecated; use GioUnix.DesktopAppInfo instead\nNa’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "startup_log": "2026-10-20 21:33:06,896 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n2026-10-20 21:33:07,192 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n2026-10-20 21:33:07,560 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "lock_remains": false,
+        "locator_remains": false
+      },
+      "intended_profile_log_exists": true,
+      "wrong_profile_created": false
+    },
+    {
+      "action": "phrase",
+      "direct": {
+        "exit": 1,
+        "observer_stopped_owner": false,
+        "observed_app_startup_failure": true,
+        "stderr": "Na’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "startup_log": "2026-10-20 21:33:07,887 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "lock_remains": false,
+        "locator_remains": false
+      },
+      "script": {
+        "exit": 1,
+        "observer_stopped_owner": false,
+        "observed_app_startup_failure": true,
+        "stderr": "Na’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "startup_log": "2026-10-20 21:33:07,887 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n2026-10-20 21:33:08,179 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "lock_remains": false,
+        "locator_remains": false
+      },
+      "desktop": {
+        "exit": 0,
+        "observer_stopped_owner": false,
+        "observed_app_startup_failure": true,
+        "stderr": "<string>:1: PyGIDeprecationWarning: Gio.DesktopAppInfo is deprecated; use GioUnix.DesktopAppInfo instead\nNa’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "startup_log": "2026-10-20 21:33:07,887 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n2026-10-20 21:33:08,179 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n2026-10-20 21:33:08,534 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+        "lock_remains": false,
+        "locator_remains": false
+      },
+      "intended_profile_log_exists": true,
+      "wrong_profile_created": false
+    }
+  ],
+  "desktop_action_verified": false,
+  "capture_selector_ocr_clipboard_verified": false,
+  "normal_profile_and_script": {
+    "files_checked": 3495,
+    "changed_count": 0,
+    "new_file_count": 0,
+    "unchanged": true,
+    "existing_script_sha256": "26887b6cd26519c1f03d95e93425bd931ca7a8319cc76f1de4990872b3e93ad4"
+  },
+  "scope": "Exit/diagnostics and selected profile are observed; bind denial blocks successful cold/reuse cycles. Offscreen never validates global clipboard/selector/tray."
+}

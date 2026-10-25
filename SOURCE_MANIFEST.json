@@ -1,0 +1,1073 @@
+{
+  "source": "Current working-tree sources, not a prior test copy",
+  "sha256_original": {
+    "naatik_next/__init__.py": "1494e33d7b578dec99e265ccc0330b33a7d69bed5b0815f0ab61727601fb9d45",
+    "naatik_next/anki.py": "12cfcb34eb52a9fa663b0568c69cbfbd66e6d4c6e276e59ac476e8ec75a1d7ae",
+    "naatik_next/anki_ui.py": "d5b6d3eaae5650431199f191c3b435194dd46dc330a47b5ddd4bc52cdcebc176",
+    "naatik_next/app.py": "29cec0ae03dd1e37f7007a729416f34641bc31ae946e895923d2ae3a0af2d091",
+    "naatik_next/appearance.py": "2589571d7ebe8fb147a3782728cf2d003caca0b2dcffb291bf7e76bc3a3325cd",
+    "naatik_next/appearance_ui.py": "8eab4453e39e1b4b9f2316dc7ebfa4821fb090b3b7e632d7a67ea799ee43f6f8",
+    "naatik_next/bootstrap.py": "099e83eb7083524768d4aa77e32e76143cfc1586479bbe6eb585a75d214449c9",
+    "naatik_next/dictionary_archive.py": "02d945380c40ee21512a697bda7b451e0ec5acebc049abfe9540cbc37c76e8c1",
+    "naatik_next/dictionary_content.py": "c88d3f41144c66eca403025f2b30ee47dbcc2e7fc06cfdbadd7f6c234b653e98",
+    "naatik_next/dictionary_import_dialog.py": "4b99b7055a5635936a194d88f2d9e1b55089103e98ad83825518deb507db29ab",
+    "naatik_next/dictionary_view.py": "469298d81a7b36672efe9430d7b91df3c4b51e713cd2c8e69dee581042fc3a65",
+    "naatik_next/hotkey.py": "1e8c578a0e1ce71fbe8608c621923785a80d687dae64a1c39116e4629662a688",
+    "naatik_next/i18n.py": "30c6ff36561b8a55d68b0face70c6b035d40503a0c3e7ca498f90a0ebd3e85d0",
+    "naatik_next/install_language.py": "15aec1bb51a64d77ebfe821090e144514e7ac26f2266efd548e7e31972eda14c",
+    "naatik_next/instance.py": "49b9f20818267add629b33e6decdb47024eeac48de95c7d36eff396a5e2f9caa",
+    "naatik_next/integrations.py": "d01f8bef0e4fdaa1880524593f49887b2131157b671e2a70782bc5908207d658",
+    "naatik_next/locales/en.json": "1107ab71e45e18eb79492e08e1ff8c746a6da54711ac572c60b72dbbb8198ac5",
+    "naatik_next/locales/es.json": "57c027ccfa708d5acc090fb72753bd65096b37ce1fb175343e61617bbb97e8c9",
+    "naatik_next/manga.py": "bee6fb77e09e06aafeaf91686acc4b9f0f3f94cf0dd8a75c0cf2d77369559186",
+    "naatik_next/manga_worker.py": "f09b79975577ad31ef1c550d218fc0ff6118bb279fbf8bcd0d0fb35b871bf0a0",
+    "naatik_next/model-catalog.json": "01921a147460d84c0c71f889b0cfdb765071075dfad99f53760d07e33262a9d1",
+    "naatik_next/ocr.py": "2b9491139eea944c7dee2fd0196855fee26b569c6f421de5193bc6c438eeadd9",
+    "naatik_next/phrase_worker.py": "582a3d5d21831ae90a6ab33018b7659afd16ec8353da662a5ccbf3bcea9cc2f6",
+    "naatik_next/platform_support.py": "bdd5317e670414bec4f918fad2c12c134cdbf68950e06fdfc36a2cf2d149d2c1",
+    "naatik_next/popup_presentation.py": "562a38a041453cd9c39e4591cb73bdd314a9b9bc69663fbd95aa43fc8539ad00",
+    "naatik_next/popups.py": "d1e03d63565d28922f9286ccd2b94e11d55b9d5dec0278f67dd42654b788a185",
+    "naatik_next/preview.py": "ed8c62245d64acae0b8321be5fdc6ae889d1615260913f952f3e14d4a897e1a9",
+    "naatik_next/processes.py": "802d0c5cded0332eb1b74b9a169c79144b59f385df4cd723aad92e1673e7e2e4",
+    "naatik_next/resources.py": "ed26e8d7b96d7ea8d973c4a96145bc894a514a7013a56384aab0bf321d75258d",
+    "naatik_next/selection_timing.py": "ba1aa4c9c2d76039218a79557e8ad71448156fd5c52a0e6ffaf822ce843b9c41",
+    "naatik_next/setup_dialog.py": "6f7b6862e5b0d4677d0a02e176e91bf48d8aa7b98f99c2b51fecb0a890454bbb",
+    "naatik_next/shutdown_signals.py": "13e493cede07ec818c411cccfc095193566a5bada6ce9f6d3550fff1fa8f675e",
+    "naatik_next/storage.py": "6a4e97d296b322a09c64bc9f0186432fe15bdba13bdf3da91034b4de9c231ffa",
+    "naatik_next/timings.py": "0e1a1bd723b86b9d72e1b0a5464751f6054a6c1731f44313dd5fe52d70a11c65",
+    "naatik_next/translation.py": "920cb61bebc9cafb7670a254f50227178f8fa23d888d81b82abb24cb33dfc09a",
+    "naatik_next/translation_dialog.py": "ed38f2c46041dc6c3db7f1467c7ecbbdd73bb1db828de50a1f0647c964d90e58",
+    "naatik_next/translation_runtime.py": "0d929ff8ac3389f709bcbb3496d766bc7e596e586efaca52ceb27ab148d86959",
+    "naatik_next/translation_setup.py": "9bedf3586120af47d516ad2ac181d7d963566695d6cf3eb519deaf3239e57d42",
+    "naatik_next/tutorial.py": "28845559faa53a0bcaa94f4251717a84255b993daefa545e05c3efbae6136001",
+    "naatik_next/worker.py": "be18e7b1460451061822e26bcf413f55244aa6582b9804e9e7cfd98772e2e0b1",
+    "naatik_next/worker_guard.py": "cbd28d0a841bb5c734aae332bc28bcf1325e4bec8b2de3f447e2c137cfde6ce7",
+    "tools/anki_ui_review.py": "0f5fce032dbd084930d6c9dcb75202617ed56f2b4b7574182a8c39d0b1d95282",
+    "tools/appearance_review.py": "29f4296bd2298c712a4270a99cf0a74c2cf338b0393e1ddf8a1d2542dc160eb8",
+    "tools/benchmark_capture_latency.py": "0e0300bc0a96ba4c16972cd5937ad723468d1a94871a347b088a4e330afa33bb",
+    "tools/bilingual_review.py": "ef9b18ee26a927aefeaf94f420652b7b33bb29fcb5977678838da62cef70ecd9",
+    "tools/build_fedora_package.py": "0b14e5535fa1b1e9d179adb9bfde71dadf556a212df237759f2c57d1fa067ac3",
+    "tools/capture_timings.py": "d3d2b32ffbdd01b64b1ae3194d0666b71dea52da358f7db554f55b5209399bfa",
+    "tools/diagnose_translation.py": "bdf9243513a512d345ec2c1687c0bf041297a328f80285f2c259cfd69fda2a16",
+    "tools/hotkey_flow_smoke.py": "b518346ae8ae3a5bc489a1c971428e88b0c1c7424c14c2d01e2ff62f249b15d8",
+    "tools/independent_smoke.py": "d35e8bd63b924b09a461717f8d98b5cd2b738b4de8028380892da767627cb929",
+    "tools/install.sh": "74fe1700d368df2386b390aa711b7a7655b97fe2d49902c4b67c8535947ceb0b",
+    "tools/install_desktop.py": "81baf00e270fbd57dc0dded24fd24b023e162d15e4dc609278da90e1a5b86a32",
+    "tools/integrations_review.py": "4f65b63a831128735bdb88a787d3ce53fcdb1f87a3898a3e6a2ac907fbfb8fd7",
+    "tools/jmdict_gui_smoke.py": "53d68fe1d57a27303de5e2fc009b4075bb66b4757f0c1794f2bb1bbe14222d87",
+    "tools/jmdict_smoke.py": "cc616ffdb426cc6352de07ea264842b4b037a8cf87d7b5254b72281bce20c982",
+    "tools/manga_smoke.py": "3c9fa2b8d35e80a942e0a53bf0ef206275315eaff1575c15b45977c943e0670a",
+    "tools/offline_install.py": "b481589aadb317914c6f379ecd1e24fe15a7ccd35992d52e739d96696dc587f8",
+    "tools/popup_visual_review.py": "bf47b7018192b0fff7f017045915c777fab32494d618ea067b355fe3a2133e5a",
+    "tools/public_install_validation.py": "03b3c58aa288e61257d7d62016dcc5d8c6a5eb9a0978d6ada176ac53a899d506",
+    "tools/public_model_smoke.py": "0ee6d13748dcbb8815674edc2f89b2ff6bb7ec74c18ccb9e66f360726e8baa08",
+    "tools/python_compatibility.py": "55737c39a25ccc5a5b8570fdb7a98c497c9795269561c0370fd2f2c4cf028b52",
+    "tools/real_smoke.py": "9435fc19d7c0d96cc0bc79c33c396444b67ecb23bff7c6ed94bcf9609e435159",
+    "tools/startup_review.py": "3cbae99a06ca342824795ead51c004a7e333e5408465b4e0b2044e8cffc495d2",
+    "tools/translation_journey_review.py": "4fcc05070c7ec9ac5c35d0dcb3a9917c2c02f645ea60958b8477e90406633989",
+    "tools/translation_setup_check.py": "9b680cba40e736728366241eff0374a27c599cdb615b303d541554de311283b7",
+    "tools/uninstall.sh": "43fb114534b7d4190560a4e303458fbf079205ff40c1169acc5d8ab084d486b3",
+    "tools/validate-public-install.sh": "b106fbc5543330242865d376671e0dba19012a8a54179e31a41f9588be2179b6",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/test_adapters.py": "76be031a7dd204dcb58fd738c539e7e281d5c29b013c1fb260ebb1b700c7ad02",
+    "tests/test_anki.py": "8a175effd3ccc2dc9386324d75dabfa4d9ee1261793311f06212329256efb0c7",
+    "tests/test_appearance.py": "5a2f45eb927a21a2cff878b5c61ba8392d2181b59e0d9316f66b6e772b7db515",
+    "tests/test_automatic_dictionary.py": "4c1485a6e98b2f48c34f7d8f67c4cda782959b7d165367ad6b40833303d66e01",
+    "tests/test_capture_copy.py": "b9038eab3f628b5689257969ee97a1ae01c85093c423413380e93fca2da2a513",
+    "tests/test_capture_latency.py": "206ce59e77f9e3a631ea199ebc8796b644269633e81274779d145951e85633dd",
+    "tests/test_capture_release.py": "9a18814e4acd1a2b4bc85a1710564aa9683f5482d776c903011fbb83f9a354c6",
+    "tests/test_dictionary_content.py": "191aec373ec1e1efd9bd909035b090d3a367f03d8a2b5088c5f7503703e3fa60",
+    "tests/test_hotkey.py": "8ec1b440a9cfef7ec996e32514aceb3bee12309cbae3641be71357168712c124",
+    "tests/test_i18n.py": "3b084e984b015bdf286c5e13eac90517329e98f5d201ca839e0ef119e9908c9d",
+    "tests/test_instance.py": "8f7db12be5dbd33eace3d617d3967da8cd656b6aac1a61d7019f6ad6714de778",
+    "tests/test_integrations.py": "334ea3bc87d57ea561e7ef6354cd3bae958844bd03a405b304af8d4df7a55ba0",
+    "tests/test_manga.py": "68a7506d6f78596802662682d0ca8dc515d0e89a5f844a1664df3d17a3ba2f75",
+    "tests/test_multidictionary.py": "798566fa8bed852bf81d7e0cc5d629cb2cc4f749b92fef8458aae6b9e9165c17",
+    "tests/test_ocr_clipboard.py": "3da17edcbb4315efd98be4024f58c29d8bc2d82977c0dbf8fe33e1010b4929df",
+    "tests/test_popups.py": "5154d0b590f8a3a8ac31ef046e939d208ae98c24ee188295602c1fdb782c56e4",
+    "tests/test_preview.py": "8e927e380450deb96144e118d53a3d58239816712d73c27cfeab10e63a01e214",
+    "tests/test_processes.py": "f22180eb7a1c7e7a50a4b3d4b60a6d81c4ae7e2344dc9ee7b5125e7a57fa52c1",
+    "tests/test_public_validation.py": "89cb872f5c099ac3624b2aa256c987bce2e3c107e3d1826114c79f688a74620f",
+    "tests/test_selection_lookup.py": "8bb06f07ee890771780199eaa0a5f52bd65bd8be0b8c75d90b27fecfeca88aab",
+    "tests/test_setup.py": "ffbf1a3d0f48a0721e9d926651ba43ddcefe0d36af9a1db24c65e90dc63ebc37",
+    "tests/test_setup_dialog.py": "262c3a64b1a60b180b38fdf9ebf7722c5ba67a52bcced840b4436dd758b89031",
+    "tests/test_shutdown.py": "9f5b31cdebf6a7c9427b3f8304ea897b68061378c7a07ad90aad69df026110e1",
+    "tests/test_startup_lifecycle.py": "188c873c11998c317c4b0f1d48b5297ed3d06a55676175c8af0f93991cae04a0",
+    "tests/test_storage.py": "602dffbba8d55bc40a921a027abfacfef64ed655b0b91df9dbdd1c36ec023140",
+    "tests/test_translation_setup.py": "a085e8dc6e4e9ed5fd357cebf9fef3d2c3d97ee008067976f4a173cf09d0cd9e",
+    "tests/test_tutorial.py": "f846218ad474feee9cbfa19649bf2c075bc496525d3d081bf1df9af9f7236176",
+    "examples/hello.png": "aa3e1a5b363b0c875e47a719ae602304d943a618ea0f9aba57c89e61bf35b8c5",
+    "examples/nihon.png": "671b71e3cde4be67256dcff5c5d5624119160e98c80218b85b76917cca6a1ee7",
+    "AGENTS.md": "266450170162b98bd74c99f81f4859f30c2998b35342b545e6f4c87b0f71620f",
+    "launch": "a41813ec6b51da97fae9133be518ebb2cbeaf6dbc6ab459efc52a4f1aa2ca867",
+    "naatik-next.desktop.in": "f65a2c5deb0bfc3cbce49e46bb13293b70c6c19bbe093c9f89afb7a4efab6340",
+    "requirements.lock": "9f80df6db18fee92e4c8c92f88140149479084851c1211de0af881f452d218fe",
+    "requirements-manga-cpu.lock": "dbc43d53f7ae99879c3e5deb7a8aaf9b64a6e86d9b11dee6752ff7817245b409",
+    "requirements-manga-build.lock": "3b421475b7faef361fe98422955af283db4b5dd13511106020f7097a34ab9f0f",
+    "requirements-phrase.lock": "33120a60587b52292ab6e6192ba70332f314274362cac5600c5afc195b8d4bc0",
+    "requirements-translation.lock": "7ed3707d782c2abe46e2ca6ceeb0106ccabad19a0219c78e464b6be1fe532f88",
+    "docs/ANKI-DESIGN.md": "426cec1e876ee48d9c3659aba191aecd7f52d3a4b16941f0aea03562bd2012f1",
+    "docs/ANKI.md": "eea55898e562364838e6da4b4c192986e7a9d3387cdac0a95e2cb69abbab0569",
+    "docs/APPEARANCE.md": "c0026eab06d9d045482a377c51b369b19097a1d6e1ec1c3128f820f485d80124",
+    "docs/CAPTURE-LATENCY.md": "d36e029dc2ea02bedffc76d8773400bea61600f98d08d312914488c12b7f4586",
+    "docs/CAPTURE-LOOKUP.md": "228c327fe8f65e1e880ea1eb205ee5d800e9bffa09d2e79e87149b70420c821d",
+    "docs/DEPENDENCIES.md": "a151071eab3211ed4cd4d880a78b734d92b95055d5fa08a869600e249be17e7e",
+    "docs/DESIGN.md": "c48dcf6aff09dd1b042d4ed606c9fcfe0596f0f72aff6542f9a1418ee4359b46",
+    "docs/EXTERNAL-PUBLIC-INSTALL-PASS.md": "5645ee4735b95cfd4a0b089c58ef53f500bd7ed5237838d2f7e1c24772b7af67",
+    "docs/FEDORA-BILINGUAL.md": "367eb6a9614bb502f8c53005b6d09824195d136f3dcb9ae9023f0c6d6cfa5c66",
+    "docs/GLOBAL-HOTKEY.md": "153ae609318a452c82b74b32fa004ea6a925b1cb2303d5330c59d424aac30b43",
+    "docs/GUIDED-RESOURCES.md": "8ee6ca618c25c230009576ffcfac580842a9e6bffb46a17e39dbe7d7a837de56",
+    "docs/INDEPENDENCE-VALIDATION.md": "b95614c639ae7528f10a7ed68841f30a68faf1c48aefefd252ca0d93e8690328",
+    "docs/INSTALLATION.md": "d46c95f297343980beed7d484b4ba328e20845b43e47e6629e729f528abcd7ca",
+    "docs/INTEGRATIONS.md": "49878631586c9d51f2371cbcefa94c2e01ffc3fa2938923c7743d0acd673ab44",
+    "docs/JMDICT-MANGA.md": "e412e30f701b80672162c5354f96ed1a85cc11ad16b366f7990cab3fcca60cbe",
+    "docs/LOCAL-DICTIONARIES.md": "d7c6ee7b64eb4cf6ba0c2b684b7d42045e4d398e7261200eb6380b9081297c45",
+    "docs/PADDLE-BACKUP.md": "05b5484ced2eb4cc7bc8bca068584063ade6496e2528272bf0ac1b143b6f1a3a",
+    "docs/POPUP-VISUAL-REVIEW.md": "0d3a5e1ff25ff2ee729574da3d8c0ccecf8841027902cb509c7081d65dee3080",
+    "docs/POPUPS.md": "391c667a84ac6053d8fcde2d5396de6c5d42cde1264055e9f244e86f35c25646",
+    "docs/PUBLIC-INSTALL-VALIDATION.md": "e012bbf78b4dc709203a4ae95495e1b92e660593fe47be2f3f3c70db78553eef",
+    "docs/REFERENCE-JapaneseMining.md": "4b346a0f2ca335083a580c9f999a355a061389e6e7177b5841e676fbbc0467e1",
+    "docs/SHUTDOWN.md": "bcce4429faf92412631a025d7511fdbcc30facff41853e91032449a18e8859a7",
+    "docs/STARTUP.md": "1b211859acf0b52e38d622f5ae3f07d6b7da9143bc9ce82f12ef5d066c27a6f5",
+    "docs/STREAM-DECK.md": "6c854e1d80f80e21c24252bf7f57072e1e584105ef634efacbd512b1d67b5f66",
+    "docs/THIRD_PARTY_DEPENDENCIES.md": "e61f85e261569e6b2ad8122543599731d51480d47bce2a4a37481ae10708659d",
+    "docs/TRANSLATION-DIAGNOSIS.md": "593253f76c803f56cd293d7421e66cd31400ca9f5151ad853cf45d6ffaa27d60",
+    "docs/TRANSLATION-RESOURCES.md": "d1f5a7b99f0eac10199546cb1dd69697fc394fcf6a0e482691ee17c33a0b27bf",
+    "docs/TRANSLATION-SETUP.md": "a8deb9a5532a4c403b7d2c304b8097fcdc5cc0cb2dcc0e49ad8f184176208c72",
+    "docs/VALIDACION-FEDORA-2026-10-24.txt": "84a1e69644f6e4ba29033f93bd110e09a42abe880bfbb5179da180b1044d9fa4",
+    "docs/VALIDATION.md": "66af8d3138f6c5d473c8eb636d62ea47753b5f27a1142e53a96cf4b63ba58e82",
+    "docs/evidence/anki-design/README.md": "abd80100da92826ac80551e54c2e69353983f62f54b7b0a6d2aed850dcf3ed72",
+    "docs/evidence/anki-design/inspection.json": "8cee0dac2cf5341bf4ef7c9270b8cf3f3497124ccf6b51550c1fd219bde1abfd",
+    "docs/evidence/anki-design/official-sources.json": "cdb8dcab6de5cb76670d1f00ddc2da67d24718bf67778db54736e2a9a04ce899",
+    "docs/evidence/anki-implementation/README.md": "50b9f8e34dd3187008b100010798878fe4fe76c7f521a4da7ef1d58ed6f47dba",
+    "docs/evidence/anki-implementation/validation.json": "a3bf622777203442a316a29a1f09c77d5bc838963c45f376020886fe280ae200",
+    "docs/evidence/appearance/README.md": "200a196430cb578634c26678c06b1ffd3f02b89ab47172ea6806d3febcf80faa",
+    "docs/evidence/appearance/validation.json": "bfab7aaf2d28b1f1f9a32a732b50a0f651a88abfc67964bfb8c0bf65ddadf87b",
+    "docs/evidence/capture-latency.json": "d45c96e4a78e9d32780fe4f2e4222a8544148a0a097ab0b93ede6771d6232429",
+    "docs/evidence/fedora-bilingual/2026-10-24/README.md": "76959679353c48ffd44e184f55bc12160703d83de4f727bd38622150de55606d",
+    "docs/evidence/fedora-bilingual/2026-10-24/desktop-en/ready.json": "687d7c55270e6f2ff76141530d9981ef1a631010eebcf719dd67b2d9873219e6",
+    "docs/evidence/fedora-bilingual/2026-10-24/desktop-en-capture/ready.json": "d3996f0a8f06257a58b4b72646f446e82dd08b4f21dce7ba1fafc0ad52698da4",
+    "docs/evidence/fedora-bilingual/2026-10-24/desktop-es/ready.json": "08534fa18e9cf381f8b5bff8f319e231fcd46fcf1e6ad8684988dec783fb1218",
+    "docs/evidence/fedora-bilingual/2026-10-24/desktop-results.json": "55eacb95193d0e1833236f6f65265c1b2d3b0188efe779452257ab172714c369",
+    "docs/evidence/fedora-bilingual/2026-10-24/native-results.json": "f704695a26c3f444b0c71cbd0458c3b01b25cc16fe04779ef812e488a7091545",
+    "docs/evidence/fedora-bilingual/2026-10-24/native-tools.txt": "412d439aaf47c00785051450b8cdee3c59c5eb3459de31105d906454260fa59c",
+    "docs/evidence/fedora-bilingual/2026-10-24/preservation.json": "e2c55806695f986963013456960a9be8f9a3f4d9a5953ba522960e2d5d57a2da",
+    "docs/evidence/fedora-bilingual/2026-10-24/repair-results.json": "1ecf3cef78229e3edc4e2a4a60feb67f9960574f695c24e82c8264beeab3e7cd",
+    "docs/evidence/fedora-bilingual/README.md": "e764772fff87ac1c4d606b5d65d1f88193d913ddee7031772b47855ae6b2e099",
+    "docs/evidence/fedora-bilingual/preservation.json": "74bff9e87308a511d8b3e59e0d086e749652212e8fd49ce04e437e5f651413f1",
+    "docs/evidence/fedora-bilingual/update-check.txt": "af76bf81424de68376d9ebda4b2719c52266bffe49841d70474eb2749e5b5a40",
+    "docs/evidence/integrations/README.md": "2fd669eab08ae2ac9aff44af0a34e6966c287c3f938a111594fbdc9100519341",
+    "docs/evidence/integrations/evidence.json": "78333925041ceece00286bab70eab473cf3406565cab546eada0795f432f516c",
+    "docs/evidence/integrations/focused-tests.txt": "2f4046df326ffdd201e5d49be7bbd1080fc31914b15d5884ccf552bfded71d49",
+    "docs/evidence/integrations/tests.txt": "278fa332b2371438c585db94b4e18a7a5846369d96ad3d93dacc434b3dea1069",
+    "docs/evidence/paddle-backup/README.md": "8cad2c8508ff70bcb68e1916618f4ee00b178d50a3b012441ad986575e023659",
+    "docs/evidence/paddle-backup/installed-artifacts.json": "673f367bec3df6333d5da6d739146225a570c8ebcb556deae494abb809b3279c",
+    "docs/evidence/paddle-backup/manga-latency.json": "2c897a94d65f00975ad185130f7421694842d78e11c03954c6ac1daf05acd28c",
+    "docs/evidence/paddle-backup/paddle-latency.json": "ed9b4622adadaf4d087a6f35b16d65f0769257e9541cec5d0b227d58f9aa9882",
+    "docs/evidence/paddle-backup/retired-model-catalog.json": "1100ac4d154e9e9f961fcc217eb11e403cd8682700b2c10621b282755493f9e0",
+    "docs/evidence/paddle-backup/retired-requirements-paddle-cpu.lock": "e06bda41b14c9061f106757eae2ef0149d7e07bdfb37a55dce8d399b9054b750",
+    "docs/evidence/paddle-backup/setup-blocked.json": "946c4a05082e7013592dc727e03157541728c001d633763fe8c29be6877b1c89",
+    "docs/evidence/paddle-backup/tesseract-latency.json": "77dd6e7eaf03eb607a9b5186b752c959083c24e8783af8eed638d52a7087e896",
+    "docs/evidence/paddle-backup/validation.json": "3a6dbb2465e6290d2be42d0d9fd404d98909c39a0b5592d20677557ecf1f2b1d",
+    "docs/evidence/paddle-backup/withdrawal.json": "59676dc87330adfb6ad53971053923410c8f01a87b9f24fa3c6354bdea78c3db",
+    "docs/evidence/popup-visual/validation.json": "e6cc5859f089fea50a5f10dc6d07b353b5bf24873165a05aae202c96d3027efb",
+    "docs/evidence/popup-visual/visual-review.json": "36848410f64751cac3916fc26f48833c1a37a094cbd6e63e516c9ccc8990badc",
+    "docs/evidence/popups.json": "a1398f1ffc45c590da6955482783e63b9b3a942d2d09c23c45740d75a6536fc4",
+    "docs/evidence/shutdown.json": "cba67cae9978d92c865ca2d864fda812eb824ab409d21b901091959c01ba15e6",
+    "docs/evidence/startup/README.md": "746dab16347e6cbeb6863576cc04dd6f7efa26d53eed83fbb84f8029bc387d81",
+    "docs/evidence/startup/baseline.json": "8afe8a374cb29546de601630d69a88faf1e4dd88506f46284cff2a9f58e7faeb",
+    "docs/evidence/startup/orphan-after.json": "ea12a57d33e2bd506be1a0e6a039f759f683fa4b55aca342d16c9c380c317405",
+    "docs/evidence/startup/orphan-before.json": "cbe6b36bba261b99977acfaef1535f6394427528213e8b58ab0060bbc34d1dac",
+    "docs/evidence/startup/preservation.json": "963ac0954f1bed48fc49e0e1e688855970dbeba5537fcbb4f6543c381fab53d5",
+    "docs/evidence/startup/real-launches.json": "aa2c049171c9f7ca747da71beeae179132e2a9b6b6802f773cbee762b1949645",
+    "docs/evidence/translation-journey/README.md": "0c95e70d53da7f299fca246df1fdd33a63d4c1e7774bf459e3fddcf3fb434bb7",
+    "docs/evidence/translation-journey/evidence.json": "688962817bdf6f61a37fec96094b98a79f40cb3896b9c0ea5e59b288b6ca73d4",
+    "docs/evidence/translation-journey/focused-tests.txt": "986f93e9e6b485922a37be41ec0cfafafccd69ede34354cc9d0a3efc491eae36",
+    "docs/evidence/translation-journey/tests.txt": "fab1e8bd3f3c17918e8bb0dbef10890f7e00002cfba1b5c783e77ff4381ff714",
+    "docs/evidence/translation-setup/fresh-profile.json": "3a4eb4d4c4432334bc7f5d2321c0cd75d245a915eb4184917be60090ca26daa6",
+    "docs/evidence/translation-setup/http403.json": "b191ee2e674bc915601110acbc96cabe1245807c8a1274695f98398379a8e45d",
+    "docs/evidence/translation-setup/validation.json": "2a4246f300fdde5a44e941a0947bce7bc011a15fad2faa57ee7a0f3e57d072cc",
+    "docs/external-public-install-pass.json": "7e539b56d984d3d3fec4b4fce6d2906bdd126eeed025a8673830f551eb847241",
+    "docs/hotkey-dependency-evidence.json": "0364bd13992d3e67c77fc8beceb49d6465eec92c9c22dbb344284bd98ebea6e0",
+    "docs/independent-install-evidence.json": "d6fabb721c51cb21fc067c845a46f8bf392eafa36456db9c49505e156fa1bdb7",
+    "docs/jmdict-evidence.json": "a2064d1e393f9c082e14a669a79333d34b8e04a777d4a0acef80106be8db8059",
+    "docs/jmdict-gui-evidence.json": "bac8de0fd0fd89d1aad895d2de19af0f3c24d863a0c3172d85f7c99959234105",
+    "docs/local-dictionaries-evidence.json": "0ba30e2fe616670b4694f2bda1195415e049c3345ddd6f389aa58fc149fe777c",
+    "docs/manga-cpu-lock-evidence.json": "d5973a5744664faff72c811e0728d1e3de92c156bb94fefc29efb30832c9d4cb",
+    "docs/manga-evidence.json": "4e7a8f610a69df0bee36391b5be850d6b5f538037e26985356be8a1e8750b9fc",
+    "docs/manga-runtime.json": "accef40556ac4efa7f191b4331208794750c979a8e5ab8587dc756083c60b981",
+    "docs/public-install-evidence.json": "89835f05b4c0e4162be51cc2c32e0e1732b08d5f796a20bd2035381bab6a1336",
+    "docs/stream-deck-dependency-evidence.json": "e890514b0df92fdfc498e635a1c117c0c909fa677c6b202d6d885300229f42d4",
+    "docs/third-party-audit.json": "2e3c3cd07f06d113d3237caacb4245018eb2fb013c95f1f250245367c0bf00d2",
+    "docs/translation-日本-evidence.json": "ce1c281021f5e13eb739b6e9da144db0484d935541eddd4239e26e7c89611715"
+  },
+  "excluded": [
+    {
+      "path": "tools/gui_smoke.py",
+      "reason": "Legacy diagnostic automatically reads another project or normal profile; original retained."
+    },
+    {
+      "path": "tools/multidictionary_smoke.py",
+      "reason": "Legacy diagnostic automatically reads another project or normal profile; original retained."
+    },
+    {
+      "path": "tools/selection_lookup_smoke.py",
+      "reason": "Legacy diagnostic automatically reads another project or normal profile; original retained."
+    },
+    {
+      "path": "docs/OCR-REVIEW.md",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/anki-implementation/preview-synthetic.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/anki-implementation/setup-synthetic.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/appearance/dark-phrase.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/appearance/dark-settings.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/appearance/dark-translator.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/appearance/light-phrase.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/appearance/light-settings.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/appearance/light-translator.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/desktop-check.py",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/desktop-en/main.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/desktop-en/process.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/desktop-en/tutorial.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/desktop-en-capture/main.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/desktop-en-capture/process.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/desktop-es/main.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/desktop-es/process.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/desktop-es/tutorial.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/desktop-owner.py",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/install-en.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/isolation.json",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/native-desktop.py",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/native-region.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-language.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-ocr-setup.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-phrase.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tab-0.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tab-1.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tab-2.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tab-3.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tab-4.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tab-5.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tab-6.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tab-7.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-translator.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tutorial-0.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tutorial-1.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tutorial-2.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tutorial-3.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tutorial-4.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/en-tutorial-5.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-language.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-ocr-setup.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-phrase.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tab-0.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tab-1.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tab-2.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tab-3.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tab-4.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tab-5.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tab-6.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tab-7.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-translator.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tutorial-0.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tutorial-1.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tutorial-2.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tutorial-3.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tutorial-4.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/offscreen/es-tutorial-5.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/repair-check.py",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/repair-en.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/repair-es.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/run-suite.py",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/unittest-final.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/2026-10-24/visual.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/install-en.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/repair-dictionary.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/repair-explicit-es.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/repair-keep-en.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-language.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-ocr-setup.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-phrase.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tab-0.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tab-1.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tab-2.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tab-3.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tab-4.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tab-5.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tab-6.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tab-7.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-translator.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tutorial-0.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tutorial-1.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tutorial-2.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tutorial-3.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tutorial-4.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/en-tutorial-5.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-language.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-ocr-setup.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-phrase.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tab-0.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tab-1.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tab-2.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tab-3.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tab-4.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tab-5.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tab-6.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tab-7.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-translator.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tutorial-0.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tutorial-1.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tutorial-2.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tutorial-3.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tutorial-4.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/screens/es-tutorial-5.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/unittest.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/fedora-bilingual/visual.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/integrations/integrations-details.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/integrations/integrations.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/ocr-review/README.md",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/ocr-review/comparison-synthetic.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/ocr-review/paddle-comparison-synthetic.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/ocr-review/sample-results.json",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/ocr-review/validation.json",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/ocr-review/withdrawal.json",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/paddle-backup/backup-controls-synthetic.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/paddle-backup/paddle-comparison-synthetic.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/paddle-backup/paddle-sample-results.json",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/popup-visual/phrase-comparison.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/popup-visual/phrase-next.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/popup-visual/phrase-reference.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/popup-visual/translator-comparison.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/popup-visual/translator-next.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/popup-visual/translator-reference.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/startup/tests.log",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/translation-journey/translation-advanced-real.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/translation-journey/translation-cancelled-real.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/translation-journey/translation-empty-real.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/translation-journey/translation-error-simulated.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/translation-journey/translation-preparing-real.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/translation-journey/translation-proposal-simulated.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/translation-journey/translation-ready-real.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/translation-journey/translator-empty-real.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/translation-journey/translator-ready-real.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/evidence/translation-setup/configure-empty-offscreen.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/gui-smoke.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/jmdict-gui.png",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    },
+    {
+      "path": "docs/normal-jmdict-lookup-evidence.json",
+      "reason": "Local diagnostic log/screenshot/harness/user sample or normal-profile evidence; unnecessary at runtime."
+    }
+  ],
+  "transformed_for_publication": [
+    "tools/build_fedora_package.py",
+    "tools/independent_smoke.py",
+    "tools/jmdict_gui_smoke.py",
+    "tools/jmdict_smoke.py",
+    "tools/public_install_validation.py",
+    "docs/ANKI-DESIGN.md",
+    "docs/ANKI.md",
+    "docs/APPEARANCE.md",
+    "docs/CAPTURE-LATENCY.md",
+    "docs/CAPTURE-LOOKUP.md",
+    "docs/DEPENDENCIES.md",
+    "docs/DESIGN.md",
+    "docs/EXTERNAL-PUBLIC-INSTALL-PASS.md",
+    "docs/FEDORA-BILINGUAL.md",
+    "docs/GLOBAL-HOTKEY.md",
+    "docs/GUIDED-RESOURCES.md",
+    "docs/INDEPENDENCE-VALIDATION.md",
+    "docs/INSTALLATION.md",
+    "docs/INTEGRATIONS.md",
+    "docs/JMDICT-MANGA.md",
+    "docs/LOCAL-DICTIONARIES.md",
+    "docs/PADDLE-BACKUP.md",
+    "docs/POPUP-VISUAL-REVIEW.md",
+    "docs/POPUPS.md",
+    "docs/PUBLIC-INSTALL-VALIDATION.md",
+    "docs/REFERENCE-JapaneseMining.md",
+    "docs/SHUTDOWN.md",
+    "docs/STARTUP.md",
+    "docs/STREAM-DECK.md",
+    "docs/THIRD_PARTY_DEPENDENCIES.md",
+    "docs/TRANSLATION-DIAGNOSIS.md",
+    "docs/TRANSLATION-RESOURCES.md",
+    "docs/TRANSLATION-SETUP.md",
+    "docs/VALIDATION.md",
+    "docs/evidence/anki-design/official-sources.json",
+    "docs/evidence/anki-implementation/README.md",
+    "docs/evidence/appearance/README.md",
+    "docs/evidence/fedora-bilingual/2026-10-24/README.md",
+    "docs/evidence/fedora-bilingual/2026-10-24/desktop-en/ready.json",
+    "docs/evidence/fedora-bilingual/2026-10-24/desktop-en-capture/ready.json",
+    "docs/evidence/fedora-bilingual/2026-10-24/desktop-es/ready.json",
+    "docs/evidence/fedora-bilingual/2026-10-24/desktop-results.json",
+    "docs/evidence/fedora-bilingual/2026-10-24/native-results.json",
+    "docs/evidence/fedora-bilingual/2026-10-24/preservation.json",
+    "docs/evidence/fedora-bilingual/2026-10-24/repair-results.json",
+    "docs/evidence/fedora-bilingual/preservation.json",
+    "docs/evidence/integrations/README.md",
+    "docs/evidence/integrations/evidence.json",
+    "docs/evidence/paddle-backup/README.md",
+    "docs/evidence/popup-visual/validation.json",
+    "docs/evidence/startup/baseline.json",
+    "docs/evidence/startup/orphan-after.json",
+    "docs/evidence/startup/orphan-before.json",
+    "docs/evidence/translation-journey/README.md",
+    "docs/evidence/translation-journey/evidence.json",
+    "docs/evidence/translation-setup/fresh-profile.json",
+    "docs/evidence/translation-setup/validation.json",
+    "docs/local-dictionaries-evidence.json",
+    "docs/manga-evidence.json",
+    "docs/manga-runtime.json",
+    "docs/stream-deck-dependency-evidence.json",
+    "docs/third-party-audit.json",
+    "docs/translation-日本-evidence.json"
+  ],
+  "unchanged_runtime_groups": [
+    "naatik_next/",
+    "tests/",
+    "examples/",
+    "requirements*.lock",
+    "launch",
+    "AGENTS.md",
+    "naatik-next.desktop.in"
+  ],
+  "publication_updates": [
+    {
+      "date": "2026-10-24",
+      "kind": "Explicit owner decision after original preparation",
+      "project_license": "MIT",
+      "copyright": "Copyright (c) 2026 ElpincheAlx",
+      "repository_authorized": "ElpincheAlx/naatik-next",
+      "original_sha256_map_preserved": true,
+      "changed_or_added_files": [
+        "LICENSE",
+        "LICENSE-STATUS.md",
+        "PUBLICATION_REPORT.md",
+        "README.md",
+        "SOURCE_MANIFEST.json",
+        "VALIDACION.txt",
+        "docs/THIRD_PARTY_DEPENDENCIES.md",
+        "docs/publication-validation.json"
+      ]
+    }
+  ],
+  "sha256_publication": {
+    ".gitignore": "b12865f158474acbc6fedd8aa78b0ad4cb5689f6e5d884ea9de0c1dff9cd51a2",
+    "AGENTS.md": "266450170162b98bd74c99f81f4859f30c2998b35342b545e6f4c87b0f71620f",
+    "LICENSE": "340ac0930698dcb18d089c5c7287ac05e0f54caeaeba1374e16966303c80ffe6",
+    "LICENSE-STATUS.md": "aed5186c1807df5d210615ea65525265f1be2a58fe2083c11c80a65feb8d5474",
+    "PUBLICATION_REPORT.md": "5d902ea5e622c5ba8644bc7584bf7706f8ef814e95f3df1629802680edd3dcff",
+    "README.md": "9e6a78032c966f87755a9fc0661933a26179d9f3be45d5c029f792aae3e312c8",
+    "VALIDACION.txt": "8352a9a94c4b418fde29242427894b95c52f84b692c3609031406aba09e484b0",
+    "docs/ANKI-DESIGN.md": "e652886c58c5da598ce70d7c083e1f5eb7b0558979aeb2b0c71dd8fdea21724a",
+    "docs/ANKI.md": "39884686dcc8ae05dca9e462a99e542709b70cf35322d8d12a4c114e096da83e",
+    "docs/APPEARANCE.md": "822d4824a1c3d5c70a678458546978e81d81617f8248e4ebaca9bf6d8d648c2a",
+    "docs/CAPTURE-LATENCY.md": "fa78c36ab3ea59f968fb5beb08259b9123fc683ac75f659a4aa595370a94c2eb",
+    "docs/CAPTURE-LOOKUP.md": "a7a8feb0222ee436016b574b4d75c30f2a026f41b4d4c972cd7084288fa12da5",
+    "docs/DEPENDENCIES.md": "cb1be23c91a41b7d68f533fa58f0217fd6b8c83028623c8f05f47dde7e7daaa0",
+    "docs/DESIGN.md": "92582dc58af3dc8b77298e88174be75336b7063c5dfc52d1179595bfcd50aed2",
+    "docs/EXTERNAL-PUBLIC-INSTALL-PASS.md": "bc8eb03ec46ed30053b44cfa19a8e44ccf2902ddb7234a54aa9637d8f14720b2",
+    "docs/FEDORA-BILINGUAL.md": "b060f91b379c335e21fcbe0f46bedc1b96c77e930dd8377b2679b89b34d756c4",
+    "docs/GLOBAL-HOTKEY.md": "4867271c8e99f1229d59cbc2448d5942b29532e3114dcdde73c08ea95692afd8",
+    "docs/GUIDED-RESOURCES.md": "8a6b9a575f1c74ecb04d1b6bf38a77979ecb9c65e8ee4f4339240949d361da4e",
+    "docs/INDEPENDENCE-VALIDATION.md": "de25dfd2da92730a166db65732caea399333b8f63b0d32d5f41edc9714e4d3e3",
+    "docs/INSTALLATION.md": "1f2213a06cf600acd1a01167084cb827604e8100f985d6c8cb94489ef70f211c",
+    "docs/INTEGRATIONS.md": "333d019f66e26d56e3e45392028743f513523b9dde0f9fd826ad4a081789d4ad",
+    "docs/JMDICT-MANGA.md": "d880ccdfa846032fcc6301f86a4be934dbaa205141edad24f9539c1c304ff4ef",
+    "docs/LOCAL-DICTIONARIES.md": "ef749a75c094b421726376afe3052497899cf80fc0b578d328803b9a21fd35a4",
+    "docs/PADDLE-BACKUP.md": "f7d9cbdea23f13fcddc6278738a84c881f764a8de92681dab175098d11efe858",
+    "docs/POPUP-VISUAL-REVIEW.md": "208531a289280a0e6819d7ff6cf570771fbe11654db0bc396cd26c5d21fada22",
+    "docs/POPUPS.md": "f465a5bedad70b0ea457ea07b097f44f0e6cd716001cd16593e25518f572d163",
+    "docs/PUBLIC-INSTALL-VALIDATION.md": "3078c64e7da3cf6661cee7c290a5a0ae4bb5dc283c376d901c6ec54a9439af42",
+    "docs/REFERENCE-JapaneseMining.md": "6f7b9954e1bbe17045e6edf3f110ae518faae29adbb13e7b4916100c4468e7d9",
+    "docs/SHUTDOWN.md": "0fb391626868142d9ca0436fc54a10b081cf5e8913f664a4f6c944812fec9562",
+    "docs/STARTUP.md": "2c127612c17be12e45ce6e63d12fff08bf4a4e1bbe3e8a6bfee4b52ba18d84cf",
+    "docs/STREAM-DECK.md": "cff14de84c513f1d0ed1708601f5675a08f02df8f63d8e89de0e6468544f0466",
+    "docs/THIRD_PARTY_DEPENDENCIES.md": "6de41d25b6597e2c8659bcab3247509a82c6bebd6beb9aa6a593e103020b8404",
+    "docs/TRANSLATION-DIAGNOSIS.md": "2718c27ff08c1130b5403a20bebf0871bffd7139c77615924dda057cec928285",
+    "docs/TRANSLATION-RESOURCES.md": "8ca3040aaf303cb78e86669c591adeb7241a58250351742cd288ceb7a05b0f85",
+    "docs/TRANSLATION-SETUP.md": "b8ba5270d412fe91ced944f76647f486a699646b22da846df73ff1e86739bb73",
+    "docs/VALIDACION-FEDORA-2026-10-24.txt": "84a1e69644f6e4ba29033f93bd110e09a42abe880bfbb5179da180b1044d9fa4",
+    "docs/VALIDATION.md": "f9f734744a5e4602332180ceeef3a544ce6cda09b0d5667d7a931fdd938d87b9",
+    "docs/evidence/anki-design/README.md": "abd80100da92826ac80551e54c2e69353983f62f54b7b0a6d2aed850dcf3ed72",
+    "docs/evidence/anki-design/inspection.json": "8cee0dac2cf5341bf4ef7c9270b8cf3f3497124ccf6b51550c1fd219bde1abfd",
+    "docs/evidence/anki-design/official-sources.json": "691c69054c8d53b2ef0806a43eb04ffe41eef84a2ac0ce30da14bae02858c045",
+    "docs/evidence/anki-implementation/README.md": "f1c9b3c5730ad14e9daedbe26d4ef01321f67d8e1b6cf1ef29fa067f8a19feae",
+    "docs/evidence/anki-implementation/validation.json": "a3bf622777203442a316a29a1f09c77d5bc838963c45f376020886fe280ae200",
+    "docs/evidence/appearance/README.md": "b0dfdd6ffc03ebcb63905719a488e286b076db28c568240c3f4ea792c25635a4",
+    "docs/evidence/appearance/validation.json": "bfab7aaf2d28b1f1f9a32a732b50a0f651a88abfc67964bfb8c0bf65ddadf87b",
+    "docs/evidence/capture-latency.json": "d45c96e4a78e9d32780fe4f2e4222a8544148a0a097ab0b93ede6771d6232429",
+    "docs/evidence/fedora-bilingual/2026-10-24/README.md": "c6aa096ef2dea1b5ad7e8db3eba24fb1240f89c2cd13297df67b2ef886296cab",
+    "docs/evidence/fedora-bilingual/2026-10-24/desktop-en-capture/ready.json": "847b09e362d6f55c9aa39ab31e896d6b55f3aee2f6a5a917b47a8f3578a30b65",
+    "docs/evidence/fedora-bilingual/2026-10-24/desktop-en/ready.json": "d411dc1dcf662feae82ad2b90bceda8da03f77d987af6b57d93cfe7d8951e511",
+    "docs/evidence/fedora-bilingual/2026-10-24/desktop-es/ready.json": "c4a64721fdf29b634be92924ccc84a0de2448c55a50c167d2270190d82f02638",
+    "docs/evidence/fedora-bilingual/2026-10-24/desktop-results.json": "45bd77b048538a66f736332c1c8e15cfcd99536b0da6c7a03054817705a576af",
+    "docs/evidence/fedora-bilingual/2026-10-24/native-results.json": "2cb98ca6cf2823cf65976bdba55f536d06e64941f06e3140091a70633ad63721",
+    "docs/evidence/fedora-bilingual/2026-10-24/native-tools.txt": "412d439aaf47c00785051450b8cdee3c59c5eb3459de31105d906454260fa59c",
+    "docs/evidence/fedora-bilingual/2026-10-24/preservation.json": "bccc33bd5e0b6527652d9e24d769a54967a61fe27af677e273c0ae66f0163add",
+    "docs/evidence/fedora-bilingual/2026-10-24/repair-results.json": "f10a990473a7600288dd2fcd7e6b507de493d05b9865c140f6295686db9b3b9a",
+    "docs/evidence/fedora-bilingual/README.md": "e764772fff87ac1c4d606b5d65d1f88193d913ddee7031772b47855ae6b2e099",
+    "docs/evidence/fedora-bilingual/preservation.json": "d007a916e8da32e45cc8ced95064b365a9c75caa2a357adb8b3f31519ada3d37",
+    "docs/evidence/fedora-bilingual/update-check.txt": "af76bf81424de68376d9ebda4b2719c52266bffe49841d70474eb2749e5b5a40",
+    "docs/evidence/integrations/README.md": "3e4ef9e2728d62613c5bb82c733753b9870c7f95e660f1fb258926ba225a168f",
+    "docs/evidence/integrations/evidence.json": "5301820e1cc36a0dc2c98054b2cbb4837a5fb096402e3973024a1cafb7d0d92e",
+    "docs/evidence/integrations/focused-tests.txt": "2f4046df326ffdd201e5d49be7bbd1080fc31914b15d5884ccf552bfded71d49",
+    "docs/evidence/integrations/tests.txt": "278fa332b2371438c585db94b4e18a7a5846369d96ad3d93dacc434b3dea1069",
+    "docs/evidence/paddle-backup/README.md": "24adc4dda6153d9dc9df15e3038a6e9abf547f3f80322f11f9f19640959cb7eb",
+    "docs/evidence/paddle-backup/installed-artifacts.json": "673f367bec3df6333d5da6d739146225a570c8ebcb556deae494abb809b3279c",
+    "docs/evidence/paddle-backup/manga-latency.json": "2c897a94d65f00975ad185130f7421694842d78e11c03954c6ac1daf05acd28c",
+    "docs/evidence/paddle-backup/paddle-latency.json": "ed9b4622adadaf4d087a6f35b16d65f0769257e9541cec5d0b227d58f9aa9882",
+    "docs/evidence/paddle-backup/retired-model-catalog.json": "1100ac4d154e9e9f961fcc217eb11e403cd8682700b2c10621b282755493f9e0",
+    "docs/evidence/paddle-backup/retired-requirements-paddle-cpu.lock": "e06bda41b14c9061f106757eae2ef0149d7e07bdfb37a55dce8d399b9054b750",
+    "docs/evidence/paddle-backup/setup-blocked.json": "946c4a05082e7013592dc727e03157541728c001d633763fe8c29be6877b1c89",
+    "docs/evidence/paddle-backup/tesseract-latency.json": "77dd6e7eaf03eb607a9b5186b752c959083c24e8783af8eed638d52a7087e896",
+    "docs/evidence/paddle-backup/validation.json": "3a6dbb2465e6290d2be42d0d9fd404d98909c39a0b5592d20677557ecf1f2b1d",
+    "docs/evidence/paddle-backup/withdrawal.json": "59676dc87330adfb6ad53971053923410c8f01a87b9f24fa3c6354bdea78c3db",
+    "docs/evidence/popup-visual/validation.json": "321a1f601344eeab4d99e8b154ad70eaf3976ba76a1b3dfd79a0ffd8560ee395",
+    "docs/evidence/popup-visual/visual-review.json": "36848410f64751cac3916fc26f48833c1a37a094cbd6e63e516c9ccc8990badc",
+    "docs/evidence/popups.json": "a1398f1ffc45c590da6955482783e63b9b3a942d2d09c23c45740d75a6536fc4",
+    "docs/evidence/shutdown.json": "cba67cae9978d92c865ca2d864fda812eb824ab409d21b901091959c01ba15e6",
+    "docs/evidence/startup/README.md": "746dab16347e6cbeb6863576cc04dd6f7efa26d53eed83fbb84f8029bc387d81",
+    "docs/evidence/startup/baseline.json": "7a5c4a84d699b6dce6ec44d9df99e30fb5a50f4d8bd1df759d4d0aa6f00fcdd3",
+    "docs/evidence/startup/orphan-after.json": "c141b2e869f5b91099b7bb793a929f2c24d963d808cba909a2d25601d9b184fa",
+    "docs/evidence/startup/orphan-before.json": "adcb573901499500f67b868daf4ce78d1fe2502d71b2a32d48c39df54842689b",
+    "docs/evidence/startup/preservation.json": "963ac0954f1bed48fc49e0e1e688855970dbeba5537fcbb4f6543c381fab53d5",
+    "docs/evidence/startup/real-launches.json": "aa2c049171c9f7ca747da71beeae179132e2a9b6b6802f773cbee762b1949645",
+    "docs/evidence/translation-journey/README.md": "907957abbc31f84ef3d21f6042628e7e9d969163078fe1016e0e200db52b022a",
+    "docs/evidence/translation-journey/evidence.json": "6527e1d4b40fed0f0c9429302c0782c5d88ba12fe2241acfae23c677a09cf256",
+    "docs/evidence/translation-journey/focused-tests.txt": "986f93e9e6b485922a37be41ec0cfafafccd69ede34354cc9d0a3efc491eae36",
+    "docs/evidence/translation-journey/tests.txt": "fab1e8bd3f3c17918e8bb0dbef10890f7e00002cfba1b5c783e77ff4381ff714",
+    "docs/evidence/translation-setup/fresh-profile.json": "0ba4fd4199147c837f04e9051afad90c6cc38b751df56b2177fdc51f41f84f95",
+    "docs/evidence/translation-setup/http403.json": "b191ee2e674bc915601110acbc96cabe1245807c8a1274695f98398379a8e45d",
+    "docs/evidence/translation-setup/validation.json": "019c887b368bb0c21c33c53e996dfd49c6f773397f3a58ad161352de2d5f13fd",
+    "docs/external-public-install-pass.json": "7e539b56d984d3d3fec4b4fce6d2906bdd126eeed025a8673830f551eb847241",
+    "docs/hotkey-dependency-evidence.json": "0364bd13992d3e67c77fc8beceb49d6465eec92c9c22dbb344284bd98ebea6e0",
+    "docs/independent-install-evidence.json": "d6fabb721c51cb21fc067c845a46f8bf392eafa36456db9c49505e156fa1bdb7",
+    "docs/jmdict-evidence.json": "a2064d1e393f9c082e14a669a79333d34b8e04a777d4a0acef80106be8db8059",
+    "docs/jmdict-gui-evidence.json": "bac8de0fd0fd89d1aad895d2de19af0f3c24d863a0c3172d85f7c99959234105",
+    "docs/local-dictionaries-evidence.json": "fbd4c200b8236756d46a142cfc3d3b715d02bed39085ca3aac7764300238f06f",
+    "docs/manga-cpu-lock-evidence.json": "d5973a5744664faff72c811e0728d1e3de92c156bb94fefc29efb30832c9d4cb",
+    "docs/manga-evidence.json": "87f15e6484476bac76032ae74d11abcc4d3e0b97abcc16f5f2f6ea7924c8293c",
+    "docs/manga-runtime.json": "f5fceef8ae3a4479a09807b2c4e07437832b471876ea3ea29df2fdcd93d5964d",
+    "docs/public-install-evidence.json": "89835f05b4c0e4162be51cc2c32e0e1732b08d5f796a20bd2035381bab6a1336",
+    "docs/publication-validation.json": "cfc5ddbc18c5988910366e7198600b7b71f5030dcab143d9171fc1c797c09b54",
+    "docs/stream-deck-dependency-evidence.json": "f9f7fb7c860f3e86a63cad94305655499f4e5d7143c8abb1daff27007542e8ba",
+    "docs/third-party-audit.json": "fb2552684a18aacf644be338be43c487e58a9ed18d1560c25b7f95957f890701",
+    "docs/translation-日本-evidence.json": "e5e4814c69c115ee0800396c8b4fcaecbc425e76e8202aed4634209592836362",
+    "examples/hello.png": "aa3e1a5b363b0c875e47a719ae602304d943a618ea0f9aba57c89e61bf35b8c5",
+    "examples/nihon.png": "671b71e3cde4be67256dcff5c5d5624119160e98c80218b85b76917cca6a1ee7",
+    "launch": "a41813ec6b51da97fae9133be518ebb2cbeaf6dbc6ab459efc52a4f1aa2ca867",
+    "naatik-next.desktop.in": "f65a2c5deb0bfc3cbce49e46bb13293b70c6c19bbe093c9f89afb7a4efab6340",
+    "naatik_next/__init__.py": "1494e33d7b578dec99e265ccc0330b33a7d69bed5b0815f0ab61727601fb9d45",
+    "naatik_next/anki.py": "12cfcb34eb52a9fa663b0568c69cbfbd66e6d4c6e276e59ac476e8ec75a1d7ae",
+    "naatik_next/anki_ui.py": "d5b6d3eaae5650431199f191c3b435194dd46dc330a47b5ddd4bc52cdcebc176",
+    "naatik_next/app.py": "29cec0ae03dd1e37f7007a729416f34641bc31ae946e895923d2ae3a0af2d091",
+    "naatik_next/appearance.py": "2589571d7ebe8fb147a3782728cf2d003caca0b2dcffb291bf7e76bc3a3325cd",
+    "naatik_next/appearance_ui.py": "8eab4453e39e1b4b9f2316dc7ebfa4821fb090b3b7e632d7a67ea799ee43f6f8",
+    "naatik_next/bootstrap.py": "099e83eb7083524768d4aa77e32e76143cfc1586479bbe6eb585a75d214449c9",
+    "naatik_next/dictionary_archive.py": "02d945380c40ee21512a697bda7b451e0ec5acebc049abfe9540cbc37c76e8c1",
+    "naatik_next/dictionary_content.py": "c88d3f41144c66eca403025f2b30ee47dbcc2e7fc06cfdbadd7f6c234b653e98",
+    "naatik_next/dictionary_import_dialog.py": "4b99b7055a5635936a194d88f2d9e1b55089103e98ad83825518deb507db29ab",
+    "naatik_next/dictionary_view.py": "469298d81a7b36672efe9430d7b91df3c4b51e713cd2c8e69dee581042fc3a65",
+    "naatik_next/hotkey.py": "1e8c578a0e1ce71fbe8608c621923785a80d687dae64a1c39116e4629662a688",
+    "naatik_next/i18n.py": "30c6ff36561b8a55d68b0face70c6b035d40503a0c3e7ca498f90a0ebd3e85d0",
+    "naatik_next/install_language.py": "15aec1bb51a64d77ebfe821090e144514e7ac26f2266efd548e7e31972eda14c",
+    "naatik_next/instance.py": "49b9f20818267add629b33e6decdb47024eeac48de95c7d36eff396a5e2f9caa",
+    "naatik_next/integrations.py": "d01f8bef0e4fdaa1880524593f49887b2131157b671e2a70782bc5908207d658",
+    "naatik_next/locales/en.json": "1107ab71e45e18eb79492e08e1ff8c746a6da54711ac572c60b72dbbb8198ac5",
+    "naatik_next/locales/es.json": "57c027ccfa708d5acc090fb72753bd65096b37ce1fb175343e61617bbb97e8c9",
+    "naatik_next/manga.py": "bee6fb77e09e06aafeaf91686acc4b9f0f3f94cf0dd8a75c0cf2d77369559186",
+    "naatik_next/manga_worker.py": "f09b79975577ad31ef1c550d218fc0ff6118bb279fbf8bcd0d0fb35b871bf0a0",
+    "naatik_next/model-catalog.json": "01921a147460d84c0c71f889b0cfdb765071075dfad99f53760d07e33262a9d1",
+    "naatik_next/ocr.py": "2b9491139eea944c7dee2fd0196855fee26b569c6f421de5193bc6c438eeadd9",
+    "naatik_next/phrase_worker.py": "582a3d5d21831ae90a6ab33018b7659afd16ec8353da662a5ccbf3bcea9cc2f6",
+    "naatik_next/platform_support.py": "bdd5317e670414bec4f918fad2c12c134cdbf68950e06fdfc36a2cf2d149d2c1",
+    "naatik_next/popup_presentation.py": "562a38a041453cd9c39e4591cb73bdd314a9b9bc69663fbd95aa43fc8539ad00",
+    "naatik_next/popups.py": "d1e03d63565d28922f9286ccd2b94e11d55b9d5dec0278f67dd42654b788a185",
+    "naatik_next/preview.py": "ed8c62245d64acae0b8321be5fdc6ae889d1615260913f952f3e14d4a897e1a9",
+    "naatik_next/processes.py": "802d0c5cded0332eb1b74b9a169c79144b59f385df4cd723aad92e1673e7e2e4",
+    "naatik_next/resources.py": "ed26e8d7b96d7ea8d973c4a96145bc894a514a7013a56384aab0bf321d75258d",
+    "naatik_next/selection_timing.py": "ba1aa4c9c2d76039218a79557e8ad71448156fd5c52a0e6ffaf822ce843b9c41",
+    "naatik_next/setup_dialog.py": "6f7b6862e5b0d4677d0a02e176e91bf48d8aa7b98f99c2b51fecb0a890454bbb",
+    "naatik_next/shutdown_signals.py": "13e493cede07ec818c411cccfc095193566a5bada6ce9f6d3550fff1fa8f675e",
+    "naatik_next/storage.py": "6a4e97d296b322a09c64bc9f0186432fe15bdba13bdf3da91034b4de9c231ffa",
+    "naatik_next/timings.py": "0e1a1bd723b86b9d72e1b0a5464751f6054a6c1731f44313dd5fe52d70a11c65",
+    "naatik_next/translation.py": "920cb61bebc9cafb7670a254f50227178f8fa23d888d81b82abb24cb33dfc09a",
+    "naatik_next/translation_dialog.py": "ed38f2c46041dc6c3db7f1467c7ecbbdd73bb1db828de50a1f0647c964d90e58",
+    "naatik_next/translation_runtime.py": "0d929ff8ac3389f709bcbb3496d766bc7e596e586efaca52ceb27ab148d86959",
+    "naatik_next/translation_setup.py": "9bedf3586120af47d516ad2ac181d7d963566695d6cf3eb519deaf3239e57d42",
+    "naatik_next/tutorial.py": "28845559faa53a0bcaa94f4251717a84255b993daefa545e05c3efbae6136001",
+    "naatik_next/worker.py": "be18e7b1460451061822e26bcf413f55244aa6582b9804e9e7cfd98772e2e0b1",
+    "naatik_next/worker_guard.py": "cbd28d0a841bb5c734aae332bc28bcf1325e4bec8b2de3f447e2c137cfde6ce7",
+    "requirements-manga-build.lock": "3b421475b7faef361fe98422955af283db4b5dd13511106020f7097a34ab9f0f",
+    "requirements-manga-cpu.lock": "dbc43d53f7ae99879c3e5deb7a8aaf9b64a6e86d9b11dee6752ff7817245b409",
+    "requirements-phrase.lock": "33120a60587b52292ab6e6192ba70332f314274362cac5600c5afc195b8d4bc0",
+    "requirements-translation.lock": "7ed3707d782c2abe46e2ca6ceeb0106ccabad19a0219c78e464b6be1fe532f88",
+    "requirements.lock": "9f80df6db18fee92e4c8c92f88140149479084851c1211de0af881f452d218fe",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/test_adapters.py": "76be031a7dd204dcb58fd738c539e7e281d5c29b013c1fb260ebb1b700c7ad02",
+    "tests/test_anki.py": "8a175effd3ccc2dc9386324d75dabfa4d9ee1261793311f06212329256efb0c7",
+    "tests/test_appearance.py": "5a2f45eb927a21a2cff878b5c61ba8392d2181b59e0d9316f66b6e772b7db515",
+    "tests/test_automatic_dictionary.py": "4c1485a6e98b2f48c34f7d8f67c4cda782959b7d165367ad6b40833303d66e01",
+    "tests/test_capture_copy.py": "b9038eab3f628b5689257969ee97a1ae01c85093c423413380e93fca2da2a513",
+    "tests/test_capture_latency.py": "206ce59e77f9e3a631ea199ebc8796b644269633e81274779d145951e85633dd",
+    "tests/test_capture_release.py": "9a18814e4acd1a2b4bc85a1710564aa9683f5482d776c903011fbb83f9a354c6",
+    "tests/test_dictionary_content.py": "191aec373ec1e1efd9bd909035b090d3a367f03d8a2b5088c5f7503703e3fa60",
+    "tests/test_hotkey.py": "8ec1b440a9cfef7ec996e32514aceb3bee12309cbae3641be71357168712c124",
+    "tests/test_i18n.py": "3b084e984b015bdf286c5e13eac90517329e98f5d201ca839e0ef119e9908c9d",
+    "tests/test_instance.py": "8f7db12be5dbd33eace3d617d3967da8cd656b6aac1a61d7019f6ad6714de778",
+    "tests/test_integrations.py": "334ea3bc87d57ea561e7ef6354cd3bae958844bd03a405b304af8d4df7a55ba0",
+    "tests/test_manga.py": "68a7506d6f78596802662682d0ca8dc515d0e89a5f844a1664df3d17a3ba2f75",
+    "tests/test_multidictionary.py": "798566fa8bed852bf81d7e0cc5d629cb2cc4f749b92fef8458aae6b9e9165c17",
+    "tests/test_ocr_clipboard.py": "3da17edcbb4315efd98be4024f58c29d8bc2d82977c0dbf8fe33e1010b4929df",
+    "tests/test_popups.py": "5154d0b590f8a3a8ac31ef046e939d208ae98c24ee188295602c1fdb782c56e4",
+    "tests/test_preview.py": "8e927e380450deb96144e118d53a3d58239816712d73c27cfeab10e63a01e214",
+    "tests/test_processes.py": "f22180eb7a1c7e7a50a4b3d4b60a6d81c4ae7e2344dc9ee7b5125e7a57fa52c1",
+    "tests/test_public_validation.py": "89cb872f5c099ac3624b2aa256c987bce2e3c107e3d1826114c79f688a74620f",
+    "tests/test_selection_lookup.py": "8bb06f07ee890771780199eaa0a5f52bd65bd8be0b8c75d90b27fecfeca88aab",
+    "tests/test_setup.py": "ffbf1a3d0f48a0721e9d926651ba43ddcefe0d36af9a1db24c65e90dc63ebc37",
+    "tests/test_setup_dialog.py": "262c3a64b1a60b180b38fdf9ebf7722c5ba67a52bcced840b4436dd758b89031",
+    "tests/test_shutdown.py": "9f5b31cdebf6a7c9427b3f8304ea897b68061378c7a07ad90aad69df026110e1",
+    "tests/test_startup_lifecycle.py": "188c873c11998c317c4b0f1d48b5297ed3d06a55676175c8af0f93991cae04a0",
+    "tests/test_storage.py": "602dffbba8d55bc40a921a027abfacfef64ed655b0b91df9dbdd1c36ec023140",
+    "tests/test_translation_setup.py": "a085e8dc6e4e9ed5fd357cebf9fef3d2c3d97ee008067976f4a173cf09d0cd9e",
+    "tests/test_tutorial.py": "f846218ad474feee9cbfa19649bf2c075bc496525d3d081bf1df9af9f7236176",
+    "tools/anki_ui_review.py": "0f5fce032dbd084930d6c9dcb75202617ed56f2b4b7574182a8c39d0b1d95282",
+    "tools/appearance_review.py": "29f4296bd2298c712a4270a99cf0a74c2cf338b0393e1ddf8a1d2542dc160eb8",
+    "tools/benchmark_capture_latency.py": "0e0300bc0a96ba4c16972cd5937ad723468d1a94871a347b088a4e330afa33bb",
+    "tools/bilingual_review.py": "ef9b18ee26a927aefeaf94f420652b7b33bb29fcb5977678838da62cef70ecd9",
+    "tools/build_fedora_package.py": "ac0487249991355d99148b6976507f8aa7c35b7095676de2da172bd261c7afb0",
+    "tools/capture_timings.py": "d3d2b32ffbdd01b64b1ae3194d0666b71dea52da358f7db554f55b5209399bfa",
+    "tools/diagnose_translation.py": "bdf9243513a512d345ec2c1687c0bf041297a328f80285f2c259cfd69fda2a16",
+    "tools/hotkey_flow_smoke.py": "b518346ae8ae3a5bc489a1c971428e88b0c1c7424c14c2d01e2ff62f249b15d8",
+    "tools/independent_smoke.py": "3266f9dd86925efdcff68d77d9fe1e1a5391f5a92bee5fb1a8cdcbc995bc0916",
+    "tools/install.sh": "74fe1700d368df2386b390aa711b7a7655b97fe2d49902c4b67c8535947ceb0b",
+    "tools/install_desktop.py": "81baf00e270fbd57dc0dded24fd24b023e162d15e4dc609278da90e1a5b86a32",
+    "tools/integrations_review.py": "4f65b63a831128735bdb88a787d3ce53fcdb1f87a3898a3e6a2ac907fbfb8fd7",
+    "tools/jmdict_gui_smoke.py": "a9bb703712122645e771fc13aaa8b5c02daacfca18ed71faf9c415d0c6c4d59a",
+    "tools/jmdict_smoke.py": "027cd6f0d32bb94bf93bdcab3635b497ed77aea68fb1f7ddd589bde1665006af",
+    "tools/manga_smoke.py": "3c9fa2b8d35e80a942e0a53bf0ef206275315eaff1575c15b45977c943e0670a",
+    "tools/offline_install.py": "b481589aadb317914c6f379ecd1e24fe15a7ccd35992d52e739d96696dc587f8",
+    "tools/popup_visual_review.py": "bf47b7018192b0fff7f017045915c777fab32494d618ea067b355fe3a2133e5a",
+    "tools/public_install_validation.py": "1c60e90b94ce54680c9c6728e8ca86a10d375633057c8dd3bb3870fa88c8d58a",
+    "tools/public_model_smoke.py": "0ee6d13748dcbb8815674edc2f89b2ff6bb7ec74c18ccb9e66f360726e8baa08",
+    "tools/python_compatibility.py": "55737c39a25ccc5a5b8570fdb7a98c497c9795269561c0370fd2f2c4cf028b52",
+    "tools/real_smoke.py": "9435fc19d7c0d96cc0bc79c33c396444b67ecb23bff7c6ed94bcf9609e435159",
+    "tools/startup_review.py": "3cbae99a06ca342824795ead51c004a7e333e5408465b4e0b2044e8cffc495d2",
+    "tools/translation_journey_review.py": "4fcc05070c7ec9ac5c35d0dcb3a9917c2c02f645ea60958b8477e90406633989",
+    "tools/translation_setup_check.py": "9b680cba40e736728366241eff0374a27c599cdb615b303d541554de311283b7",
+    "tools/uninstall.sh": "43fb114534b7d4190560a4e303458fbf079205ff40c1169acc5d8ab084d486b3",
+    "tools/validate-public-install.sh": "b106fbc5543330242865d376671e0dba19012a8a54179e31a41f9588be2179b6"
+  },
+  "sha256_publication_scope": "Current publication files, excluding SOURCE_MANIFEST.json itself to avoid a recursive digest; original source hashes above are historical and unchanged."
+}

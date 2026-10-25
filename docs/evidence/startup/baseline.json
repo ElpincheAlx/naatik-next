@@ -1,0 +1,47 @@
+{
+  "kind": "real launch, own isolated HOME/XDG before process starts; Qt offscreen; no application injection",
+  "output": "/tmp/HISTORICAL-REVIEW",
+  "unix_bind": "PermissionError(1, 'Operation not permitted')",
+  "entries": [
+    {
+      "action": "./launch",
+      "early_exit": null,
+      "returncode": 1,
+      "termination": "observer SIGTERM after 2s",
+      "stderr": "This plugin does not support propagateSizeHints()\n",
+      "log": "2026-10-20 21:18:43,646 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+      "locks": [],
+      "sockets": []
+    },
+    {
+      "action": "--capture-copy",
+      "early_exit": null,
+      "returncode": 1,
+      "termination": "observer SIGTERM after 2s",
+      "stderr": "This plugin does not support propagateSizeHints()\n",
+      "log": "2026-10-20 21:18:45,661 ERROR Application activation failed: La ruta del socket local es demasiado larga. Usa un XDG_RUNTIME_DIR privado más corto.\n",
+      "locks": [],
+      "sockets": []
+    },
+    {
+      "action": "--translator",
+      "early_exit": 1,
+      "returncode": 1,
+      "termination": "self-exited",
+      "stderr": "Na’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+      "log": "2026-10-20 21:18:47,678 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+      "locks": [],
+      "sockets": []
+    },
+    {
+      "action": "--phrase",
+      "early_exit": 1,
+      "returncode": 1,
+      "termination": "self-exited",
+      "stderr": "Na’atik Next: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+      "log": "2026-10-20 21:18:49,690 ERROR Application activation failed: No se pudo abrir el canal local de Next: QLocalServer::listen: Unknown error 1\n",
+      "locks": [],
+      "sockets": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-21",
+  "python": "3.14.8",
+  "pyside": "6.11.1",
+  "regression": {
+    "run": 216,
+    "skipped": 2,
+    "result": "OK"
+  },
+  "anki_contracts": {
+    "run": 11,
+    "skipped": 1,
+    "result": "OK"
+  },
+  "personal_collection_access": false,
+  "real_anki_validation": "pending",
+  "new_dependencies": []
+}

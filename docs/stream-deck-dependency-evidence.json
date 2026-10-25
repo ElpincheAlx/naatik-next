@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-19",
+  "scope": "IPC local y generación de script Stream Deck",
+  "new_external_python_packages": [],
+  "pyside6_version": "6.11.1",
+  "qt_version": "6.11.1",
+  "runtime": "QtNetwork QLocalServer/QLocalSocket, suministrados por PySide6-Essentials existente",
+  "runtime_evidence": [
+    {
+      "path": "/historical-home/Naatik-next/.venv/lib64/python3.14/site-packages/PySide6/QtNetwork.abi3.so",
+      "sha256": "d7fb4af02a35f991013fe6a86356f299bb52caf06297f91239c59354688390b5",
+      "bytes": 1229688
+    },
+    {
+      "path": "/historical-home/Naatik-next/.venv/lib64/python3.14/site-packages/PySide6/Qt/lib/libQt6Network.so.6",
+      "sha256": "ab1575b083a192ebe58851c197b94c42a00627aa9bf7a9f46969ec7606dd46be",
+      "bytes": 2137224
+    },
+    {
+      "path": "/historical-home/Naatik-next/.venv/lib64/python3.14/site-packages/pyside6_essentials-6.11.1.dist-info/METADATA",
+      "sha256": "60ba88b99ffdaf952a8ce668e408969819eb6db88bbadea32d296a9f79c46646",
+      "bytes": 3637
+    }
+  ],
+  "stdlib_additions": [
+    "argparse",
+    "shlex",
+    "uuid",
+    "stat"
+  ],
+  "external_optional": {
+    "StreamController": "\nStreamController - Control your Elgato Stream Decks with plugin support\n\n            ID: com.core447.StreamController\n           Ref: app/com.core447.StreamController/x86_64/stable\n          Arch: x86_64\n        Branch: stable\n       Version: 1.5.0-beta.16\n       License: GPL-3.0-or-later\n        Origin: flathub\n    Collection: org.flathub.Stable\n  Installation: system\nInstalled Size: 747.2 MB\n       Runtime: org.gnome.Platform/x86_64/50\n           Sdk: org.gnome.Sdk/x86_64/50\n\n        Commit: 061386f4596d1e7711ae85aca7469b41e7921c4d381ba1b85ecc7c6358f4cb34\n        Parent: 339ce4080d65b742106a4c3aa9eb2d896f4002722b27e91e5a424d6eeea6c884\n       Subject: Bump to 1.5.0-beta.16 (#39) (87a2a8b15731)\n          Date: 2026-08-22 09:53:21 +0000\n",
+    "OSPlugin_manifest": {
+      "version": "1.0.0",
+      "thumbnail": "store/Thumbnail.png",
+      "id": "com_core447_OSPlugin",
+      "name": "OS",
+      "descriptions": {
+        "en_US": "Control your operating system."
+      },
+      "short-descriptions": {
+        "en_US": "Control your OS"
+      },
+      "tags": [
+        "Utility"
+      ],
+      "minimum-app-version": "1.0.0",
+      "app-version": "1.4.11-beta",
+      "description": "Control your operating system.",
+      "short-description": "Control your OS"
+    },
+    "OSPlugin_VERSION": "b7c719b2ec7e9424cf182d7682c3189772f4dbd2",
+    "files": [
+      {
+        "path": "/historical-home/.var/app/com.core447.StreamController/data/plugins/com_core447_OSPlugin/manifest.json",
+        "sha256": "f77b23fee62bb70f6cb925bb6b5c6e15ac5ad6a8c31a690b0e5a579b1dcd70ff",
+        "bytes": 466
+      },
+      {
+        "path": "/historical-home/.var/app/com.core447.StreamController/data/plugins/com_core447_OSPlugin/VERSION",
+        "sha256": "24585e9735e60c233334d0c51d4c2a26a3e56703a064a705c1bfaa9b644b95ba",
+        "bytes": 40
+      },
+      {
+        "path": "/historical-home/.var/app/com.core447.StreamController/data/plugins/com_core447_OSPlugin/LICENSE",
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "bytes": 35149
+      },
+      {
+        "path": "/historical-home/.var/app/com.core447.StreamController/data/plugins/com_core447_OSPlugin/attribution.json",
+        "sha256": "a7e2f4d9c9ab7db660a378041e62cf6a0318bed7041bbb8d79078d9e225b3de8",
+        "bytes": 276
+      },
+      {
+        "path": "/historical-home/.var/app/com.core447.StreamController/data/plugins/com_core447_OSPlugin/actions/RunCommand/RunCommand.py",
+        "sha256": "08f124d56d9e873c4f991ac3e2fce40427d215542130b7731a027a37b32bb3ed",
+        "bytes": 11490
+      }
+    ],
+    "note": "Lectura solamente; no se ejecutó/configuró StreamController ni el plugin. VERSION observado, no cotejado con commit upstream. No requerido por Next; el script también puede invocarse desde terminal."
+  },
+  "validation": "Qt offscreen. Protocolo real con QLocalSocket sobre socketpair Unix heredado, incluso entre procesos; elección QLockFile real entre cinco procesos. listen()/bind del socket con nombre bloqueado en este entorno, no validación completa de instancia abierta/cerrada en escritorio."
+}

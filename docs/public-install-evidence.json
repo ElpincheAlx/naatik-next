@@ -1,0 +1,163 @@
+{
+  "status": "BLOCKED",
+  "started": "2026-10-19T19:55:45-0600",
+  "host": {
+    "platform": "Linux-7.2.10-200.fc44.x86_64-x86_64-with-glibc2.43",
+    "python": "3.14.8 (main, Oct  1 2026, 00:00:00) [GCC 16.2.1 20260819 (Red Hat 16.2.1-2)]",
+    "executable": "/usr/bin/python3.14"
+  },
+  "isolation": "new HOME/XDG/venvs/caches, host executables and native libraries retained; NOT a clean VM",
+  "steps": [
+    {
+      "step": "copy source without caches/resources",
+      "status": "PASS"
+    },
+    {
+      "step": "create isolated bootstrap",
+      "status": "PASS"
+    }
+  ],
+  "interactive_capture_validated": false,
+  "current_step": "audit all lock hashes against public sources",
+  "reason": "Red/DNS/TLS bloquea https://pypi.org/pypi/argostranslate/1.11.0/json: <urlopen error [Errno -3] Temporary failure in name resolution>",
+  "normal_profile_unchanged": true,
+  "finished": "2026-10-19T19:55:47-0600",
+  "review_directory": "~/Naatik-validation/public-install-6xtQshMN",
+  "public_hash_audit_completed": false,
+  "public_runtime_installation_completed": false,
+  "full_model_download_completed": false,
+  "cpu_inference_completed": false,
+  "python_version_research": {
+    "runtime_version_unchanged": "3.14",
+    "syntax_only": [
+      {
+        "python": "3.12.15",
+        "modules": 20
+      },
+      {
+        "python": "3.13.16",
+        "modules": 20
+      }
+    ],
+    "metadata_evidence": [
+      {
+        "name": "tqdm",
+        "version": "4.70.0",
+        "requires_python": ">=3.8",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "shiboken6",
+        "version": "6.11.1",
+        "requires_python": "<3.15,>=3.10",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "setuptools",
+        "version": "84.0.0",
+        "requires_python": ">=3.10",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "sentencepiece",
+        "version": "0.2.2",
+        "requires_python": ">=3.9",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "regex",
+        "version": "2026.7.19",
+        "requires_python": ">=3.10",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "PyYAML",
+        "version": "6.0.3",
+        "requires_python": ">=3.8",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "pillow",
+        "version": "12.3.0",
+        "requires_python": ">=3.10",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "packaging",
+        "version": "26.3",
+        "requires_python": ">=3.9",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "numpy",
+        "version": "2.5.2",
+        "requires_python": ">=3.12",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "joblib",
+        "version": "1.5.3",
+        "requires_python": ">=3.9",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "click",
+        "version": "8.4.2",
+        "requires_python": ">=3.10",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "sacremoses",
+        "version": "0.1.1",
+        "requires_python": ">=3.8",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "PySide6_Essentials",
+        "version": "6.11.1",
+        "requires_python": "<3.15,>=3.10",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "ctranslate2",
+        "version": "4.8.1",
+        "requires_python": ">=3.9",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "PySide6_Addons",
+        "version": "6.11.1",
+        "requires_python": "<3.15,>=3.10",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "PySide6",
+        "version": "6.11.1",
+        "requires_python": "<3.15,>=3.10",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      },
+      {
+        "name": "argostranslate",
+        "version": "1.11.0",
+        "requires_python": ">=3.5",
+        "evidence": "METADATA from existing Next base (not a public download in this run)"
+      }
+    ],
+    "conclusion": "3.14 is a lock ABI restriction; 3.12/3.13 candidates require new wheel hashes, dependency closure and actual inference validation."
+  },
+  "tests": {
+    "unit_count": 85,
+    "status": "PASS",
+    "new_public_validator_cases": 9,
+    "transport_and_artifact_responses_injected": true,
+    "does_not_accredit_successful_public_download": true
+  },
+  "missing_python_preflight": {
+    "status": "BLOCKED",
+    "exit_code": 2,
+    "test": "NAATIK_NEXT_PYTHON=naatik-python-does-not-exist",
+    "review_directory": "~/Naatik-validation/public-install-oMoSbS7J",
+    "normal_profile_accessed": false,
+    "result_json_and_summary_created": true
+  }
+}

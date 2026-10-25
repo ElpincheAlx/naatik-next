@@ -1,0 +1,264 @@
+{
+  "date": "2026-10-19",
+  "scope": "REAL local ZIP imports and lookup workers; Qt OFFSCREEN, not OCR/capture",
+  "files": [
+    {
+      "file": "[Bilingual] JMdict (Recommended).zip",
+      "title": "JMdict [2025-11-01]",
+      "revision": "JMdict.2025-11-01",
+      "index": {
+        "title": "JMdict [2025-11-01]",
+        "format": 3,
+        "revision": "JMdict.2025-11-01",
+        "sequenced": true,
+        "author": "yomitan-import",
+        "url": "https://github.com/themoeway/yomitan-import",
+        "description": "",
+        "attribution": "This publication has included material from the JMdict (EDICT, etc.) dictionary files in accordance with the licence provisions of the Electronic Dictionaries Research Group. See http://www.edrdg.org/",
+        "isUpdatable": true,
+        "indexUrl": "https://github.com/yomidevs/jmdict-yomitan/releases/latest/download/JMdict_english_with_examples.json",
+        "downloadUrl": "https://github.com/yomidevs/jmdict-yomitan/releases/latest/download/JMdict_english_with_examples.zip"
+      },
+      "bytes": 17518358,
+      "sha256": "677fb8b0cc5e4bef3b0bfab4540b374406688e78d4943b0f8460794ede108081",
+      "bank_rows": {
+        "term": 513033
+      },
+      "bank_files": {
+        "term_bank": 52,
+        "tag_bank": 1
+      },
+      "counts": {
+        "term": 513033
+      },
+      "imported_entries": 513033,
+      "source_rows_compared": 513033,
+      "query": "日本",
+      "query_rows": 4,
+      "readings": [
+        "にっぽん",
+        "にほん"
+      ],
+      "warnings": [],
+      "media_files": [],
+      "duplicate_activation_cancel_rollback": "passed",
+      "original_unchanged": true,
+      "status": "passed",
+      "origin": "ZIP preexistente en ${REFERENCE_ROOT}/dictionaries; no modificado ni redistribuido",
+      "compatibility_before": "Términos ya compatibles; gramática sin clasificación explícita",
+      "license": {
+        "core": "CC-BY-SA-4.0 (JMdict japonés/inglés, EDRDG)",
+        "source": "https://www.edrdg.org/edrdg/licence.html",
+        "pending": "Licencia específica de ejemplos y conversión ZIP no cerrada"
+      }
+    },
+    {
+      "file": "[Bilingual] 新和英.zip",
+      "title": "新和英",
+      "revision": "Shinwaei1",
+      "index": {
+        "title": "新和英",
+        "format": 3,
+        "revision": "Shinwaei1",
+        "sequenced": true
+      },
+      "bytes": 8130650,
+      "sha256": "194d9aad9c3f23605a14cc67157dc815703472c55e11966888a42a34e0955d5d",
+      "bank_rows": {
+        "term": 152202
+      },
+      "bank_files": {
+        "term_bank": 25
+      },
+      "counts": {
+        "term": 152202
+      },
+      "imported_entries": 152202,
+      "source_rows_compared": 152202,
+      "query": "日本",
+      "query_rows": 2,
+      "readings": [
+        "にっぽん",
+        "にほん"
+      ],
+      "warnings": [],
+      "media_files": [],
+      "duplicate_activation_cancel_rollback": "passed",
+      "original_unchanged": true,
+      "status": "passed",
+      "origin": "ZIP preexistente en ${REFERENCE_ROOT}/dictionaries; no modificado ni redistribuido",
+      "compatibility_before": "Términos ya compatibles; gramática sin clasificación explícita",
+      "license": {
+        "status": "No verificada; no hay licencia en el índice ni archivo de licencia en el ZIP",
+        "attribution": "No declarada"
+      }
+    },
+    {
+      "file": "[Grammar] Dictionary of Japanese Grammar 日本語文法辞典 (Recommended).zip",
+      "title": "日本語文法辞典(全集)",
+      "revision": "DOJG_v1.01;2022-04-30;better formatting",
+      "index": {
+        "revision": "DOJG_v1.01;2022-04-30;better formatting",
+        "url": "",
+        "description": "DOJG-allVols",
+        "attribution": "DOJG",
+        "title": "日本語文法辞典(全集)",
+        "format": 3,
+        "sequenced": true,
+        "author": "nihongobongo"
+      },
+      "bytes": 398490,
+      "sha256": "d75584cb93ec505e56842c2276012dd281f444811373152770b1e1dc2eea63ac",
+      "bank_rows": {
+        "term": 535
+      },
+      "bank_files": {
+        "term_bank": 1
+      },
+      "counts": {
+        "grammar": 535
+      },
+      "imported_entries": 535,
+      "source_rows_compared": 535,
+      "query": "くらい",
+      "query_rows": 2,
+      "readings": [
+        "くらい"
+      ],
+      "warnings": [],
+      "media_files": [],
+      "duplicate_activation_cancel_rollback": "passed",
+      "original_unchanged": true,
+      "status": "passed",
+      "origin": "ZIP preexistente en ${REFERENCE_ROOT}/dictionaries; no modificado ni redistribuido",
+      "compatibility_before": "Términos ya compatibles; gramática sin clasificación explícita",
+      "license": {
+        "status": "No verificada; no hay licencia en el índice ni archivo de licencia en el ZIP",
+        "attribution": "DOJG"
+      }
+    },
+    {
+      "file": "[Kanji] KANJIDIC (English) (Recommended).zip",
+      "title": "KANJIDIC [2025-345]",
+      "revision": "kanjidic2.2025-345",
+      "index": {
+        "title": "KANJIDIC [2025-345]",
+        "format": 3,
+        "revision": "kanjidic2.2025-345",
+        "sequenced": false,
+        "author": "yomitan-import",
+        "url": "https://github.com/themoeway/yomitan-import",
+        "description": "",
+        "attribution": "This publication has included material from the JMdict (EDICT, etc.) dictionary files in accordance with the licence provisions of the Electronic Dictionaries Research Group. See http://www.edrdg.org/",
+        "isUpdatable": true,
+        "indexUrl": "https://github.com/yomidevs/jmdict-yomitan/releases/latest/download/KANJIDIC_english.json",
+        "downloadUrl": "https://github.com/yomidevs/jmdict-yomitan/releases/latest/download/KANJIDIC_english.zip"
+      },
+      "bytes": 721015,
+      "sha256": "92ed5adf0911391bbb6680e41cf250c05d632773b9392aec273dbf0926c10af1",
+      "bank_rows": {
+        "kanji": 10383
+      },
+      "bank_files": {
+        "kanji_bank": 2,
+        "tag_bank": 1
+      },
+      "counts": {
+        "kanji": 10383
+      },
+      "imported_entries": 10383,
+      "source_rows_compared": 10383,
+      "query": "亜",
+      "query_rows": 1,
+      "readings": [
+        ""
+      ],
+      "warnings": [],
+      "media_files": [],
+      "duplicate_activation_cancel_rollback": "passed",
+      "original_unchanged": true,
+      "status": "passed",
+      "origin": "ZIP preexistente en ${REFERENCE_ROOT}/dictionaries; no modificado ni redistribuido",
+      "compatibility_before": "No compatible",
+      "license": {
+        "core": "CC-BY-SA-4.0 (KANJIDIC2, EDRDG)",
+        "source": "https://www.edrdg.org/edrdg/licence.html",
+        "pending": "Condiciones particulares de SKIP y contribuyentes; permisos completos de conversión ZIP no verificados"
+      }
+    },
+    {
+      "file": "[Pitch] アクセント辞典v2.zip",
+      "title": "アクセント辞典",
+      "revision": "pitch1",
+      "index": {
+        "title": "アクセント辞典",
+        "format": 3,
+        "revision": "pitch1",
+        "sequenced": false,
+        "author": "Sayash",
+        "url": "",
+        "description": "This dictionary contains pitch accent information for a large variety of terms and expressions."
+      },
+      "bytes": 2937841,
+      "sha256": "5932f5a152a33c23cad9ff263c3c2b0299c6fd88a2f52ddebbef17ca4ba505e7",
+      "bank_rows": {
+        "term_meta": 327037
+      },
+      "bank_files": {
+        "tag_bank": 1,
+        "term_meta_bank": 33
+      },
+      "counts": {
+        "pitch": 327037
+      },
+      "imported_entries": 327037,
+      "source_rows_compared": 327037,
+      "query": "日本",
+      "query_rows": 2,
+      "readings": [
+        "にっぽん",
+        "にほん"
+      ],
+      "warnings": [],
+      "media_files": [],
+      "duplicate_activation_cancel_rollback": "passed",
+      "original_unchanged": true,
+      "status": "passed",
+      "origin": "ZIP preexistente en ${REFERENCE_ROOT}/dictionaries; no modificado ni redistribuido",
+      "compatibility_before": "No compatible",
+      "license": {
+        "status": "No verificada; no hay licencia en el índice ni archivo de licencia en el ZIP",
+        "attribution": "Sayash"
+      }
+    }
+  ],
+  "normal_profile_imported": false,
+  "normal_database_snapshot_migration": {
+    "preserved": {
+      "dictionaries": {
+        "rows": 1,
+        "sha256_of_rows": "3f4e426ef3b113cf3a3897449e9a09493f655f4d752854026a09f936017bd58e"
+      },
+      "terms": {
+        "rows": 513033,
+        "sha256_of_rows": "2fbef45c8e89cccbfdd7ecde8ec1caa0f7024fdc7a9ba2f22d53e589940a8b97"
+      }
+    },
+    "schema": 2
+  },
+  "gui": {
+    "mode": "Qt offscreen; REAL lookup worker",
+    "queries": [
+      "日本",
+      "日",
+      "くらい"
+    ],
+    "pitch_reading_association": "にほん [2]; にっぽん [3]",
+    "raw_and_argos_preserved": true,
+    "heartbeat_events": 44
+  },
+  "safe_removal_without_other_dictionary_loss": true,
+  "remaining_row_counts_verified_after_each_removal": true,
+  "seconds": 69.36,
+  "inventory_annotations": "Procedencia, compatibilidad anterior y licencias añadidas por revisión manual de índices, nombres de bancos y fuentes EDRDG el 2026-10-19."
+}

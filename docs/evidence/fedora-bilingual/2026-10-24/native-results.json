@@ -1,0 +1,9 @@
+{
+  "shortcut_activated": true,
+  "capture_size": [
+    551,
+    211
+  ],
+  "escape_error": "Selection cancelled or Spectacle produced no image.",
+  "backend": "Qt xcb / KDE X11 / Spectacle 6"
+}

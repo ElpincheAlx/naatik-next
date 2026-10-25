@@ -1,0 +1,22 @@
+{
+  "kind": "offscreen synthetic UI-only reference, not interactive legacy or desktop validation",
+  "reference_sha256": {
+    "translator_popup_qt.py": "b91987e8487a562da89a6cb5af3794387626f54165a100c605adb58f0f04c7ea",
+    "phrase_popup_qt.py": "ebd55c69832d6cc0b708fd204170cb513af2dcf348fa980be77762cfd517fb4a"
+  },
+  "qt": "6.11.1",
+  "logical_size": [
+    720,
+    840
+  ],
+  "font": "Sans Serif",
+  "logical_dpi": 96.0,
+  "screenshots": {
+    "phrase-comparison.png": "2c65ed1512c566e903275c19dba67f8f8e488c036e734912390399a1c2446d1a",
+    "phrase-next.png": "0a71df245594111ee2a4ddf646a8b9b3fc7632c40552220b00d9068bc04d8904",
+    "phrase-reference.png": "6e872a7ce1af9a32c8f7d47e755f3d06e6bcbb1331f51fda0b97be47aace88a7",
+    "translator-comparison.png": "b6490d47f5e68968ad83b82288e3ff125570efede9bb01d351e1cea8b979d63a",
+    "translator-next.png": "39394daad663ab215fbcd6c58280ac45bd6873ad335c74af1da8f4d9f349ac7d",
+    "translator-reference.png": "91ac80cdd38447c322d4203180a0e7cc9017b7c0172260d2d377b7bce12a515f"
+  }
+}

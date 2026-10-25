@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-20",
+  "full_suite": {
+    "tests": 167,
+    "result": "OK",
+    "seconds": 29.67,
+    "log_sha256": "42a6859d077f7994555e1e7a005c34900d83d0756b6dbbbce08b1c572b47c3cd"
+  },
+  "isolation": "HOME and all five XDG directories set to temporary paths before importing Qt/Next, QT_QPA_PLATFORM=offscreen",
+  "checks": [
+    "source-specified dimensions, hierarchy, typography, selection tooltip, collapsed word cards",
+    "independent popup actions, repeated invocation, editable empty clipboard, no capture or main window activation",
+    "cross-card replies update only their live target; edit/cancel invalidates prior destinations",
+    "cancelable batched card construction and controlled worker shutdown on SIGINT/SIGTERM",
+    "real Next-owned Fugashi/UniDic inference and synthetic imported dictionary rendering",
+    "fresh source/profile without optional resources; resources offered with confirmation",
+    "independent hotkeys/scripts/desktops, persisted registration conflicts and space-containing paths (regression suite)"
+  ],
+  "pending": [
+    "interactive compositor/focus/drag/clipboard paste on KDE desktop",
+    "actual legacy Phrase word-header appearance (screenshot requested)",
+    "real neural Argos translation: model pending per user; no download"
+  ],
+  "protected_unchanged_sha256": {
+    "/historical-home/.config/naatik-next/settings.json": "838b7bfe887202c01477bc8437477c7ef52ac031717c6036778d5059ec9cba88"
+  },
+  "production_reference_dependency": false,
+  "new_dependencies": false,
+  "final_popup_suite": {
+    "tests": 20,
+    "seconds": 3.146,
+    "result": "OK",
+    "log_sha256": "af4f9c27119afb451058ea5f1d4c0a5572dc72156c8225ed94099b3cfe6b485c"
+  },
+  "source_sha256": {
+    "naatik_next/popups.py": "70bd67df765e10d8cd7c10dbbc4bcf8e2aaa9fd312f30fd8a652aa602dd68167",
+    "naatik_next/popup_presentation.py": "b38b7adee5ae280b84faf8bebcc247823e94663002efc4495de9afc735a7a869",
+    "tests/test_popups.py": "56bc168e26cea5729d09f927919b108e2552675f48f9175563f2c9d97230755f",
+    "tools/popup_visual_review.py": "bf47b7018192b0fff7f017045915c777fab32494d618ea067b355fe3a2133e5a"
+  }
+}

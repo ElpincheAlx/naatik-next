@@ -1,0 +1,17 @@
+{
+  "engine": {
+    "id": "mangaocr",
+    "name": "MangaOCR",
+    "languages": [],
+    "fixed_language": "ja",
+    "status": "listo",
+    "detail": "MangaOCR 0.1.16; CPU; carga y prueba real 日本 correctas.\nPython: /historical-home/JapaneseMining/.venv-mangaocr/bin/python\nModelo: /historical-home/.cache/huggingface/hub/models--kha-white--manga-ocr-base/snapshots/aa6573bd10b0d446cbf622e29c3e084914df9741",
+    "probe_text": "日本"
+  },
+  "real_inference": "日本",
+  "persistent_worker_pid_reused": true,
+  "cancel_and_reload": "passed",
+  "no_fallback": true,
+  "heartbeat_ticks": 819,
+  "scope": "Qt offscreen and real MangaOCR; no interactive screen capture"
+}

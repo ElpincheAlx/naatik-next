@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Na’atik Next
+Comment=OCR y traducción local — primera implementación Qt
+Exec="@LAUNCH@"
+Icon=accessories-dictionary
+Terminal=false
+Categories=Utility;
+StartupNotify=true

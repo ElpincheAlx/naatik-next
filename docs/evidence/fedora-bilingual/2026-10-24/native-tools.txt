@@ -1,0 +1,6 @@
+Fedora 44 x86_64; X11; Qt xcb
+Spectacle: spectacle 6.7.5; RPM 6.7.5-1.fc44, GPL-2.0-only
+xdotool: 3.20211022.1; RPM 3.20211022.1-10.fc44, LicenseRef-Callaway-BSD
+Source of version/license metadata: installed Fedora RPM database, rpm -q --qf.
+xdotool used only for diagnostics; not shipped or required by Next.
+No system packages were installed/changed. License source text of xdotool not independently verified.

@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-20",
+  "baseline_commit": "5688b4e",
+  "scope": "Shutdown checks only; not performance samples",
+  "baseline": {
+    "qt": "offscreen",
+    "ipc": "injected",
+    "worker": "synthetic stderr pulse",
+    "x11_observer": false,
+    "exit": -2,
+    "keyboard_interrupt_in_stderr": true,
+    "qprocess_destroyed_running": true,
+    "segfault_reproduced": false
+  },
+  "same_reproducer_after": {
+    "exit": 130,
+    "keyboard_interrupt": false,
+    "qprocess_destroyed_running": false,
+    "segfault": false
+  },
+  "suite": {
+    "tests": 137,
+    "result": "PASS",
+    "outer_xdg_isolated_before_import": true
+  },
+  "synthetic_signal_matrix": {
+    "stages": [
+      "load",
+      "capture",
+      "inference",
+      "idle"
+    ],
+    "first_signals": [
+      "SIGINT",
+      "SIGTERM"
+    ],
+    "repeated_sequence": [
+      "first",
+      "first",
+      "SIGTERM",
+      "SIGINT"
+    ],
+    "scenarios": 8,
+    "qt": "offscreen",
+    "ipc": "injected",
+    "real_qprocess": true,
+    "real_descendant_tool": true,
+    "tool_ignores_sigterm": true,
+    "live_descendants_after": false,
+    "result": "PASS"
+  },
+  "forced_group_kill": {
+    "stage": "capture",
+    "worker_ignores_sigterm": true,
+    "tool_ignores_sigterm": true,
+    "first_signal": "SIGINT",
+    "exit": 130,
+    "live_descendants_after": false,
+    "result": "PASS"
+  },
+  "real_ocr": {
+    "engine": "MangaOCR",
+    "device": "CPU",
+    "image": "examples/nihon.png",
+    "network": "disabled",
+    "model": "explicitly configured existing snapshot, unchanged",
+    "runtime": "explicitly configured existing interpreter, unchanged",
+    "selection": "injected fixed image",
+    "ipc": "injected broker",
+    "qt": "offscreen",
+    "results": [
+      {
+        "phase": "load",
+        "signal": "SIGINT",
+        "exit": 130,
+        "live_worker": false,
+        "traceback": false,
+        "keyboard_interrupt": false,
+        "qprocess_destroyed": false
+      },
+      {
+        "phase": "load",
+        "signal": "SIGTERM",
+        "exit": 143,
+        "live_worker": false,
+        "traceback": false,
+        "keyboard_interrupt": false,
+        "qprocess_destroyed": false
+      },
+      {
+        "phase": "inference",
+        "signal": "SIGINT",
+        "exit": 130,
+        "live_worker": false,
+        "traceback": false,
+        "keyboard_interrupt": false,
+        "qprocess_destroyed": false
+      },
+      {
+        "phase": "inference",
+        "signal": "SIGTERM",
+        "exit": 143,
+        "live_worker": false,
+        "traceback": false,
+        "keyboard_interrupt": false,
+        "qprocess_destroyed": false
+      },
+      {
+        "phase": "idle",
+        "signal": "SIGINT",
+        "exit": 130,
+        "live_worker": false,
+        "traceback": false,
+        "keyboard_interrupt": false,
+        "qprocess_destroyed": false
+      },
+      {
+        "phase": "idle",
+        "signal": "SIGTERM",
+        "exit": 143,
+        "live_worker": false,
+        "traceback": false,
+        "keyboard_interrupt": false,
+        "qprocess_destroyed": false
+      }
+    ]
+  },
+  "numeric_report_last_process": {
+    "events": "injected, two owners",
+    "selected_first_count": 1,
+    "selected_successive_count": 3,
+    "result": "PASS"
+  },
+  "protected": {
+    "real_preferences_unchanged": true,
+    "untracked_script_unchanged": true,
+    "untracked_script_sha256": "26887b6cd26519c1f03d95e93425bd931ca7a8319cc76f1de4990872b3e93ad4"
+  },
+  "not_validated": [
+    "reported native segfault root cause",
+    "interactive Spectacle release capture",
+    "desktop XQueryPointer",
+    "named IPC socket",
+    "external paste and desktop focus"
+  ],
+  "ipc_wrapper_lifecycle": {
+    "result": "PASS",
+    "repeated_inherited_socket_exchanges": 40,
+    "python_gc": true,
+    "qt_deferred_delete": true,
+    "partial_frame_timeout": true,
+    "repeated_close": true,
+    "close_from_handler": true,
+    "wrapper_warnings_observed": false,
+    "retained_connections_or_deadlines": false,
+    "reported_desktop_warning_reproduced": false,
+    "named_socket_desktop_validation": "pending",
+    "cli_abbreviation_timing_accepted": true,
+    "protected_preferences_and_script_unchanged": true
+  }
+}
